@@ -19,8 +19,8 @@
     { caption: { pt: 'Início', es: 'Inicio', en: 'Home'},
       id: 'home',
       items: [
-        { href: 'help.html',
-          id: 'cfv',
+        { href: 'help',
+          id: 'help',
           caption: { pt: 'Colabore', es: 'Colaborar', en : 'Collaborate' }}
       ]
     }
