@@ -21,7 +21,10 @@
       items: [
         { href: 'help',
           id: 'help',
-          caption: { pt: 'Colabore', es: 'Colaborar', en : 'Collaborate' }}
+          caption: { pt: 'Colabore', es: 'Colaborar', en : 'Help' }},
+        { href: 'faq',
+          id: 'faq',
+          caption: { pt: 'FAQ', es: 'FAQ', en : 'FAQ' }}
       ]
     }
   ]

@@ -7,6 +7,8 @@ Se não puder ajudar, favor compartilhar o link dessa página.
 
 Os voluntários podem solicitar declaração de horas de trabalho voluntário.
 
+Entre em contato através do formulário: [https://goo.gl/forms/hOU27lEGvQ9CP6w53](https://goo.gl/forms/hOU27lEGvQ9CP6w53)
+
 
 Times
 =====
