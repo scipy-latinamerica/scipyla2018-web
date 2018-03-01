@@ -42,7 +42,7 @@ Quando os patrocinadores poderão se afiliar?
 
 Em breve, muito breve, estamos apenas finalizando o documento de planos de patrocínio.
 
-Se estiver interessado entre em contato através do email  para detalhes.
+Se estiver interessado entre em contato através do email sponsor@scipyla.org para detalhes.
 
 Como posso ajudar a organização?
 --------------------------------
