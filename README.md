@@ -16,7 +16,12 @@ Handled as issues in the https://github.com/scipy-latinamerica/scipyla2018 repos
 
 To contribute with the website you might fork this repository, clone into your machine, or edit and create pages on github itself. Then do a pull request.
 
-If you don't know how to fork, clone, rebase read this.
+If you don't know how to fork, clone, rebase read this:
+
+* https://help.github.com/articles/fork-a-repo/
+* https://help.github.com/articles/syncing-a-fork/
+* https://help.github.com/articles/checking-out-pull-requests-locally/
+* https://gist.github.com/Chaser324/ce0505fbed06b947d962
 
 The pages are in the language dir inside docs, for example, the portuguese version are inside docs/pt.
 
