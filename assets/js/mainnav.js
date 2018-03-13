@@ -1,6 +1,6 @@
 
 (function($) {
-  var base_url_sep = '/2017/'
+  var base_url_sep = '/2018/'
   var sep_index = $.location.pathname.indexOf(base_url_sep)
   var url_steps = (sep_index >= 0)?
     $.location.pathname.slice(sep_index + base_url_sep.length).split('/') :
