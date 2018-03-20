@@ -1,38 +1,44 @@
 # scipyla2018-web
 
+## Current site
+You can visit site [here](http://conf.scipyla.org/)
+
+## Welcome
 [![Join the chat at https://gitter.im/scipyla2018/Lobby](https://badges.gitter.im/scipyla2018/Lobby.svg)](https://gitter.im/scipyla2018/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This repository is used to keep the SciPy Latin America 2018 Conference website source code.
 
-The conference organization, documents, issues, etc.. will be kept at https://github.com/scipy-latinamerica/scipyla2018
+The conference organization, documents, issues, etc.. will be kept at [scipyla2018 repository](https://github.com/scipy-latinamerica/scipyla2018)
 
 Feel free to use this project as a starting point for the organization of future conferences.
 
 ## Tasks
 
-Handled as issues in the https://github.com/scipy-latinamerica/scipyla2018 repository.
+Handled as issues in the [scipyla2018 repository](https://github.com/scipy-latinamerica/scipyla2018).
 
 ## Contributing
 
+### Starting
 To contribute with the website you might fork this repository, clone into your machine, or edit and create pages on github itself. Then do a pull request.
 
-If you don't know how to fork, clone, rebase read this:
-
-* https://help.github.com/articles/fork-a-repo/
-* https://help.github.com/articles/syncing-a-fork/
-* https://help.github.com/articles/checking-out-pull-requests-locally/
-* https://gist.github.com/Chaser324/ce0505fbed06b947d962
+#### How to:
+* [Fork a repository](https://help.github.com/articles/fork-a-repo/)
+* [Synce a Fork](https://help.github.com/articles/syncing-a-fork/)
+* [Check out Pull Requests locally](https://help.github.com/articles/checking-out-pull-requests-locally/)
+* [GitHub Standard Fork & Pull Request Workflow ](https://gist.github.com/Chaser324/ce0505fbed06b947d962)
 
 The pages are in the language dir inside docs, for example, the portuguese version are inside docs/pt.
 
+### Creating a New Page
 To create a new page follow these steps (after fork and clone):
 
-* Create a new file inside docs/pt with the .md extension.
-* Create a directory with an index.html file, this file is used to include the following markdown content file.
-* Edit the file, assets/js/mainnav.js, look at the definition of mainnav_data.
-* Create a new item for the page. If it is a new top level menu, create a new caption. Look at the following example:
+* Create a new file inside `docs/pt` with the .md extension.
+* Create a directory with an `index.html` file, this file is used to include the following markdown content file.
+* Edit the file, `assets/js/mainnav.js`, look at the definition of mainnav_data.
+* Create a new item for the page. If it is a new top level menu, create a new caption. Look at the following example
+* After all **create a pull request**
 
-### Template for the index.html file
+#### Template for the index.html file
 
 The template must be placed inside the desired directory, for example: contact/index.html
 
@@ -83,6 +89,18 @@ There are 3 places to change, look at {UPPERCASE} sentences on the template:
 
     <script language="javascript">
       window.route = { section: 'community', page: 'organizers' }
+    </script>
+
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','../assets/js/analytics.js','ga');
+
+      ga('create', 'UA-80867706-1', 'auto');
+      ga('send', 'pageview');
+
     </script>
   </head>
 
@@ -138,25 +156,13 @@ There are 3 places to change, look at {UPPERCASE} sentences on the template:
     <script language="javascript">
       angular.bootstrap(document.getElementById('container'), ['scipyla.md'])
     </script>
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','../assets/js/analytics.js','ga');
-
-      ga('create', 'UA-80867706-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-
   </body>
 </html>
 ```
 
-### Add the page to the menu.
+#### Add the page to the menu.
 
-Edit the file, assets/js/mainnav.js, look at the definition of mainnav_data.
+Edit the file, `assets/js/mainnav.js`, look at the definition of mainnav_data.
 
 ```javascript
   var mainnav_data = [ 
@@ -200,16 +206,20 @@ Lets say we want a contact menu top level menu and a link to a contact page. So 
   ]
 ```
 
-After that create a pull request.
+#### Editing CSS
+If a CSS modification is needed please follow the CSS BEM Style
+* [Introduction](http://getbem.com/introduction/)
+* [Naming](http://getbem.com/naming/)
 
-If you need any help, please look for us at the Communication Channels.
 
 ## Communication Channels
 
-* GitHub to store files and track issues (https://github.com/scipy-latinamerica/scipyla2018);
-* Mailing list to make announcements (https://groups.google.com/forum/#!forum/scipyla);
-* TODO: Mailing list to discuss event-related subjects (https://groups.google.com/forum/#!forum/scipyla2017);
-* Twitter (https://twitter.com/scipyla);
-* Linkedin (https://www.linkedin.com/grp/home?gid=8344796);
-* TODO: Facebook (https://www.facebook.com/scipyla/);
-* TODO: Website (http://conf.scipyla.org);
+If you need any help, please look for us at the Communication Channels.
+
+* [GitHub to store files and track issues](https://github.com/scipy-latinamerica/scipyla2018);
+* [Mailing list to make announcements](https://groups.google.com/forum/#!forum/scipyla);
+* [TODO: Mailing list to discuss event-related subjects](https://groups.google.com/forum/#!forum/scipyla2017);
+* [Twitter](https://twitter.com/scipyla);
+* [Linkedin](https://www.linkedin.com/grp/home?gid=8344796);
+* [TODO: Facebook](https://www.facebook.com/scipyla/);
+* [TODO: Website](http://conf.scipyla.org);
