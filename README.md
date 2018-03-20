@@ -8,32 +8,33 @@ You can visit site [here](http://conf.scipyla.org/)
 
 This repository is used to keep the SciPy Latin America 2018 Conference website source code.
 
-The conference organization, documents, issues, etc.. will be kept at https://github.com/scipy-latinamerica/scipyla2018
+The conference organization, documents, issues, etc.. will be kept at [scipyla2018 repository](https://github.com/scipy-latinamerica/scipyla2018)
 
 Feel free to use this project as a starting point for the organization of future conferences.
 
 ## Tasks
 
-Handled as issues in the https://github.com/scipy-latinamerica/scipyla2018 repository.
+Handled as issues in the [scipyla2018 repository](https://github.com/scipy-latinamerica/scipyla2018).
 
 ## Contributing
 
+### Starting
 To contribute with the website you might fork this repository, clone into your machine, or edit and create pages on github itself. Then do a pull request.
 
-If you don't know how to fork, clone, rebase read this:
-
-* https://help.github.com/articles/fork-a-repo/
-* https://help.github.com/articles/syncing-a-fork/
-* https://help.github.com/articles/checking-out-pull-requests-locally/
-* https://gist.github.com/Chaser324/ce0505fbed06b947d962
+#### How to:
+* [Fork a repository](https://help.github.com/articles/fork-a-repo/)
+* [Synce a Fork](https://help.github.com/articles/syncing-a-fork/)
+* [Check out Pull Requests locally](https://help.github.com/articles/checking-out-pull-requests-locally/)
+* [GitHub Standard Fork & Pull Request Workflow ](https://gist.github.com/Chaser324/ce0505fbed06b947d962)
 
 The pages are in the language dir inside docs, for example, the portuguese version are inside docs/pt.
 
+### New Page
 To create a new page follow these steps (after fork and clone):
 
-* Create a new file inside docs/pt with the .md extension.
-* Create a directory with an index.html file, this file is used to include the following markdown content file.
-* Edit the file, assets/js/mainnav.js, look at the definition of mainnav_data.
+* Create a new file inside `docs/pt` with the .md extension.
+* Create a directory with an `index.html` file, this file is used to include the following markdown content file.
+* Edit the file, `assets/js/mainnav.js`, look at the definition of mainnav_data.
 * Create a new item for the page. If it is a new top level menu, create a new caption. Look at the following example:
 
 ### Template for the index.html file
@@ -160,7 +161,7 @@ There are 3 places to change, look at {UPPERCASE} sentences on the template:
 
 ### Add the page to the menu.
 
-Edit the file, assets/js/mainnav.js, look at the definition of mainnav_data.
+Edit the file, `assets/js/mainnav.js`, look at the definition of mainnav_data.
 
 ```javascript
   var mainnav_data = [ 
