@@ -29,15 +29,16 @@ To contribute with the website you might fork this repository, clone into your m
 
 The pages are in the language dir inside docs, for example, the portuguese version are inside docs/pt.
 
-### New Page
+### Creating a New Page
 To create a new page follow these steps (after fork and clone):
 
 * Create a new file inside `docs/pt` with the .md extension.
 * Create a directory with an `index.html` file, this file is used to include the following markdown content file.
 * Edit the file, `assets/js/mainnav.js`, look at the definition of mainnav_data.
-* Create a new item for the page. If it is a new top level menu, create a new caption. Look at the following example:
+* Create a new item for the page. If it is a new top level menu, create a new caption. Look at the following example
+* After all **create a pull request**
 
-### Template for the index.html file
+#### Template for the index.html file
 
 The template must be placed inside the desired directory, for example: contact/index.html
 
@@ -88,6 +89,18 @@ There are 3 places to change, look at {UPPERCASE} sentences on the template:
 
     <script language="javascript">
       window.route = { section: 'community', page: 'organizers' }
+    </script>
+
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','../assets/js/analytics.js','ga');
+
+      ga('create', 'UA-80867706-1', 'auto');
+      ga('send', 'pageview');
+
     </script>
   </head>
 
@@ -143,23 +156,11 @@ There are 3 places to change, look at {UPPERCASE} sentences on the template:
     <script language="javascript">
       angular.bootstrap(document.getElementById('container'), ['scipyla.md'])
     </script>
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','../assets/js/analytics.js','ga');
-
-      ga('create', 'UA-80867706-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-
   </body>
 </html>
 ```
 
-### Add the page to the menu.
+#### Add the page to the menu.
 
 Edit the file, `assets/js/mainnav.js`, look at the definition of mainnav_data.
 
@@ -205,16 +206,20 @@ Lets say we want a contact menu top level menu and a link to a contact page. So 
   ]
 ```
 
-After that create a pull request.
+#### Editing CSS
+If a CSS modification is needed please follow the CSS BEM Style
+* [Introduction](http://getbem.com/introduction/)
+* [Naming](http://getbem.com/naming/)
 
-If you need any help, please look for us at the Communication Channels.
 
 ## Communication Channels
 
-* GitHub to store files and track issues (https://github.com/scipy-latinamerica/scipyla2018);
-* Mailing list to make announcements (https://groups.google.com/forum/#!forum/scipyla);
-* TODO: Mailing list to discuss event-related subjects (https://groups.google.com/forum/#!forum/scipyla2017);
-* Twitter (https://twitter.com/scipyla);
-* Linkedin (https://www.linkedin.com/grp/home?gid=8344796);
-* TODO: Facebook (https://www.facebook.com/scipyla/);
-* TODO: Website (http://conf.scipyla.org);
+If you need any help, please look for us at the Communication Channels.
+
+* [GitHub to store files and track issues](https://github.com/scipy-latinamerica/scipyla2018);
+* [Mailing list to make announcements](https://groups.google.com/forum/#!forum/scipyla);
+* [TODO: Mailing list to discuss event-related subjects](https://groups.google.com/forum/#!forum/scipyla2017);
+* [Twitter](https://twitter.com/scipyla);
+* [Linkedin](https://www.linkedin.com/grp/home?gid=8344796);
+* [TODO: Facebook](https://www.facebook.com/scipyla/);
+* [TODO: Website](http://conf.scipyla.org);
