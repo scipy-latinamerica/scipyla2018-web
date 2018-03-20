@@ -1,5 +1,9 @@
 # scipyla2018-web
 
+## Current site
+You can visit site (here)[http://conf.scipyla.org/]
+
+## Welcome
 [![Join the chat at https://gitter.im/scipyla2018/Lobby](https://badges.gitter.im/scipyla2018/Lobby.svg)](https://gitter.im/scipyla2018/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This repository is used to keep the SciPy Latin America 2018 Conference website source code.
