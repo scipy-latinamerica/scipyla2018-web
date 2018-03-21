@@ -50,7 +50,8 @@ The pages are in the language dir inside docs, for example, the portuguese versi
       1. Open your browser(Chrome, Chromium, Firefox, Internet Explorer1) and access the url `http://localhost:12007/`
    1. Running as `http://localhost:12007/scipyla2018-web/`
       1. Move to the parent directory
-         *Ex:
+         
+         **Ex:**
             If you are in the path `~/home/myuser/workspace/scipyla2018-web/`, go to the `~/home/myuser/workspace/` and continue
       1. Python 2.7+
          ```shell
@@ -61,6 +62,7 @@ The pages are in the language dir inside docs, for example, the portuguese versi
          $ python -m http.server 12007
          ```
       1. Open your browser(Chrome, Chromium, Firefox, Internet Explorer1) and access the url `http://localhost:12007/scipyla2018-web/`
+
 
 **How to know which Python version I'm using?**
 
