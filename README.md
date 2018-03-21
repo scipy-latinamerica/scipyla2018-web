@@ -3,6 +3,8 @@
 ## Current site
 You can visit site [here](http://conf.scipyla.org/)
 
+
+
 ## Welcome
 [![Join the chat at https://gitter.im/scipyla2018/Lobby](https://badges.gitter.im/scipyla2018/Lobby.svg)](https://gitter.im/scipyla2018/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -12,9 +14,13 @@ The conference organization, documents, issues, etc.. will be kept at [scipyla20
 
 Feel free to use this project as a starting point for the organization of future conferences.
 
+
+
 ## Tasks
 
 Handled as issues in the [scipyla2018 repository](https://github.com/scipy-latinamerica/scipyla2018).
+
+
 
 ## Contributing
 
@@ -28,6 +34,30 @@ To contribute with the website you might fork this repository, clone into your m
 * [GitHub Standard Fork & Pull Request Workflow ](https://gist.github.com/Chaser324/ce0505fbed06b947d962)
 
 The pages are in the language dir inside docs, for example, the portuguese version are inside docs/pt.
+
+### Running the site app
+
+1. Run the application as a server
+   1. Python 2.7+
+      ```shell
+      $ python -m SimpleHTTPServer 12007
+      ```
+   1. Python3
+      ```shell
+      $ python -m http.server 12007
+      ```
+2. Open your browser(Chrome, Chromium, Firefox, Internet Explorer1) and access the url `http://localhost:12007/`
+
+**How to know which Python version I'm using?**
+
+Running:
+ ```shell
+ $ python -V
+ ```
+The output may look something like this: 
+ * `Python 2.7.14`
+ * `Python 3.6.3` 
+
 
 ### Creating a New Page
 To create a new page follow these steps (after fork and clone):
