@@ -931,8 +931,7 @@ h1, h2, h3, h4 {
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  background-image: url('../img/satellite.png');
-  background-repeat: no-repeat;
+  background: url('/assets/img/satellite.svg') no-repeat;
   background-size: contain;
   height: 18%;
   position: absolute;
