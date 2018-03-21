@@ -38,7 +38,7 @@ The pages are in the language dir inside docs, for example, the portuguese versi
 ### Running the site app
 
 1. Run the application as a server
-   1. Running as `http://localhost:12007/`
+   1. Running as [`http://localhost:12007/`](http://localhost:12007/)
       1. Python 2.7+
          ```shell
          $ python -m SimpleHTTPServer 12007
@@ -47,8 +47,8 @@ The pages are in the language dir inside docs, for example, the portuguese versi
          ```shell
          $ python -m http.server 12007
          ```
-      1. Open your browser(Chrome, Chromium, Firefox, Internet Explorer1) and access the url `http://localhost:12007/`
-   1. Running as `http://localhost:12007/scipyla2018-web/`
+      1. Open your browser(Chrome, Chromium, Firefox, Internet Explorer1) and access the url [`http://localhost:12007/`](http://localhost:12007/)
+   1. Running as [`http://localhost:12007/scipyla2018-web/`](http://localhost:12007/scipyla2018-web/)
       1. Move to the parent directory
          
          **Ex:**
@@ -61,7 +61,7 @@ The pages are in the language dir inside docs, for example, the portuguese versi
          ```shell
          $ python -m http.server 12007
          ```
-      1. Open your browser(Chrome, Chromium, Firefox, Internet Explorer1) and access the url `http://localhost:12007/scipyla2018-web/`
+      1. Open your browser(Chrome, Chromium, Firefox, Internet Explorer1) and access the url [`http://localhost:12007/scipyla2018-web/`](http://localhost:12007/scipyla2018-web/)
 
 
 **How to know which Python version I'm using?**
