@@ -38,15 +38,29 @@ The pages are in the language dir inside docs, for example, the portuguese versi
 ### Running the site app
 
 1. Run the application as a server
-   1. Python 2.7+
-      ```shell
-      $ python -m SimpleHTTPServer 12007
-      ```
-   1. Python3
-      ```shell
-      $ python -m http.server 12007
-      ```
-2. Open your browser(Chrome, Chromium, Firefox, Internet Explorer1) and access the url `http://localhost:12007/`
+   1. Running as `http://localhost:12007/`
+      1. Python 2.7+
+         ```shell
+         $ python -m SimpleHTTPServer 12007
+         ```
+      1. Python3
+         ```shell
+         $ python -m http.server 12007
+         ```
+      1. Open your browser(Chrome, Chromium, Firefox, Internet Explorer1) and access the url `http://localhost:12007/`
+   1. Running as `http://localhost:12007/scipyla2018-web/`
+      1. Move to the parent directory
+         *Ex:
+            If you are in the path `~/home/myuser/workspace/scipyla2018-web/`, go to the `~/home/myuser/workspace/` and continue
+      1. Python 2.7+
+         ```shell
+         $ python -m SimpleHTTPServer 12007
+         ```
+      1. Python3
+         ```shell
+         $ python -m http.server 12007
+         ```
+      1. Open your browser(Chrome, Chromium, Firefox, Internet Explorer1) and access the url `http://localhost:12007/scipyla2018-web/`
 
 **How to know which Python version I'm using?**
 
@@ -98,35 +112,35 @@ There are 3 places to change, look at {UPPERCASE} sentences on the template:
     <link href="../assets/css/theme.css" rel="stylesheet">
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
-    <link rel="manifest" href="/assets/icons/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="../assets/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../assets/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../assets/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../assets/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../assets/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../assets/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../assets/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../assets/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../assets/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="../assets/icons/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/icons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
     <!-- Icons -->
-    <link href="/assets/css/fonts.css" rel="stylesheet">
-    <link href="/assets/css/Roboto+Condensed+Yanone+Kaffeesatz.css" rel="stylesheet">
+    <link href="../assets/css/fonts.css" rel="stylesheet">
+    <link href="../assets/css/Roboto+Condensed+Yanone+Kaffeesatz.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="/assets/css/custom.css" rel="stylesheet">
-    <link href="/assets/css/faces.css" rel="stylesheet">
+    <link href="../assets/css/custom.css" rel="stylesheet">
+    <link href="../assets/css/faces.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="/assets/js/ie-emulation-modes-warning.js"></script>
+    <!--[if lt IE 9]><script src="../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -134,7 +148,7 @@ There are 3 places to change, look at {UPPERCASE} sentences on the template:
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link href="/assets/css/flag-icon.min.css" rel="stylesheet" />
+    <link href="../assets/css/flag-icon.min.css" rel="stylesheet" />
 
     <script language="javascript">
       window.route = { section: 'community', page: 'organizers' }
@@ -145,7 +159,7 @@ There are 3 places to change, look at {UPPERCASE} sentences on the template:
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','/assets/js/analytics.js','ga');
+      })(window,document,'script','../assets/js/analytics.js','ga');
 
       ga('create', 'UA-80867706-1', 'auto');
       ga('send', 'pageview');
@@ -156,7 +170,7 @@ There are 3 places to change, look at {UPPERCASE} sentences on the template:
   <body>
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top navbar-inverse text-uppercase" ng-app="scipyla.mainnav" ng-controller="MainNavCtl">
-      <ng-include src="'/assets/views/menu_ppal.html'"></ng-include>
+      <ng-include src="'../assets/views/menu_ppal.html'"></ng-include>
     </nav>
 
     <div class="container" ng-app="scipyla.md" id="container">
@@ -192,16 +206,16 @@ There are 3 places to change, look at {UPPERCASE} sentences on the template:
 
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/dist/js/bootstrap.min.js"></script>
-    <script src="/assets/js/angular.min.js"></script>
-    <script src="/assets/js/angular-route.min.js"></script>
-    <script src="/assets/js/angular-sanitize.min.js"></script>
-    <script src="/assets/js/markdown-it.min.js"></script>
-    <script src="/assets/js/ng-markdownit.min.js"></script>
-    <script src="/assets/js/md.js"></script>
-    <script src="/assets/js/mainnav.js"></script>
+    <script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../dist/js/bootstrap.min.js"></script>
+    <script src="../assets/js/angular.min.js"></script>
+    <script src="../assets/js/angular-route.min.js"></script>
+    <script src="../assets/js/angular-sanitize.min.js"></script>
+    <script src="../assets/js/markdown-it.min.js"></script>
+    <script src="../assets/js/ng-markdownit.min.js"></script>
+    <script src="../assets/js/md.js"></script>
+    <script src="../assets/js/mainnav.js"></script>
     <script language="javascript">
       angular.bootstrap(document.getElementById('container'), ['scipyla.md'])
     </script>
