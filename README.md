@@ -78,6 +78,7 @@ There are 3 places to change, look at {UPPERCASE} sentences on the template:
 * title
 * markdown ng-include
 
+[HTML page example](/model/index.html)
 ```html
 <!DOCTYPE html>
 <html lang="pt">
