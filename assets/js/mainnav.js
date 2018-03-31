@@ -17,13 +17,41 @@
     var mainnav_data = [
         {
             caption: {pt: 'Início', es: 'Inicio', en: 'Home'},
-            id: 'home',
+            id: 'get_involved',
+            href: '/',
             items: [
                 {
-                    href: 'help',
-                    id: 'help',
+                    href: 'get_involved',
+                    id: 'get_involved',
                     caption: {pt: 'Colabore', es: 'Colaborar', en: 'Help'}
                 },
+                {
+                    href: 'diversity',
+                    id: 'diversity',
+                    caption: {pt: 'Diversidades', es: 'Diversidad', en: 'Diversity'}
+                }
+            ]
+        },
+        {
+            caption: {pt: 'Colabore', es: 'Participa', en: 'Get involved'},
+            id: 'get_involved',
+            items: [
+                {
+                    href: 'get_involved',
+                    id: 'get_involved',
+                    caption: {pt: 'Chamada à voluntários', es: 'Llamada para voluntarios', en: 'Call for volunteers'}
+                },
+                {
+                    href: 'diversity',
+                    id: 'diversity',
+                    caption: {pt: 'Diversidades', es: 'Diversidad', en: 'Diversity'}
+                }
+            ]
+        },
+        {
+            caption: {pt: 'Ajuda', es: 'Ayuda', en: 'Help'},
+            id: 'home',
+            items: [
                 {
                     href: 'faq',
                     id: 'faq',
