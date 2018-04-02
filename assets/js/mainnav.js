@@ -18,19 +18,7 @@
         {
             caption: {pt: 'Início', es: 'Inicio', en: 'Home'},
             id: 'get_involved',
-            href: '/',
-            items: [
-                {
-                    href: 'get_involved',
-                    id: 'get_involved',
-                    caption: {pt: 'Colabore', es: 'Colaborar', en: 'Help'}
-                },
-                {
-                    href: 'diversity',
-                    id: 'diversity',
-                    caption: {pt: 'Diversidades', es: 'Diversidad', en: 'Diversity'}
-                }
-            ]
+            href: ''
         },
         {
             caption: {pt: 'Colabore', es: 'Participa', en: 'Get involved'},
