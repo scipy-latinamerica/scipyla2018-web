@@ -609,12 +609,14 @@ section {
 @media (min-width: 993px) {
     .footer {
         background-image: url('../img/jardim_botanico_curitiba-1200.png');
+        height: 370px;
     }
 }
 
 @media (min-width: 1201px) {
     .footer {
         background-image: url('../img/jardim_botanico_curitiba-1600.png');
+        height: 470px;
     }
 }
 
@@ -953,13 +955,7 @@ h1, h2, h3, h4 {
 
 /* Large */
 @media (min-width: 1200px) {
-
-    .footer {
-        background-size: cover;
-    }
-
 }
-
 /* Marketing */
 
 @media (min-width: 992px) {
