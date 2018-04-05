@@ -87,10 +87,10 @@
 <!-- Fixed navbar -->
 <nav class="navbar navbar-default navbar-fixed-top navbar-inverse text-uppercase" ng-app="scipyla.mainnav"
      ng-controller="MainNavCtl">
-    <ng-include src="'assets/views/menu_ppal.html'"></ng-include>
+    <div ng-include="template.url"></div>
 </nav>
 
-<head class="main">
+<header class="main">
     <div class="jumbotron jumbotron-dark slide-1" id="jumbo-main">
         <div id="home-carousel" class="carousel slide" data-ride="carousel">
             <ol class="bottom-nav">
@@ -144,7 +144,7 @@
             </a>
         </div>
     </div>
-</head>
+</header>
 
 <div class="container">
     <section>
@@ -572,22 +572,24 @@
 </section>
 
 <section class="section-nospace">
-    <div class="jumbotron jumbotron-dark sbgu" id="signup">
+    <div class="jumbotron jumbotron-dark" id="signup">
         <div class="container">
+            <div class="sbgu"></div>
             <div class="sbgl"></div>
+            <div class="sbgr"></div>
             <div class="row" id="contact-div">
                 <div class="col-md-2"></div>
-                <div class="col-md-8" style="z-index: 100;">
+                <div class="col-md-8">
                     <div class="row">
-                        <p>&nbsp;</p>
                         <h3>INSCRI&Ccedil;&Atilde;O</h3>
                     </div>
-                    <p>
-                    <div class="clear"><a href="#" id="btn-register" class="btn btn-warning btn-lg"> INSCRI&Ccedil;&Atilde;O
-                        EM BREVE </a></div>
-                    </p>
-                    <div class="col-md-2 sbgr"></div>
+                    <div class="row">
+                        <a href="#" id="btn-register" class="btn btn-warning btn-lg">
+                            INSCRI&Ccedil;&Atilde;O EM BREVE
+                        </a>
+                    </div>
                 </div>
+                <div class="col-md-2"></div>
             </div>
         </div>
     </div>
@@ -611,17 +613,17 @@
             </a>
         </div>
         <p>Copyright 2018 &copy; <a href="http://scipyla.org">SciPy Latinamerica</a></p>
-
     </div>
 </footer>
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="/assets/vendors/ie10-viewport-bug-workaround.js"></script>
-<script src="/assets/vendors/jquery.min.js"></script>
-<script src="dist/js/bootstrap.min.js"></script>
-<script src="/assets/vendors/angular.min.js"></script>
-<script src="/assets/js/mainnav.js"></script>
+<script src="assets/vendors/ie10-viewport-bug-workaround.js"></script>
+<script src="assets/vendors/jquery.min.js"></script>
+<script src="assets/vendors/bootstrap.min.js"></script>
+<script src="assets/vendors/angular.min.js"></script>
 
+<script src="assets/js/mainnav.js"></script>
+<script src="assets/js/footer.js"></script>
 <script language="javascript">
     var slidebg = 'slide-1';
     $('#home-carousel').on('slide.bs.carousel', function (e) {

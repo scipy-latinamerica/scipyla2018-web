@@ -14,6 +14,7 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
+            <li></li>
             <li class="dropdown {{(section.id === route.section)? 'active' : ''}}" ng-repeat="section in mainnav">
 
                 <a ng-if="section.href || section.href === ''" href="{{hprefix + section.href}}">{{section.caption[lang]}}</a>
@@ -24,7 +25,7 @@
                     <li ng-repeat="item in section.items"
                         class="{{(item.isDivider)? 'divider': (item.href === null)? 'dropdown-header' : ''}}"
                         role="{{(item.isDivider)? 'separator' : ''}}">
-                        <a ng-if="item.href" ng-href="{{hprefix + item.href}}">{{item.caption[lang]}}</a>
+                        <a ng-if="item.href" data-prefix="{{hprefix}}" ng-href="{{hprefix + item.href}}">{{item.caption[lang]}}</a>
                         <span ng-if="item.href === null">{{item.caption[lang]}}</span>
                     </li>
                 </ul>

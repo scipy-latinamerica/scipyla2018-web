@@ -17,7 +17,7 @@
     var mainnav_data = [
         {
             caption: {pt: 'Início', es: 'Inicio', en: 'Home'},
-            id: 'get_involved',
+            id: 'home',
             href: ''
         },
         {
@@ -38,7 +38,7 @@
         },
         {
             caption: {pt: 'Ajuda', es: 'Ayuda', en: 'Help'},
-            id: 'home',
+            id: 'faq',
             items: [
                 {
                     href: 'faq',
@@ -68,6 +68,7 @@
             $scope.mainnav = mainnav_data;
             $scope.route = getActiveRoute();
             $scope.hprefix = $.page_level || '';
+            $scope.template = {url: $scope.hprefix + 'assets/views/menu_ppal.html'};
         }
     ]);
 
