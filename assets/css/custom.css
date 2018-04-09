@@ -1,12 +1,20 @@
 /* Space at the top for the navbar */
 
 body {
-    padding-top: 70px;
+    padding-top: 60px;
 }
 
-body.main {
-    padding-top: 0px;
+.vertical-center {
+    position: relative;
 }
+
+.self-vertical-center{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
 
 body > section > .jumbotron,
 body > .jumbotron,
@@ -20,8 +28,7 @@ section {
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
-.marketing,
-.footer {
+.marketing {
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -50,7 +57,8 @@ section {
     padding: 1px 0 1px 1px
 }
 
-.jumbotron-blue .badge, .jumbotron-blue .label {
+.jumbotron-blue .badge,
+.jumbotron-blue .label {
     color: #15355B;
 }
 
@@ -79,18 +87,23 @@ section {
     padding-top: 98px;
 }
 
-#jumbo-main.slide-1 {
-    background: url('../img/curitiba-rua-das-flores-576.png') no-repeat;
+.carousel-item__container{
+    height: calc(100vh - 60px);
+    color: #FFFFFF;
+}
+
+.carousel-item__container--slide-1 {
+    background: url('../img/curitiba-rua-das-flores-576.png') no-repeat center ;
     background-size: cover;
 }
 
-#jumbo-main.slide-2 {
+.carousel-item__container--slide-2 {
     background: #061220 url('../img/sponsors-bg.jpg') repeat-x bottom;
     background-size: auto 160px;
 }
 
 @media (min-width: 577px) {
-    #jumbo-main.slide-1 {
+    .carousel-item__container--slide-1 {
         background-image: url('../img/curitiba-rua-das-flores-768.png');
     }
     #jumbo-main.slide-2 {
@@ -99,7 +112,7 @@ section {
 }
 
 @media (min-width: 769px) {
-    #jumbo-main.slide-1 {
+    .carousel-item__container--slide-1 {
         background-image: url('../img/curitiba-rua-das-flores-992.png');
     }
     #jumbo-main.slide-2 {
@@ -108,7 +121,7 @@ section {
 }
 
 @media (min-width: 993px) {
-    #jumbo-main.slide-1 {
+    .carousel-item__container--slide-1 {
         background-image: url('../img/curitiba-rua-das-flores-1200.png');
     }
     #jumbo-main.slide-2 {
@@ -117,7 +130,7 @@ section {
 }
 
 @media (min-width: 1201px) {
-    #jumbo-main.slide-1 {
+    .carousel-item__container--slide-1 {
         background-image: url('../img/curitiba-rua-das-flores-1600.png');
     }
     #jumbo-main.slide-2 {
@@ -126,7 +139,7 @@ section {
 }
 
 @media (min-width: 1441px) {
-    #jumbo-main.slide-1 {
+    .carousel-item__container--slide-1 {
         background-image: url('../img/curitiba-rua-das-flores-2633.png');
     }
     #jumbo-main.slide-2 {
@@ -134,25 +147,6 @@ section {
     }
 }
 
-
-
-
-
-#home-carousel {
-    height: 80vh;
-}
-
-#home-carousel .bottom-nav {
-    position: absolute;
-    bottom: 80px;
-    left: 50%;
-    z-index: 15;
-    width: 60%;
-    margin-left: -30%;
-    padding-left: 0;
-    list-style: none;
-    text-align: center;
-}
 
 #venue {
     background-image: url('../img/curitiba-tangua.jpg');
@@ -562,6 +556,8 @@ section {
     position: absolute;
     right: 0;
     top: 15%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #planets .img-responsive {
@@ -581,49 +577,6 @@ section {
 /* Remove ewhen theme is ready */
 .track-icon {
     color: #14365B;
-}
-
-/* Footer */
-
-.footer {
-    background: url(../img/jardim_botanico_curitiba-576.png) no-repeat center bottom;
-    background-size: contain;
-    height: 290px;
-}
-
-@media (min-width: 577px) {
-    .footer {
-        background-image: url('../img/jardim_botanico_curitiba-768.png');
-        height: 355px;
-    }
-
-}
-
-@media (min-width: 769px) {
-    .footer {
-        background-image: url('../img/jardim_botanico_curitiba-992.png');
-        height: 310px;
-    }
-}
-
-@media (min-width: 993px) {
-    .footer {
-        background-image: url('../img/jardim_botanico_curitiba-1200.png');
-        height: 370px;
-    }
-}
-
-@media (min-width: 1201px) {
-    .footer {
-        background-image: url('../img/jardim_botanico_curitiba-1600.png');
-        height: 470px;
-    }
-}
-
-@media (min-width: 1441px) {
-    .footer {
-        background-image: url('../img/jardim_botanico_curitiba-2633.png');
-    }
 }
 
 /* Navbar */
@@ -765,6 +718,11 @@ h1, h2, h3, h4 {
 
 #organizers img {
     height: 100px;
+}
+
+#signup {
+    background-color: #091727;
+    color: #FFFFFF;
 }
 
 .bg-grey {
