@@ -17,20 +17,8 @@
     var mainnav_data = [
         {
             caption: {pt: 'Início', es: 'Inicio', en: 'Home'},
-            id: 'get_involved',
-            href: '/',
-            items: [
-                {
-                    href: 'get_involved',
-                    id: 'get_involved',
-                    caption: {pt: 'Colabore', es: 'Colaborar', en: 'Help'}
-                },
-                {
-                    href: 'diversity',
-                    id: 'diversity',
-                    caption: {pt: 'Diversidades', es: 'Diversidad', en: 'Diversity'}
-                }
-            ]
+            id: 'home',
+            href: ''
         },
         {
             caption: {pt: 'Colabore', es: 'Participa', en: 'Get involved'},
@@ -50,7 +38,7 @@
         },
         {
             caption: {pt: 'Ajuda', es: 'Ayuda', en: 'Help'},
-            id: 'home',
+            id: 'faq',
             items: [
                 {
                     href: 'faq',
@@ -80,6 +68,7 @@
             $scope.mainnav = mainnav_data;
             $scope.route = getActiveRoute();
             $scope.hprefix = $.page_level || '';
+            $scope.template = {url: $scope.hprefix + 'assets/views/menu_ppal.html'};
         }
     ]);
 
