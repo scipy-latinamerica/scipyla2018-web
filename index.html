@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="http://conf.scipyla.org/"/>
 
     <meta name="description" content="SciPyLA 2018 - A conferência de Python científico na América Latina">
     <meta name="author" content="A comunidade SciPyLA">
@@ -101,8 +102,10 @@
                 <div class="carousel-item__container carousel-item__container--slide-1 vertical-center">
                     <div class="self-vertical-center">
 
-                        <img src="./assets/img/scipyla.h.svg" width="395" class="hidden-xs center-block img-responsive"/>
-                        <img src="./assets/img/scipyla.v.svg" width="138" class="visible-xs center-block img-responsive"/>
+                        <img src="./assets/img/scipyla.h.svg" width="395"
+                             class="hidden-xs center-block img-responsive"/>
+                        <img src="./assets/img/scipyla.v.svg" width="138"
+                             class="visible-xs center-block img-responsive"/>
                         <p> Datas em breve! </p>
                         <p>
                             <small>Conferência Latinoamericana de <br class="visible-xs">Computa&ccedil;&atilde;o Cient&iacute;fica
@@ -122,7 +125,11 @@
             <div class="item text-center" data-bg="slide-2">
                 <div class="carousel-item__container carousel-item__container--slide-2 vertical-center">
                     <div class="self-vertical-center">
-                        <img src="./assets/img/sponsor.levels.es.jpg" class="img-responsive center-block"/>
+                        <picture>
+                            <source srcset="./assets/img/sponsor.levels.es.webp" type="image/webp">
+                            <source srcset="./assets/img/sponsor.levels.es.jpg" type="image/jpg">
+                            <img class="img-responsive center-block" src="./assets/img/sponsor.levels.es.jpg" alt="">
+                        </picture>
                         <p class="lead">
                             <span class="lead"> Deseja colocar seu an&uacute;ncio aqui?</span>
                         </p>
@@ -143,20 +150,25 @@
     </div>
 </header>
 
-<div class="container">
-    <section>
-        <div class="row" id="about">
+<section>
+    <div id="about" class="container">
+        <div class="row text-center">
+            <h2>SCIPY AM&Eacute;RICA LATINA 2018</h2>
+            <p>
+                &Eacute; a sexta confer&ecirc;ncia anual de computa&ccedil;&atilde;o cient&iacute;fica com Python.
+                Esta ocorrer&aacute; entre (datas em breve) de 2018 em Curitiba, Brasil.
+                A comunidade SciPy se dedica ao avan&ccedil;o da computa&ccedil;&atilde;o cient&iacute;fica
+                atrav&eacute;s de softwares de c&oacute;digo aberto feito em Python para resolver
+                problemas matem&aacute;ticos da ci&ecirc;ncia e da engenharia.
+            </p>
+        </div>
+        <div class="row">
             <div class="col-md-offset-2 col-md-8 col-xs-12 text-center" id="planets-container">
-                <h3>SCIPY AM&Eacute;RICA LATINA 2018</h3>
-                <p>
-                    &Eacute; a sexta confer&ecirc;ncia anual de computa&ccedil;&atilde;o cient&iacute;fica com Python.
-                    Esta ocorrer&aacute; entre (datas em breve) de 2018 em Curitiba, Brasil.
-                    A comunidade SciPy se dedica ao avan&ccedil;o da computa&ccedil;&atilde;o cient&iacute;fica
-                    atrav&eacute;s de softwares de c&oacute;digo aberto feito em Python para resolver
-                    problemas matem&aacute;ticos da ci&ecirc;ncia e da engenharia.
-                </p>
                 <div id="planets-img">
-                    <img class="img-responsive center-block" src="./assets/img/planets-bg.png"/>
+                    <picture>
+                        <source srcset="./assets/img/planets-bg.webp" type="image/webp">
+                        <source srcset="./assets/img/planets-bg.png" type="image/png">
+                        <img class="img-responsive center-block" src="./assets/img/planets-bg.png" alt=""></picture>
                     <div class="row" id="planets">
                         <strong>
                             <div class="col-xs-4 text-center">
@@ -180,8 +192,9 @@
                 </div>
             </div>
         </div>
-    </section>
-</div>
+
+    </div>
+</section>
 
 <section class="local">
     <div class="jumbotron jumbotron-dark" id="venue">
@@ -234,7 +247,11 @@
     <section>
         <div class="row marketing text-center" id="org">
             <div class="col-md-4">
-                <img src="./assets/img/prog.png" class="img-circle"/>
+                <picture class="img-circle">
+                    <source srcset="./assets/img/prog.webp" type="image/webp">
+                    <source srcset="./assets/img/prog.png" type="image/png">
+                    <img src="./assets/img/prog.png" alt="">
+                </picture>
                 <h3>PROGRAMA</h3>
                 <p>Conhe&ccedil;a o programa de atividades preparadas para a SciPyLA 2018,
                     contendo oficinas sobre o uso de Python em sete &aacute;reas da ci&ecirc;ncia e da tecnologia.
@@ -245,7 +262,11 @@
             </div>
 
             <div class="col-md-4">
-                <img src="./assets/img/sched.png" class="img-circle"/>
+                <picture>
+                    <source srcset="./assets/img/sched.webp" type="image/webp">
+                    <source srcset="./assets/img/sched.png" type="image/png">
+                    <img src="./assets/img/sched.webp" class="img-circle"/>
+                </picture>
                 <h3>AGENDA</h3>
                 <p>Informa&ccedil;&otilde;es sobre o cronograma de atividades previstas para os quatro dias de dura&ccedil;&atilde;o
                     do evento.
@@ -256,7 +277,11 @@
             </div>
 
             <div class="col-md-4">
-                <img src="./assets/img/org.png" class="img-circle"/>
+                <picture>
+                    <source srcset="./assets/img/org.webp" type="image/webp">
+                    <source srcset="./assets/img/org.png" type="image/png">
+                    <img src="./assets/img/org.webp" class="img-circle"/>
+                </picture>
                 <h3>ORGANIZADORES</h3>
                 <p>SciPyLA 2018 &eacute; um evento de todos e para todos.
                     Conhe&ccedil;a o Comit&ecirc; Organizador do evento.
@@ -283,19 +308,39 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-1 col-xs-offset-5 col-sm-offset-4">
-                        <img class="img-responsive" src="./assets/img/bar2013.png"/>
+                        <picture>
+                            <source srcset="./assets/img/bar2013.webp" type="image/webp">
+                            <source srcset="./assets/img/bar2013.png" type="image/png">
+                            <img src="./assets/img/bar2013.webp" class="img-responsive"/>
+                        </picture>
                     </div>
                     <div class="col-xs-1">
-                        <img class="img-responsive" src="./assets/img/bar2014.png"/>
+                        <picture>
+                            <source srcset="./assets/img/bar2014.webp" type="image/webp">
+                            <source srcset="./assets/img/bar2014.png" type="image/png">
+                            <img src="./assets/img/bar2014.webp" class="img-responsive"/>
+                        </picture>
                     </div>
                     <div class="col-xs-1">
-                        <img class="img-responsive" src="./assets/img/bar2015.png"/>
+                        <picture>
+                            <source srcset="./assets/img/bar2015.webp" type="image/webp">
+                            <source srcset="./assets/img/bar2015.png" type="image/png">
+                            <img src="./assets/img/bar2015.webp" class="img-responsive"/>
+                        </picture>
                     </div>
                     <div class="col-xs-1">
-                        <img class="img-responsive" src="./assets/img/bar2016.png"/>
+                        <picture>
+                            <source srcset="./assets/img/bar2016.webp" type="image/webp">
+                            <source srcset="./assets/img/bar2016.png" type="image/png">
+                            <img src="./assets/img/bar2016.webp" class="img-responsive"/>
+                        </picture>
                     </div>
                     <div class="col-xs-1">
-                        <img class="img-responsive" src="./assets/img/bar2017.png"/>
+                        <picture>
+                            <source srcset="./assets/img/bar2017.webp" type="image/webp">
+                            <source srcset="./assets/img/bar2017.png" type="image/png">
+                            <img src="./assets/img/bar2017.webp" class="img-responsive"/>
+                        </picture>
                     </div>
                 </div>
                 <div class="row">
@@ -388,7 +433,11 @@
             <h3>GALERIA - EDI&Ccedil;&Otilde;ES ANTERIORES</h3>
             <div class="col-md-3 col-sm-6">
                 <a href="#" class="overlay-target hover">
-                    <img src="./assets/img/scipyla2013.png" class="img-responsive center-block"/>
+                    <picture>
+                        <source srcset="./assets/img/scipyla2013.webp" type="image/webp">
+                        <source srcset="./assets/img/scipyla2013.png" type="image/png">
+                        <img src="./assets/img/scipyla2013.webp" class="img-responsive center-block"/>
+                    </picture>
                     <div class="overlay visible-hover bg-dark img-circle">
                     </div>
                 </a>
@@ -398,7 +447,11 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <a href="#" class="overlay-target hover">
-                    <img src="./assets/img/scipyla2014.png" class="img-responsive center-block"/>
+                    <picture>
+                        <source srcset="./assets/img/scipyla2014.webp" type="image/webp">
+                        <source srcset="./assets/img/scipyla2014.png" type="image/png">
+                        <img src="./assets/img/scipyla2014.webp" class="img-responsive center-block"/>
+                    </picture>
                     <div class="overlay visible-hover bg-dark img-circle">
                     </div>
                 </a>
@@ -409,7 +462,11 @@
             <div class="clearfix visible-sm"></div>
             <div class="col-md-3 col-sm-6">
                 <a href="#" class="overlay-target hover">
-                    <img src="./assets/img/scipyla2015.png" class="img-responsive center-block"/>
+                    <picture>
+                        <source srcset="./assets/img/scipyla2015.webp" type="image/webp">
+                        <source srcset="./assets/img/scipyla2015.png" type="image/png">
+                        <img src="./assets/img/scipyla2015.webp" class="img-responsive center-block"/>
+                    </picture>
                     <div class="overlay visible-hover bg-dark img-circle">
                     </div>
                 </a>
@@ -419,7 +476,11 @@
             </div>
             <div class="col-md-3 col-sm-6">
                 <a href="#" class="overlay-target hover">
-                    <img src="./assets/img/scipyla2016.png" class="img-responsive center-block"/>
+                    <picture>
+                        <source srcset="./assets/img/scipyla2016.webp" type="image/webp">
+                        <source srcset="./assets/img/scipyla2016.png" type="image/png">
+                        <img src="./assets/img/scipyla2016.webp" class="img-responsive center-block"/>
+                    </picture>
                     <div class="overlay visible-hover bg-dark img-circle">
                     </div>
                 </a>
@@ -442,7 +503,11 @@
             <div class="col-md-4 col-md-offset-2">Cientistas de dados</div>
             <div class="col-md-4">Programadores</div>
             <div class="col-md-6 col-md-offset-3">
-                <img src="./assets/img/audience.png" class="img-responsive center-block"/>
+                <picture>
+                    <source srcset="./assets/img/audience.webp" type="image/webp">
+                    <source srcset="./assets/img/audience.png" type="image/png">
+                    <img src="./assets/img/audience.webp" class="img-responsive center-block"/>
+                </picture>
             </div>
         </div>
     </section>
@@ -456,7 +521,11 @@
                     <h3>&Aacute;REA GEOGR&Aacute;FICA<br/>
                         <small>de donde vem a audi&ecirc;ncia</small>
                     </h3>
-                    <img class="img-responsive" src="./assets/img/geo.png"/>
+                    <picture>
+                        <source srcset="./assets/img/geo.webp" type="image/webp">
+                        <source srcset="./assets/img/geo.png" type="image/png">
+                        <img src="./assets/img/geo.webp" class="img-responsive"/>
+                    </picture>
                     <div class="row legend">
                         <div class="col-xs-3 col-sm-2 col-xs-offset-1 col-sm-offset-2 hidden-md">
                             <span class="legend-level legend-level-5"></span>
@@ -529,7 +598,11 @@
                     <div class="row" id="fb">
                         <div class="col-xs-3 col-xs-offset-3 text-right">
                             <p class="visible-md">&nbsp;</p>
-                            <img class="img-responsive" src="./assets/img/reach.png"/>
+                            <picture>
+                                <source srcset="./assets/img/reach.webp" type="image/webp">
+                                <source srcset="./assets/img/reach.png" type="image/png">
+                                <img src="./assets/img/reach.webp" class="img-responsive"/>
+                            </picture>
                         </div>
                         <div class="col-xs-3 col-md-3 text-center">
                             <p class="lead"><span class="lead"><span class="lead"><strong>0000</strong></span></span>
@@ -613,15 +686,34 @@
         <p>Copyright 2018 &copy; <a href="http://scipyla.org">SciPy Latinamerica</a></p>
     </div>
     <div class="">
-        <img class="img img-responsive"
-             srcset="./assets/img/jardim_botanico_curitiba-576.png 576w,
+        <picture>
+            <source srcset="./assets/img/jardim_botanico_curitiba-576.webp 576w,
+                    ./assets/img/jardim_botanico_curitiba-768.webp 768w,
+                    ./assets/img/jardim_botanico_curitiba-992.webp 992w,
+                    ./assets/img/jardim_botanico_curitiba-1200.webp 1200w,
+                    ./assets/img/jardim_botanico_curitiba-1600.webp 1600w,
+                    ./assets/img/jardim_botanico_curitiba-2633.webp 2633w"
+                    type="image/webp">
+
+            <source srcset="./assets/img/jardim_botanico_curitiba-576.png 576w,
                     ./assets/img/jardim_botanico_curitiba-768.png 768w,
                     ./assets/img/jardim_botanico_curitiba-992.png 992w,
                     ./assets/img/jardim_botanico_curitiba-1200.png 1200w,
                     ./assets/img/jardim_botanico_curitiba-1600.png 1600w,
                     ./assets/img/jardim_botanico_curitiba-2633.png 2633w"
-             src="./assets/img/jardim_botanico_curitiba-2633.png"
-             alt="Jardim Botânico de Curitiba">
+                    type="image/png">
+
+            <img class="img img-responsive"
+                 srcset="./assets/img/jardim_botanico_curitiba-576.png 576w,
+                    ./assets/img/jardim_botanico_curitiba-768.png 768w,
+                    ./assets/img/jardim_botanico_curitiba-992.png 992w,
+                    ./assets/img/jardim_botanico_curitiba-1200.png 1200w,
+                    ./assets/img/jardim_botanico_curitiba-1600.png 1600w,
+                    ./assets/img/jardim_botanico_curitiba-2633.png 2633w"
+                 src="./assets/img/jardim_botanico_curitiba-2633.png"
+                 alt="Jardim Botânico de Curitiba">
+        </picture>
+
     </div>
 </footer>
 
@@ -631,6 +723,7 @@
 <script src="./assets/vendors/bootstrap.min.js"></script>
 <script src="./assets/vendors/angular.min.js"></script>
 
+<script src="./assets/js/main.js"></script>
 <script src="./assets/js/mainnav.js"></script>
 
 <script language="javascript">
