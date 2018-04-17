@@ -151,8 +151,8 @@
 </header>
 
 <section>
-    <div class="row" id="about">
-        <div class="col-md-offset-2 col-md-8 col-xs-12 text-center" id="planets-container">
+    <div id="about" class="container">
+        <div class="row text-center">
             <h2>SCIPY AM&Eacute;RICA LATINA 2018</h2>
             <p>
                 &Eacute; a sexta confer&ecirc;ncia anual de computa&ccedil;&atilde;o cient&iacute;fica com Python.
@@ -161,33 +161,38 @@
                 atrav&eacute;s de softwares de c&oacute;digo aberto feito em Python para resolver
                 problemas matem&aacute;ticos da ci&ecirc;ncia e da engenharia.
             </p>
-            <div id="planets-img">
-                <picture>
-                    <source srcset="./assets/img/planets-bg.webp" type="image/webp">
-                    <source srcset="./assets/img/planets-bg.png" type="image/png">
-                    <img class="img-responsive center-block" src="./assets/img/planets-bg.png" alt=""></picture>
-                <div class="row" id="planets">
-                    <strong>
-                        <div class="col-xs-4 text-center">
-                            <img class="img-responsive center-block" src="./assets/img/planet.py.svg"/>
-                            <p>PYTHON</p>
-                        </div>
-                        <div class="col-xs-4 text-center">
-                            <img class="img-responsive center-block" src="./assets/img/planet.sci.svg"/>
-                            <p>CI&Ecirc;NCIA</p>
-                        </div>
-                        <div class="col-xs-4 text-center">
-                            <div class="overlay-target-block">
-                                <img class="img-responsive center-block" src="./assets/img/planet.la.svg"/>
-                                <img id="planet-la" src="./assets/img/planet.la.svg"/>
+        </div>
+        <div class="row">
+            <div class="col-md-offset-2 col-md-8 col-xs-12 text-center" id="planets-container">
+                <div id="planets-img">
+                    <picture>
+                        <source srcset="./assets/img/planets-bg.webp" type="image/webp">
+                        <source srcset="./assets/img/planets-bg.png" type="image/png">
+                        <img class="img-responsive center-block" src="./assets/img/planets-bg.png" alt=""></picture>
+                    <div class="row" id="planets">
+                        <strong>
+                            <div class="col-xs-4 text-center">
+                                <img class="img-responsive center-block" src="./assets/img/planet.py.svg"/>
+                                <p>PYTHON</p>
                             </div>
-                            <div id="planets-satellite"></div>
-                            <p>AM&Eacute;RICA LATINA</p>
-                        </div>
-                    </strong>
+                            <div class="col-xs-4 text-center">
+                                <img class="img-responsive center-block" src="./assets/img/planet.sci.svg"/>
+                                <p>CI&Ecirc;NCIA</p>
+                            </div>
+                            <div class="col-xs-4 text-center">
+                                <div class="overlay-target-block">
+                                    <img class="img-responsive center-block" src="./assets/img/planet.la.svg"/>
+                                    <img id="planet-la" src="./assets/img/planet.la.svg"/>
+                                </div>
+                                <div id="planets-satellite"></div>
+                                <p>AM&Eacute;RICA LATINA</p>
+                            </div>
+                        </strong>
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
 </section>
 
