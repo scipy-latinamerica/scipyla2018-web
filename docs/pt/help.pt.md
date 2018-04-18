@@ -18,51 +18,51 @@ Precisamos de ajuda, por isso estamos procurando voluntários para as seguinte �
 * **Time de publicidade:** Publicidade é onde mais pessoas podem ajudar remotamente. Precisamos nomear alguém para supervisionar diferentes canais, para que possamos (1) publicar material e (2) responder.
   - Mídias sociais
     - Twitter:
-      - Coordenador
+      - Coordenação
       - Representante, adjunto
     - Facebook:
-      - Coordenador
+      - Coordenação
       - Representante, adjunto
   - Chat
     - Telegram
-      - Coordenador
+      - Coordenação
       - Representante, adjunto
 
 
 * **Time de apoio a viagem:** O time de apoio a viagem deve pesquisar, fazer contato se necessário, com a embaixada brasileira e redigir um guia para auxiliar nossos convidados internacionais na requisição e obtenção do visto.
-  - Coordenador
+  - Coordenação
   - Representante, adjunto
 
 
 * **Time de apoio a colaboradores:** O time de apoio a colaboradores deve ajudar as pessoas que querem ajudar mas não tem conhecimento ainda. Se for o caso, redigir tutorial de como criar fork, clone, commit, pull request, fetch e rebase. O mínimo suficiente para editar uma página do site. Responder dúvidas sobre a colabora quando possível.
-  - Coordenador
+  - Coordenação
   - Representante, adjunto
 
 
 * **Time de inscrições:** O time de inscrições deve gerenciar o sistema de inscrições, a relação de inscritos, credenciais, etc ... 
-  - Coordenador
+  - Coordenação
   - Representante, adjunto
 
 
 * **Time da grade:** O time da grade deve gerenciar o sistema de chamado de trabalhos (PaperCall.io), selecionar os trabalhos, confirmar com os proponentes sua participação, etc ...
   - Tutoriais, oficinas
-    - Coordenador
+    - Coordenação
     - Representante, adjunto
   - Palestras
-    - Coordenador: Paulo Henrique de Lima Santana.
+    - Coordenação: Paulo Henrique de Lima Santana.
     - Representante, adjunto
   - Posters, papers
-    - Coordenador
+    - Coordenação
     - Representante, adjunto
 
 
 * **Time de conduta:** O time de conduta deve revisar e atualizar o código de conduta da SciPyLA bem como formar uma equipe de respostas a incidentes que infrinjam o código de conduta.
-  - Coordenador
+  - Coordenação
   - Representante, adjunto
 
 
 * **Time de diversidade:** O time de diversidade irá proporcionar um ambiente acolhedor a todos.
-  - Coordenadora: Caroline Dantas
+  - Coordenação: Caroline Dantas
   - Representante, adjunto
 
 
@@ -72,9 +72,9 @@ Precisamos de ajuda, por isso estamos procurando voluntários para as seguinte �
 
 
 * **Time do site:** O time do site deve atender as demandas do site quanto ao layout e funcionamento, gerenciar o esforço de tradução e atualizações necessárias. Cada time deve ter condições de gerir o conteúdo de sua responsabilidade.
-  - Coordenador
+  - Coordenação
   - Representante, adjunto
-  - Colaboradoras:
+  - Colaborações:
     - Renata Givisiez
     - Tadiane Oliveira
     - Luan Roger Santos Santana
