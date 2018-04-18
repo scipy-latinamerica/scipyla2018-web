@@ -8,13 +8,12 @@ body {
     position: relative;
 }
 
-.self-vertical-center{
+.self-vertical-center {
     position: absolute;
     top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
 
 body > section > .jumbotron,
 body > .jumbotron,
@@ -87,75 +86,119 @@ section {
     padding-top: 98px;
 }
 
-.carousel-item__container{
+.carousel-item__container {
     height: calc(100vh - 60px);
     color: #FFFFFF;
 }
 
+.no-webp .carousel-item__container--slide-1 {
+    background: url('../img/curitiba-rua-das-flores-576.png') no-repeat center;
+}
+
+.webp .carousel-item__container--slide-1 {
+    background: url('../img/curitiba-rua-das-flores-576.webp') no-repeat center;
+}
+
 .carousel-item__container--slide-1 {
-    background: url('../img/curitiba-rua-das-flores-576.png') no-repeat center ;
-    background-size: cover;
+    background-size: cover !important;
 }
 
 .carousel-item__container--slide-2 {
-    background: #061220 url('../img/sponsors-bg.jpg') repeat-x bottom;
     background-size: auto 160px;
 }
 
+.no-webp .carousel-item__container--slide-2 {
+    background: #061220 url('../img/sponsors-bg.jpg') repeat-x bottom;
+}
+
+.webp .carousel-item__container--slide-2 {
+    background: #061220 url('../img/sponsors-bg.webp') repeat-x bottom;
+}
+
 @media (min-width: 577px) {
-    .carousel-item__container--slide-1 {
+    .no-webp .carousel-item__container--slide-1 {
         background-image: url('../img/curitiba-rua-das-flores-768.png');
     }
+
+    .webp .carousel-item__container--slide-1 {
+        background-image: url('../img/curitiba-rua-das-flores-768.webp');
+    }
+
     #jumbo-main.slide-2 {
         background-image: url('../img/sponsors-bg.jpg');
     }
 }
 
 @media (min-width: 769px) {
-    .carousel-item__container--slide-1 {
+    .no-webp .carousel-item__container--slide-1 {
         background-image: url('../img/curitiba-rua-das-flores-992.png');
     }
+
+    .webp .carousel-item__container--slide-1 {
+        background-image: url('../img/curitiba-rua-das-flores-992.webp');
+    }
+
     #jumbo-main.slide-2 {
         background-image: url('../img/sponsors-bg.jpg');
     }
 }
 
 @media (min-width: 993px) {
-    .carousel-item__container--slide-1 {
+    .no-webp .carousel-item__container--slide-1 {
         background-image: url('../img/curitiba-rua-das-flores-1200.png');
     }
+
+    .webp .carousel-item__container--slide-1 {
+        background-image: url('../img/curitiba-rua-das-flores-1200.webp');
+    }
+
     #jumbo-main.slide-2 {
         background-image: url('../img/sponsors-bg.jpg');
     }
 }
 
 @media (min-width: 1201px) {
-    .carousel-item__container--slide-1 {
+    .no-webp .carousel-item__container--slide-1 {
         background-image: url('../img/curitiba-rua-das-flores-1600.png');
     }
+
+    .webp .carousel-item__container--slide-1 {
+        background-image: url('../img/curitiba-rua-das-flores-1600.webp');
+    }
+
     #jumbo-main.slide-2 {
         background-image: url('../img/sponsors-bg.jpg');
     }
 }
 
 @media (min-width: 1441px) {
-    .carousel-item__container--slide-1 {
+    .no-webp .carousel-item__container--slide-1 {
         background-image: url('../img/curitiba-rua-das-flores-2633.png');
     }
+
+    .webp .carousel-item__container--slide-1 {
+        background-image: url('../img/curitiba-rua-das-flores-2633.webp');
+    }
+
     #jumbo-main.slide-2 {
         background-image: url('../img/sponsors-bg.jpg');
     }
 }
 
+.webp #venue {
+    background: url('../img/curitiba-tangua.webp') no-repeat;
+}
+
+.no-webp #venue {
+    background: url('../img/curitiba-tangua.jpg') no-repeat;
+}
 
 #venue {
-    background-image: url('../img/curitiba-tangua.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
 .container .jumbotron {
-    border-radius: 0px;
+    border-radius: 0;
     padding-top: 80px;
 }
 
@@ -224,7 +267,7 @@ section {
     box-shadow: none;
     color: #FFFFFF;
     font-size: 21px;
-    text-shadow: 0 0px 0 transparent;
+    text-shadow: 0 0 0 transparent;
 }
 
 /* Patterns - Overlays */
@@ -313,7 +356,7 @@ section {
 /* Conf timeline */
 
 .timeline-scale {
-    padding: 0px;
+    padding: 0;
 }
 
 .timeline-scale hr {
@@ -330,7 +373,7 @@ section {
 /* Gallery */
 
 .section-nospace {
-    margin: 0px;
+    margin: 0;
 }
 
 #gallery .overlay {
@@ -409,17 +452,19 @@ section {
 
 }
 
-@media (min-width: 769px){
+@media (min-width: 769px) {
     .sbgu {
         left: 130px;
         width: 170px;
         background-size: 168px;
     }
+
     .sbgl {
         height: 109px;
         width: 114px;
         background-size: 114px;
     }
+
     .sbgr {
         height: 258px;
         background-size: 260px;
@@ -428,7 +473,7 @@ section {
 }
 
 #analytics .well-xs {
-    margin: 0px 6px;
+    margin: 0 6px;
 }
 
 #fb p.lead {
@@ -452,7 +497,7 @@ section {
 }
 
 .legend > div {
-    padding: 0px;
+    padding: 0;
 }
 
 .legend-level {
@@ -583,7 +628,7 @@ section {
 
 .navbar-brand {
     margin-right: 50px;
-    padding:0 15px 0;
+    padding: 0 15px 0;
 }
 
 @media (min-width: 768px) {
@@ -592,7 +637,6 @@ section {
         height: 50px;
     }
 }
-
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
@@ -682,7 +726,7 @@ h1, h2, h3, h4 {
 }
 
 .round-menu li.media {
-    padding-left: 0px;
+    padding-left: 0;
 }
 
 #ambassadors .round-menu .btn-round {
@@ -690,8 +734,8 @@ h1, h2, h3, h4 {
 }
 
 #ambassadors #legend {
-    bottom: 0px;
-    left: 0px;
+    bottom: 0;
+    left: 0;
     position: absolute;
 }
 
@@ -701,14 +745,14 @@ h1, h2, h3, h4 {
 }
 
 #timeline, #analytics {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 #timeline .label-round {
     border-radius: 50%;
     display: inline-block;
     height: 18px;
-    padding: 4px 0px 0px 1px;
+    padding: 4px 0 0 1px;
     width: 18px;
 }
 
@@ -819,7 +863,7 @@ h1, h2, h3, h4 {
     .img-ads {
         height: 200px;
         width: 280px;
-        background-position: -620px 0px;
+        background-position: -620px 0;
     }
 
 }
@@ -836,8 +880,8 @@ h1, h2, h3, h4 {
     .modal-footer .btn {
         font-size: 85%;
         line-height: 1.35em;
-        padding-top: 0px;
-        padding-bottom: 0px;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .modal-fixed button.close {
@@ -853,17 +897,13 @@ h1, h2, h3, h4 {
         background-position: 40px 0;
     }
 
-    .navbar-brand img {
-        margin-top: -20px;
-    }
-
     #agenda .nav-pills.nav-justified > li {
         float: left;
         width: 23%;
     }
 
     #agenda .nav-pills.nav-justified > li > a {
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
     .modal-fixed button.close {
@@ -883,7 +923,7 @@ h1, h2, h3, h4 {
 
     .navbar .navbar-toggle {
         position: fixed;
-        right: 0px;
+        right: 0;
         z-index: 1090;
     }
 
@@ -914,13 +954,14 @@ h1, h2, h3, h4 {
 /* Large */
 @media (min-width: 1200px) {
 }
+
 /* Marketing */
 
 @media (min-width: 992px) {
     .row.marketing [class^="col-md-"].marketing-action,
     .row.marketing [class*=" col-md-"].marketing-action {
         bottom: 0;
-        padding-bottom: 0px;
+        padding-bottom: 0;
         position: absolute;
     }
 }
@@ -942,7 +983,7 @@ h1, h2, h3, h4 {
 
 .modal-fixed .modal-dialog,
 .modal-fixed .modal-content {
-    top: 0px;
+    top: 0;
 }
 
 .modal-fixed .modal-footer,
@@ -964,7 +1005,7 @@ h1, h2, h3, h4 {
     bottom: 65px;
     overflow-x: hidden;
     overflow-y: scroll;
-    top: 0px;
+    top: 0;
 }
 
 /*
@@ -1022,7 +1063,7 @@ h1, h2, h3, h4 {
     }
     16% {
         height: 15%;
-        right: 0%;
+        right: 0;
         top: 8%;
         width: 25%;
         z-index: 21;
@@ -1065,7 +1106,7 @@ h1, h2, h3, h4 {
     81% {
         height: 6%;
         right: 20%;
-        top: 0%;
+        top: 0;
         width: 10%;
         z-index: 19;
     }
