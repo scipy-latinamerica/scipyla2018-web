@@ -21,7 +21,7 @@
             href: ''
         },
         {
-            caption: {pt: 'Programação', es: 'Programa', en: 'Proram'},
+            caption: {pt: 'Programação', es: 'Programa', en: 'Program'},
             id: 'program',
             items: [
                 {
