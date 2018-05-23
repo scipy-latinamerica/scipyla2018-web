@@ -21,6 +21,26 @@
             href: ''
         },
         {
+            caption: {pt: 'Programação', es: 'Programa', en: 'Program'},
+            id: 'program',
+            items: [
+                {
+                    href: 'register',
+                    id: 'register',
+                    caption: {pt: 'Compre seu ingresso', es: 'Reservar tickets', en : 'Buy tickets' }
+                },
+                {
+                    isDivider: true
+                },
+                {
+                    href: null,
+                    id: 'cfp',
+                    caption: {pt: 'Em breve chamada de trabalhos', es: 'En breve instrucciones de publicación', en : 'Soon call for papers' }
+                    // - TODO - caption: {pt: 'Chamada de trabalhos', es: 'Instrucciones de publicación', en : 'Call for papers' }
+                }
+            ]
+        },
+        {
             caption: {pt: 'Colabore', es: 'Participa', en: 'Get involved'},
             id: 'get_involved',
             items: [
