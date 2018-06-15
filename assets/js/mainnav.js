@@ -57,6 +57,17 @@
             ]
         },
         {
+            caption: { es: 'Sede', en: 'Venue', pt: 'Sede'},
+            id: 'venue',
+            items: [
+                {
+                    href: 'venue/lodging',
+                    id: 'lodging',
+                    caption: { es : 'Hospedaje', en : 'Lodging', pt: 'Hospedagem'}
+                }
+            ]
+        },
+        {
             caption: {pt: 'Ajuda', es: 'Ayuda', en: 'Help'},
             id: 'faq',
             items: [
