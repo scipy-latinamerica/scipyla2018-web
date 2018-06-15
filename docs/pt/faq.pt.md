@@ -6,7 +6,7 @@ Algumas respostas para perguntas comuns:
 Já há data para realização do evento?
 -------------------------------------
 
-Buscamos realizar a ScipyLa 2018 em agosto para evitar concorrência com outros eventos conhecidos, estamos empenhados em definir as datas logo. Falta apenas as negociações finais com a sede.
+Sim, o evento irá ocorrer nos dias 29, 30, 31 de agosto e 1 de setembro de 2018. [Adquira seu ingresso](https://scipyla2018.eventbrite.com.br).
 
 Como será a agenda do evento?
 -----------------------------
@@ -20,27 +20,27 @@ O evento dura quatro dias e está dividido em três partes:
 Quando será aberta a chamada de trabalhos?
 ------------------------------------------
 
-Pretendemos abrir a chamada de trabalhos na primeira quinzena de março, até dia 15 de março preferencialmente.
+Pretendemos abrir a chamada de trabalhos em breve, possivelmente dia 17 de junho de 2018.
 
 Quando serão abertas as inscrições?
 -----------------------------------
 
-Também devemos abrir as inscrições até dia 15 de março, falta resolver alguns detalhes da burocracia relacionadas a inscrição.
+Estão abertas. [Adquira seu ingresso](https://scipyla2018.eventbrite.com.br).
 
 Quando devo reservar hotel e passagens aéreas?
 ----------------------------------------------
 
-Favor aguardar a definição da data, estamos nos esforçando para isso. Se a conferência for confirmada em agosto acreditamos que as passagens não devem ser muito caras, é um período de baixa temporada.
+As datas estão confirmadas, já é possível realizar as reservas. Se precisar de ajuda pode entrar em contato com a agência de turismo do evento, [Mega Viagens Turismo](../venue/hosting).
 
 Serão oferecidos descontos em hotéis?
 -------------------------------------
 
-No momento não temos nenhum hotel parceiro, mas um time irá tentar algo com agência de viagens. Inclusive se você for de Curitiba e tiver contatos, precisamos da sua ajuda. [Chamada de voluntários](../help)
+A agência de turismo oficial do evento, Mega Viagens Turismo, conseguiu desconto em alguns hotéis, [veja as opções de hospedagem](../venue/hosting). Caso tenha interesse entre em contato com a agência para pacotes personalizados.
 
 Quando os patrocinadores poderão se afiliar?
 --------------------------------------------
 
-Em breve, muito breve, estamos apenas finalizando o documento de planos de patrocínio.
+A equipe de captação está fazendo a prospecção.
 
 Se estiver interessado entre em contato através do email sponsor@scipyla.org para detalhes.
 
