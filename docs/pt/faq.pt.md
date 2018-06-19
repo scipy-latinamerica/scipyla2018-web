@@ -20,7 +20,7 @@ O evento dura quatro dias e está dividido em três partes:
 Quando será aberta a chamada de trabalhos?
 ------------------------------------------
 
-Pretendemos abrir a chamada de trabalhos em breve, possivelmente dia 17 de junho de 2018.
+A chamada de trabalhos abriu as 0:00h de 20 de junho de 2018 (UTC), serão aceitos trabalhos enviados até 0:00h de 22 de julho de 2018 (UTC). [Envie seu trabalho](https://www.papercall.io/scipyla2018).
 
 Quando serão abertas as inscrições?
 -----------------------------------
