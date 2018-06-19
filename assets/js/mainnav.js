@@ -33,10 +33,10 @@
                     isDivider: true
                 },
                 {
-                    href: null,
+                    href: 'cfp',
                     id: 'cfp',
-                    caption: {pt: 'Em breve chamada de trabalhos', es: 'En breve instrucciones de publicación', en : 'Soon call for papers' }
-                    // - TODO - caption: {pt: 'Chamada de trabalhos', es: 'Instrucciones de publicación', en : 'Call for papers' }
+                    // caption: {pt: 'Em breve chamada de trabalhos', es: 'En breve instrucciones de publicación', en : 'Soon call for papers' }
+                    caption: {pt: 'Chamada de trabalhos', es: 'Instrucciones de publicación', en : 'Call for papers' }
                 }
             ]
         },
