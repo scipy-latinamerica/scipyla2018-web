@@ -1,6 +1,12 @@
 ## Hospedajem e Transporte
 
-A agência Mega Viagens Turismo preparou alguns pacotes de hospedagem com preços diferenciados. Os valores apresentados compreendem 4 diárias, para saber o preço da diária basta dividir o valor por quatro.
+A agência Mega Viagens Turismo preparou alguns pacotes de hospedagem com preços diferenciados para participantes do SciPyLA. Contato deve ser feito diretamente com a Mega Viagens Turismo:
+
+- Email: [adriana@megaviagenseturismo.com.br](mailto:adriana@megaviagenseturismo.com.br)
+- WhatsApp: +55 (47) 98849-4193
+- Website: [www.megaviagenseturismo.com.br/contato](www.megaviagenseturismo.com.br/contato)
+
+Os valores apresentados compreendem 4 diárias, para saber o preço da diária basta dividir o valor por quatro.
 
 ## Período: 29/08 A 02/09/2018
  
@@ -10,7 +16,7 @@ VALORES POR PESSOA CONSIDERANDO TIPO DE ACOMODAÇÃO ESCOLHIDA.
    
 ## GOLDEN PARK HOTEL
 
-Website - https://hotelgoldenpark.com.br/
+Website - [https://hotelgoldenpark.com.br/](https://hotelgoldenpark.com.br/)
 
 Apto com café da manhã incluso.
 
@@ -26,7 +32,7 @@ Apto com café da manhã incluso.
 
 ## AMPIEZZA FLAT
 
-Website - http://www.ampiezzahotel.com.br/
+Website - [http://www.ampiezzahotel.com.br/](http://www.ampiezzahotel.com.br/)
 
 Apto com café da manhã incluso.
 
@@ -42,7 +48,7 @@ Apto com café da manhã incluso.
 
 ## HOTEL NACIONAL INN CURITIBA
 
-Website - https://www.nacionalinn.com.br/hotel-curitiba/nacional-inn
+Website - [https://www.nacionalinn.com.br/hotel-curitiba/nacional-inn](https://www.nacionalinn.com.br/hotel-curitiba/nacional-inn)
 
 Apto com café da manhã incluso.
 
