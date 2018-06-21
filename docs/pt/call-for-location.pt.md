@@ -30,13 +30,13 @@ A proposta deve incluir:
 
 ### Como enviar a proposta
 
-Pelo formulário para envio de propostas que está disponível em [link del archivo].
+Pelo formulário para envio de propostas que está disponível em [Chamada para sedes SciPyLA 2019](https://goo.gl/forms/bWHdpKRM4il5XxN42).
 
 ### Escolha
 
 Será escolhida a sede ao final do último Slot ([encerramento]). Aquele que não puder assistir e queira opinar pode enviar emails a thread de discussão e será levado em conta.
 
-* [link del archivo]
+* [Thread scipyla em googlegroups](https://groups.google.com/d/msg/scipyla/_3FkgbwSSC4/AKbXsg6iBgAJ)
 
 Aprecia-se a divulgação.
 

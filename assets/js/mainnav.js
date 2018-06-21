@@ -35,7 +35,6 @@
                 {
                     href: 'cfp',
                     id: 'cfp',
-                    // caption: {pt: 'Em breve chamada de trabalhos', es: 'En breve instrucciones de publicación', en : 'Soon call for papers' }
                     caption: {pt: 'Chamada de trabalhos', es: 'Instrucciones de publicación', en : 'Call for papers' }
                 }
             ]
@@ -48,6 +47,11 @@
                     href: 'organizers',
                     id: 'organizers',
                     caption: {pt: 'Organizadores', es: 'Organizadores', en: 'Organizers'}
+                },
+                {
+                    href: 'cfl',
+                    id: 'call-for-location',
+                    caption: {pt: 'Chamada a sede 2019', es: 'Llamada para sede 2019', en: 'Call for venue 2019'}
                 },
                 {
                     href: 'get_involved',
