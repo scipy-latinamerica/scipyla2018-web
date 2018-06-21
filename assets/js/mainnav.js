@@ -45,6 +45,11 @@
             id: 'get_involved',
             items: [
                 {
+                    href: 'organizers',
+                    id: 'organizers',
+                    caption: {pt: 'Organizadores', es: 'Organizadores', en: 'Organizers'}
+                },
+                {
                     href: 'get_involved',
                     id: 'get_involved',
                     caption: {pt: 'Chamada à voluntários', es: 'Llamada para voluntarios', en: 'Call for volunteers'}
