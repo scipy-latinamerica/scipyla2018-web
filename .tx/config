@@ -1,0 +1,50 @@
+[main]
+host = https://www.transifex.com
+
+[scipyla-2018.call-for-location]
+file_filter = docs/<lang>/call-for-location.<lang>.md
+source_file = docs/pt/call-for-location.pt.md
+source_lang = pt
+type = GITHUBMARKDOWN
+
+[scipyla-2018.cfp]
+file_filter = docs/<lang>/cfp.<lang>.md
+source_file = docs/pt/cfp.pt.md
+source_lang = pt
+type = GITHUBMARKDOWN
+
+[scipyla-2018.diversity]
+file_filter = docs/<lang>/diversity.<lang>.md
+source_file = docs/pt/diversity.pt.md
+source_lang = pt
+type = GITHUBMARKDOWN
+
+[scipyla-2018.faq]
+file_filter = docs/<lang>/faq.<lang>.md
+source_file = docs/pt/faq.pt.md
+source_lang = pt
+type = GITHUBMARKDOWN
+
+[scipyla-2018.help]
+file_filter = docs/<lang>/help.<lang>.md
+source_file = docs/pt/help.pt.md
+source_lang = pt
+type = GITHUBMARKDOWN
+
+[scipyla-2018.hosting]
+file_filter = docs/<lang>/hosting.<lang>.md
+source_file = docs/pt/hosting.pt.md
+source_lang = pt
+type = GITHUBMARKDOWN
+
+[scipyla-2018.organizers]
+file_filter = docs/<lang>/organizers.<lang>.md
+source_file = docs/pt/organizers.pt.md
+source_lang = pt
+type = GITHUBMARKDOWN
+
+[scipyla-2018.register]
+file_filter = docs/<lang>/register.<lang>.md
+source_file = docs/pt/register.pt.md
+source_lang = pt
+type = GITHUBMARKDOWN

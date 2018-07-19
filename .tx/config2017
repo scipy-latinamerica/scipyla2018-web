@@ -1,0 +1,117 @@
+[main]
+host = https://www.transifex.com
+
+[scipyla-2017.Code_of_Conduct]
+file_filter = docs/<lang>/Code_of_Conduct.<lang>.md
+source_file = docs/es/Code_of_Conduct.es.md
+source_lang = es
+type = GITHUBMARKDOWN
+
+[scipyla-2017.bio]
+file_filter = docs/<lang>/bio.<lang>.md
+source_file = docs/es/bio.es.md
+source_lang = es
+type = GITHUBMARKDOWN
+
+[scipyla-2017.cfp]
+file_filter = docs/<lang>/cfp.<lang>.md
+source_file = docs/es/cfp.es.md
+source_lang = es
+type = GITHUBMARKDOWN
+
+[scipyla-2017.city]
+file_filter = docs/<lang>/city.<lang>.md
+source_file = docs/es/city.es.md
+source_lang = es
+type = GITHUBMARKDOWN
+
+[scipyla-2017.community]
+file_filter = docs/<lang>/community.<lang>.md
+source_file = docs/es/community.es.md
+source_lang = es
+type = GITHUBMARKDOWN
+
+[scipyla-2017.diversity]
+file_filter = docs/<lang>/diversity.<lang>.md
+source_file = docs/es/diversity.es.md
+source_lang = es
+type = GITHUBMARKDOWN
+
+[scipyla-2017.earth]
+file_filter = docs/<lang>/earth.<lang>.md
+source_file = docs/es/earth.es.md
+source_lang = es
+type = GITHUBMARKDOWN
+
+[scipyla-2017.econ]
+file_filter = docs/<lang>/econ.<lang>.md
+source_file = docs/es/econ.es.md
+source_lang = es
+type = GITHUBMARKDOWN
+
+[scipyla-2017.elect]
+file_filter = docs/<lang>/elect.<lang>.md
+source_file = docs/es/elect.es.md
+source_lang = es
+type = GITHUBMARKDOWN
+
+[scipyla-2017.hosting]
+file_filter = docs/<lang>/hosting.<lang>.md
+source_file = docs/es/hosting.es.md
+source_lang = es
+type = GITHUBMARKDOWN
+
+[scipyla-2017.physics]
+file_filter = docs/<lang>/physics.<lang>.md
+source_file = docs/es/physics.es.md
+source_lang = es
+type = GITHUBMARKDOWN
+
+[scipyla-2017.register]
+file_filter = docs/<lang>/register.<lang>.md
+source_file = docs/es/register.es.md
+source_lang = es
+type = GITHUBMARKDOWN
+
+[scipyla-2017.slides]
+file_filter = docs/<lang>/slides.<lang>.md
+source_file = docs/es/slides.es.md
+source_lang = es
+type = GITHUBMARKDOWN
+
+[scipyla-2017.social]
+file_filter = docs/<lang>/social.<lang>.md
+source_file = docs/es/social.es.md
+source_lang = es
+type = GITHUBMARKDOWN
+
+[scipyla-2017.sponsors]
+file_filter = docs/<lang>/sponsors.<lang>.md
+source_file = docs/es/sponsors.es.md
+source_lang = es
+type = GITHUBMARKDOWN
+
+[scipyla-2017.staff]
+file_filter = docs/<lang>/staff.<lang>.md
+source_file = docs/es/staff.es.md
+source_lang = es
+type = GITHUBMARKDOWN
+
+[scipyla-2017.tech]
+file_filter = docs/<lang>/tech.<lang>.md
+source_file = docs/es/tech.es.md
+source_lang = es
+type = GITHUBMARKDOWN
+
+[scipyla-2017.venue]
+file_filter = docs/<lang>/venue.<lang>.md
+source_file = docs/es/venue.es.md
+source_lang = es
+type = GITHUBMARKDOWN
+
+[scipyla-2017.visa]
+file_filter = docs/<lang>/visa.<lang>.md
+source_file = docs/es/visa.es.md
+source_lang = es
+type = GITHUBMARKDOWN
+
