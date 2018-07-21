@@ -4,7 +4,7 @@ PROPOSTAS DE ATIVIDADES PARA SCIPYLA 2018
 DATAS IMPORTANTES
 -----------------
 
-Prazo de Submissão de Atividades: **22 de julho de 2018 0:07 UTC**
+Prazo de Submissão de Atividades: **27 de julho de 2018 0:07 UTC**
 
 Prazo estimado para aceitação de atividades: **06 de agosto de 2018 0:07 UTC**
 
@@ -84,6 +84,8 @@ Os trabalhos propostos para a seleção de The Python Papers devem ser originais
 
 INSCRIÇÃO / PARTICIPAÇÃO / PAGAMENTO
 ------------------------------------
+
+Ao menos um dos autores deve participar do evento para apresentar o artigo ou pôster, portanto deve se registrar no evento.
 
 Os valores do registro cobrem somente o ingresso do evento. Para mais detalhes, consulte os valores do registro.
 
