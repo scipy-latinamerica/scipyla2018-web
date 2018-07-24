@@ -84,6 +84,11 @@
                     href: 'faq',
                     id: 'faq',
                     caption: {pt: 'FAQ', es: 'FAQ', en: 'FAQ'}
+                },
+                {
+                    href: 'financial-aid',
+                    id: 'financial-aid',
+                    caption: {pt: 'Ajuda Financeira', es: 'Ayuda Financiera', en: 'Financial Aid'}
                 }
             ]
         }
