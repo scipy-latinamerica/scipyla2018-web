@@ -1,21 +1,20 @@
 # Diversidad
 
-## Declaração formal de diversidade Python[1] 
+## Declarancion sobre divesidade en Python[1] 
 
-Nós criamos esta declaração de diversidade porque acreditamos que uma comunidade Python diversificada é mais forte e vibrante.
-Uma comunidade diversificada onde as pessoas tratam-se com respeito possui mais possíveis contribuidores e mais fontes de ideias.
+Creamos esta declaración de diversidad porque creemos que una comunidad Python diversificada es más fuerte y vibrante. Una comunidad diversificada donde la gente se trata con respeto tiene más posibles contribuidores y más fuentes de ideas.
 
-Embora tenhamos formulado a *declaração formal de diversidade* genericamente para torná-la totalmente inclusiva, reconhecemos que
-existem atributos especificos que são utilizados para discriminar pessoas. Em ordem alfabética, alguns destes atributos incluem
-(não limitado àpenas estes): 
-_cultura, diferenças físicas ou mentais, etnia, genero de identidade ou expressão, idade, nacionalidade, orientação sexual, politica, raça, religião, sexo, situação socioeconômica e subcultura_
+Aunque hemos formulado la *declaración formal de diversidad* genéricamente para hacerla totalmente inclusiva, reconocemos que existen atributos específicos que se utilizan para discriminar a las personas. 
+En el orden alfabético, algunos de estos atributos incluyen (no limitado a épocas éstos): 
+_cultura, diferencias físicas o mentales, etnia, género de identidad o expresión, edad, nacionalidad, orientación sexual, política, raza, religión, sexo, situación socioeconómica y social subcultura_
 
-A comunidade Python acolhe pessoa não se importando qual linguagem são fluentes. (Embora o desenvolvimento do cerne do Python
-tenha sido feito em Inglês). A comunidade Python encoraja a criação de comunidades python em todos os locais. E a maioria delas estão listadas
-[Local User Groups]( http://wiki.python.org/moin/LocalUserGroups). Varios destes grupos de usuários possuem listas de email
-em seus idiomas nativos prediletos.
+La comunidad Python acoge a la persona no importa qué lenguaje son fluentes. (Aunque el desarrollo del núcleo de Python
+se ha hecho en inglés). La comunidad Python alienta la creación de comunidades python en todos los lugares. Y la mayoría de ellas están listadas 
+[Local User Groups]( http://wiki.python.org/moin/LocalUserGroups).
+Varios de estos grupos de usuarios tienen listas de correo electrónico
+en sus idiomas nativos predilectos.
 
-Se você quer ajudar a criar uma comunidade Python mais diversa, nós o encorajamos a se juntar à [Lista de Emails de Diversidades](https://mail.python.org/mailman/listinfo/diversity-private.)
+Si desea ayudar a crear una comunidad Python más diversa, le animamos a unirse a la comunidad [Lista de Emails de Diversidades](https://mail.python.org/mailman/listinfo/diversity-private.)
 
 
 
@@ -23,7 +22,7 @@ Se você quer ajudar a criar uma comunidade Python mais diversa, nós o encoraja
 
 ---
 
-# Fuentes
+# Fuente
 [1] [https://www.python.org/community/diversity/](https://www.python.org/community/diversity/)
 
 

@@ -1,53 +1,45 @@
 PREGUNTAS
 
-Algumas respostas para perguntas comuns:
+Algunas respuestas para preguntas comunes:
 
-Já há data para realização do evento?
--------------------------------------
+¿Ya hay fecha para la realización del evento?
 
-Sim, o evento irá ocorrer nos dias 29, 30, 31 de agosto e 1 de setembro de 2018. [Adquira seu ingresso](https://scipyla2018.eventbrite.com.br).
+Si, el evento se realizara los dias 29,30,31de agosto y 1 de septiembre. [Adquira seu ingresso](https://scipyla2018.eventbrite.com.br).
 
-Como será a agenda do evento?
------------------------------
+Como será  la agenda del evento?
 
-O evento dura quatro dias e está dividido em três partes:
+El evento dura cutro dias y esta dividido en tres partes:
 
-- Primeiro dia: Tutoriais e/ou oficinas.
-- Segundo e terceiros dias: Keynotes, Palestras e Posters.
-- Quarto dia: Sprints.
+- Primer dia : Tutoriales
+- Segundo y tercer dia : Keynotes, Conferencias y Posters.
+- Cuarto dia: Sprints
 
-Quando será aberta a chamada de trabalhos?
-------------------------------------------
+Cuándo se abrirá la llamada de trabajos?
 
-A chamada de trabalhos abriu as 0:00h de 20 de junho de 2018 (UTC), serão aceitos trabalhos enviados até 0:00h de 22 de julho de 2018 (UTC). [Envie seu trabalho](https://www.papercall.io/scipyla2018).
+La llamada a trabajos inicia desde  las   0:00h del 20 de junio de 2018 (UTC), seran aceptados los  trabajos enviados antes de  las  0:00h del 22 de julio de 2018 (UTC). [Envie su trabajo](https://www.papercall.io/scipyla2018).
 
-Quando serão abertas as inscrições?
------------------------------------
+Cuando estaran abiertas las inscripciones?
 
-Estão abertas. [Adquira seu ingresso](https://scipyla2018.eventbrite.com.br).
+Inscripciones abiertas. [Adquiera su entrada](https://scipyla2018.eventbrite.com.br).
 
-Quando devo reservar hotel e passagens aéreas?
-----------------------------------------------
+Cuándo debo reservar hotel y pasajes aéreos?
 
-As datas estão confirmadas, já é possível realizar as reservas. Se precisar de ajuda pode entrar em contato com a agência de turismo do evento, [Mega Viagens Turismo](../venue/hosting).
+Las fechas están confirmadas, ya es posible realizar las reservas. Si necesita ayuda puede ponerse en contacto con la agencia de turismo del evento, [Mega Viajes Turismo] (../venue/ hosting).
 
-Serão oferecidos descontos em hotéis?
--------------------------------------
+Se ofreceran descuentos en hoteles?
 
-A agência de turismo oficial do evento, Mega Viagens Turismo, conseguiu desconto em alguns hotéis, [veja as opções de hospedagem](../venue/hosting). Caso tenha interesse entre em contato com a agência para pacotes personalizados.
+La agencia de turismo oficial del evento, Mega Viajes Turismo, consiguió descuento en algunos hoteles, [vea las opciones de alojamiento] (../ venue/hosting). Si tiene interés en ponerse en contacto con la agencia para los paquetes personalizados.
 
-Quando os patrocinadores poderão se afiliar?
---------------------------------------------
+Cuándo los patrocinadores pueden afiliarse?
 
-A equipe de captação está fazendo a prospecção.
+El equipo de patrocinios  está haciendo su cronograma.
 
-Se estiver interessado entre em contato através do email sponsor@scipyla.org para detalhes.
+Si está interesado en contactar a través del email sponsor@scipyla.org para más detalles.
 
-Como posso ajudar a organização?
---------------------------------
+Como puedo ayudar a la organización?
 
-Por favor acesse a página abaixo e preencha o formulário:
+Por favor ingresa  a la página abajo e ingrese al formulário:
 
-[Chamada de voluntários](../help)
+[LLamada a voluntarios](../help)
 
-Obrigado.
+Gracias.
