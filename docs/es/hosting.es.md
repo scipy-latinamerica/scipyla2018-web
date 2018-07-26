@@ -1,66 +1,23 @@
 ## Hospedaje y Transporte
 
-A agência Mega Viagens Turismo preparou alguns pacotes de hospedagem com preços diferenciados para participantes do SciPyLA. Contato deve ser feito diretamente com a Mega Viagens Turismo:
+La agencia Mega Viajes Turismo ha preparado algunos paquetes de alojamiento con precios diferenciados para participantes del SciPyLA. El contacto debe ser hecho directamente con la Mega Viajes Turismo:
 
 - Email: [adriana@megaviagenseturismo.com.br](mailto:adriana@megaviagenseturismo.com.br)
 - WhatsApp: +55 (47) 98849-4193
-- Website: [www.megaviagenseturismo.com.br/contato](www.megaviagenseturismo.com.br/contato)
+- Sitio web: [www.megaviagenseturismo.com.br/contato](www.megaviagenseturismo.com.br/contato)
 
-Los precios presentados comprenden 4 días, para saber el precio por día basta dividir el valor entre 4.
+## PAQUETES
 
-## Período: 29/08 A 02/09/2018
+[![Imagen que describe los paquetes disponibles](../../assets/img/lodging_pkgs_es.jpg)](http://www.megaviagenseturismo.com.br/contato)
 
-Está incluso 4 diárias com café da manhã em hotel a escolher.
+Los valores de referencia comprenden 5 diarios en apartamento individual con desayuno entre el 28 de agosto y el 2 de septiembre:
 
-VALORES POR PESSOA CONSIDERANDO TIPO DE ACOMODAÇÃO ESCOLHIDA.
+- Granville Park Hotel, desde U$ 105.00
+- Golden Park Hotel, desde U$ 120.00
+- Dan Inn Curitiba, desde U$ 140.00
+- San Juan Royal, desde U$ 230.00
 
-## GOLDEN PARK HOTEL
+## OBSERVACIONES:
 
-Website - [https://hotelgoldenpark.com.br/](https://hotelgoldenpark.com.br/)
-
-Apto com café da manhã incluso.
-
-| Descripción                           | Precio *   |
-| ----------------------------------- | --------- |
-| Precio por persona individual | R$ 416,00 |
-| Valor por pessoa em Apto Duplo      | R$ 240,00 |
-| Valor por pessoa em Apto Triplo     | R$ 185,00 |
-| Valor por pessoa em Apto Quádruplo  | R$ 198,00 |
-
-
-\* Os preços são para os 4 dias, por pessoa.
-
-## AMPIEZZA FLAT
-
-Website - [http://www.ampiezzahotel.com.br/](http://www.ampiezzahotel.com.br/)
-
-Apto com café da manhã incluso.
-
-| Descripción                           | Precio *   |
-| ----------------------------------- | --------- |
-| Valor por pessoa em Apto Individual | R$ 460,00 |
-| Valor por pessoa em Apto Duplo      | R$ 270,00 |
-| Valor por pessoa em Apto Triplo     | R$ 240,00 |
-| Valor por pessoa em Apto Quádruplo  | R$ 200,00 |
-
-
-\*  Os preços são para os 4 dias, por pessoa.
-
-## HOTEL NACIONAL INN CURITIBA
-
-Website - [https://www.nacionalinn.com.br/hotel-curitiba/nacional-inn](https://www.nacionalinn.com.br/hotel-curitiba/nacional-inn)
-
-Apto com café da manhã incluso.
-
-| Descrição                           | Preço *   |
-| ----------------------------------- | --------- |
-| Valor por pessoa em Apto Individual | R$ 636,00 |
-| Valor por pessoa em Apto Duplo      | R$ 396,00 |
-| Valor por pessoa em Apto Triplo     | R$ 351,00 |
-| Valor por pessoa em Apto Quádruplo  | R$ 315,00 |
-
-\* Os preços são para os 4 dias, por pessoa.
-
-## FORMA DE PAGAMENTO
-
-- A vista ou em até 6x sem juros no Cartão de Crédito (aceita apenas 1 cartão de crédito por apto)
+- Para los visitantes de otros países el valor es sólo para el pago anticipado
+- Los valores sólo de referencia, deben ser confirmados directamente con MEGA Viajes y Turismo a través del whatsapp (47) 98849-4193 oa través del email: [adriana@megaviagenseturismo.com.br](mailto:adriana@megaviagenseturismo.com.br)

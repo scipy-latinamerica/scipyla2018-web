@@ -66,7 +66,7 @@
             ]
         },
         {
-            caption: { es: 'Sede', en: 'Venue', pt: 'Sede'},
+            caption: { es: 'Curitiba', en: 'Curitiba', pt: 'Curitiba'},
             id: 'venue',
             items: [
                 {

@@ -17,8 +17,8 @@ Os valores dos ingressos são:
 | ------------------------------------- | ----------------------- | --------- |
 | Promocional primeiro lote individual  | até 17 de junho de 2018 | R$ 100,00 |
 | Promocional primeiro lote corporativo | até 17 de junho de 2018 | R$ 450,00 |
-| Promocional segundo lote individual   | até 22 de julho de 2018 | R$ 120,00 |
-| Promocional segundo lote corporativo  | até 22 de julho de 2018 | R$ 500,00 |
+| Promocional segundo lote individual   | até 27 de julho de 2018 | R$ 120,00 |
+| Promocional segundo lote corporativo  | até 27 de julho de 2018 | R$ 500,00 |
 | Último lote individual                | até o final do evento   | R$ 150,00 |
 | Último lote corporativo               | até o final do evento   | R$ 550,00 |
 
