@@ -14,21 +14,7 @@
         page_level += '../'
     $.page_level = page_level;
 
-    var app = angular.module('scipyla', []);
-
-    /// availableLanguages[ 0 ] hosts the prefered language
-    var availableLanguages = [ 'pt', 'es' ];
-
-    function getlang() {
-
-        var lg = window.localStorage.getItem('scipy_lang');
-
-        if ( availableLanguages.indexOf(lg) > -1 ) {
-            return lg;
-        }
-
-        return availableLanguages[ 0 ];
-    }
+    var app = angular.module('scipyla', ['mdMarkdownIt']);
 
     function getActiveRoute() {
         if ($.route)
@@ -41,35 +27,59 @@
         '$http',
         function ($scope, $http) {
 
-            $scope.lang = getlang();
+            /// availableLanguages[ 0 ] hosts the prefered language
+            var availableLanguages = [ 'pt', 'es' ];
+
+            $scope.getlang = function getlang() {
+
+                var lg = window.localStorage.getItem('scipy_lang');
+
+                if ( availableLanguages.indexOf(lg) > -1 ) {
+                    return lg;
+                }
+
+                return availableLanguages[ 0 ];
+            }
+
+            $scope.lang = $scope.getlang();
+
+            //console.log('LANG: ', $scope.lang);
 
             $scope.$watch('lang', function(lg) {
 
                 $http
-                .get($scope.hprefix + 'assets/translations/' + lg + '.json')
-                .success(function(data) {
+                    .get($scope.hprefix + 'assets/translations/general/' + lg + '.json')
+                    .success(function(data) {
 
-                    console.log(lg, data);
+                        //console.log(lg, data);
 
-                    $scope.mainnav = data.mainnav_data;
-                    $scope.carousel = data.carousel;
-                    $scope.scipy_america = data.scipy_america;
-                    $scope.curitiba = data.curitiba;
-                    $scope.marketing = data.marketing;
-                    $scope.activities = data.activities;
-                    $scope.gallery = data.gallery;
-                    $scope.audience = data.audience;
-                    $scope.geographicArea = data.geographicArea;
-                    $scope.scipy2018 = data.scipy2018;
-                    $scope.inscription = data.inscription;
-                    $scope.footer = data.footer;
+                        for (var i in data) {
+                            $scope[ i ] = data[ i ];
+                        }
 
-                    $scope.footer.thisYear = (new Date()).getFullYear();
+                        $scope.footer.thisYear = (new Date()).getFullYear();
 
-                })
-                .error(function(err) {
-                    console.log('ERROR: ', err);
-                });//*/
+                    })
+                    .error(function(err) {
+                        //console.log('ERROR: ', err);
+                    });//*/
+
+
+                $http
+                    .get($scope.hprefix + 'assets/translations/' + $scope.route.page + '/' + lg + '.json')
+                    .success(function(data) {
+
+                        //console.log(lg, data);
+
+                        for (var i in data) {
+                            $scope[ i ] = data[ i ];
+                        }
+
+                    })
+                    .error(function(err) {
+                        //console.log('ERROR: ', err);
+                    });
+
 
             });
 
@@ -80,10 +90,12 @@
                 url: $scope.hprefix + 'assets/views/menu_ppal.html'
             };
 
+            //console.log($scope.hprefix, $scope.route);
+
             $scope.setLang = function setLang(l) {
 
                 if ( availableLanguages.indexOf(l) > -1 ) {
-                    if ( $scope.lang != l ) {
+                    if ( $scope.langng != l ) {
                         $scope.lang = l;
                         window.localStorage.setItem('scipy_lang', l);
                     }
@@ -100,4 +112,3 @@
     ]);
 
 })(window);
-

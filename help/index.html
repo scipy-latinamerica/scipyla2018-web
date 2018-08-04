@@ -80,18 +80,17 @@
     </script>
 </head>
 
-<body>
+<body class="main" ng-app="scipyla" ng-controller="MainCtl">
 <!-- Fixed navbar -->
-<nav class="navbar navbar-default navbar-fixed-top navbar-inverse text-uppercase" ng-app="scipyla.mainnav"
-     ng-controller="MainNavCtl">
-    <ng-include src="'../assets/views/menu_ppal.html'"></ng-include>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse text-uppercase" >
+    <div ng-include="navTemplate.url"></div>
 </nav>
 
-<div class="container" ng-app="scipyla.md" id="container">
+<div class="container" id="container">
 
     <div class="row">
         <div class="col-xs-12">
-            <div markdown-it ng-include="'../docs/pt/help.pt.md'" class="md">
+            <div markdown-it ng-include="'../docs/' + lang + '/help.' + lang + '.md'" class="md">
             </div>
         </div>
     </div>
@@ -116,7 +115,7 @@
                 <span class="icon-9"></span>
             </a>
         </div>
-        <p>Copyright 2017 &copy; <a href="http://scipyla.org">SciPy Latinamerica</a></p>
+        <p>Copyright {{footer.thisYear}} &copy; <a href="http://scipyla.org">SciPy Latinamerica</a></p>
     </div>
 </footer>
 
