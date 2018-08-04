@@ -1,0 +1,396 @@
+{
+  "mainnav_data" : [
+    {
+      "caption": "Início",
+      "id": "home",
+      "href": ""
+    },
+    {
+      "caption": "Programação",
+      "id": "program",
+      "items": [
+        {
+          "href": "register",
+          "id": "register",
+          "caption": "Compre seu ingresso"
+        },
+        {
+          "isDivider": true
+        },
+        {
+          "href": "cfp",
+          "id": "cfp",
+          "caption": "Chamada de trabalhos"
+        }
+      ]
+    },
+    {
+      "caption": "Colabore",
+      "id": "get_involved",
+      "items": [
+        {
+          "href": "organizers",
+          "id": "organizers",
+          "caption": "Organizadores"
+        },
+        {
+          "href": "cfl",
+          "id": "call-for-location",
+          "caption": "Chamada a sede 2019"
+        },
+        {
+          "href": "get_involved",
+          "id": "get_involved",
+          "caption": "Chamada à voluntários"
+        },
+        {
+          "href": "diversity",
+          "id": "diversity",
+          "caption": "Diversidades"
+        }
+      ]
+    },
+    {
+      "caption": "Sede",
+      "id": "venue",
+      "items": [
+        {
+          "href": "venue/lodging",
+          "id": "lodging",
+          "caption": "Hospedagem"
+        }
+      ]
+    },
+    {
+      "caption": "Ajuda",
+      "id": "faq",
+      "items": [
+        {
+          "href": "faq",
+          "id": "faq",
+          "caption": "FAQ"
+        }
+      ]
+    },
+    {
+      "caption": "Language",
+      "id": "language",
+      "items": [
+        {
+          "href": "&",
+          "id": "pt",
+          "caption": "PT"
+        },
+        {
+          "href": "&",
+          "id": "es",
+          "caption": "ES"
+        }
+      ]
+    }
+  ],
+  "carousel": [
+    {
+      "lead" : [
+        "O evento ocorre no Centro Universitário Curitiba - UniCuritiba, entre 29 de agosto e 1 de setembro de 2018, Curitiba, Paraná, Brasil!",
+        "Conferência Latinoamericana de",
+        "Computação Científica com Python",
+        "Mais PYTHON",
+        "Mais CIÊNCIA"
+      ],
+      "btn" : [
+        {
+          "href" : "register",
+          "caption": "INSCREVA-SE!"
+        },
+        {
+          "href": "cfp",
+          "caption": "SUBMETA SEU TRABALHO!"
+        }
+      ]
+    },
+    {
+      "lead" : [
+        "Deseja colocar seu anúncio aqui?",
+        "ENTRE EM CONTATO PARA PATROCINAR A SCIPYLA 2018"
+      ]
+    }
+  ],
+  "scipy_america": {
+    "title": "SCIPY AMÉRICA LATINA 2018",
+    "description": "É a sexta conferência anual de computação científica com Python. Esta ocorrerá entre 29 de agosto e 01 de setembro de 2018 em Curitiba, Brasil. A comunidade SciPy se dedica ao avanço da computação científica através de softwares de código aberto feito em Python para resolver problemas matemáticos da ciência e da engenharia.",
+    "headers": {
+      "python": "PYTHON",
+      "science": "CIÊNCIA",
+      "latin_america": "AMÉRICA LATINA"
+    }
+  },
+  "curitiba": {
+    "paragraphs" : [
+      "Curitiba é uma cidade cosmopolita que recebe pessoas de todo o país. A cidade tem uma série de atrações turísticas, tanto dentro dos limites da cidade quanto ao redor. Há também uma cena cultural forte com atrações para todos os gostos, incluindo teatro, cinema, música e comédia.",
+      "Curitiba é o centro econômico do estado do Paraná e o segundo o IBGE em 2014 tinha o quinto maior PIB do país. Em parte, isso se deve à população de mais de três milhões de habitantes, se for considerada a sua região metropolitana; a cidade se destaca por ter a economia mais forte do sul do país, contando o trabalho de exportação das novecentas fábricas instaladas no bairro Cidade Industrial e das duas grandes indústrias automobilísticas que estão localizadas na Grande Curitiba, Renault e Volkswagen. Ademais, foi eleita várias vezes como \"a melhor cidade brasileira para negócios\", segundo ranking elaborado pela revista Exame, em parceria com a consultoria Simonsen & Associados.",
+      "Em julho de 2001, tornou-se a primeira cidade a receber o prêmio \"Polo de Informática\" concedido pela revista Info Exame, pelo desempenho de suas empresas de tecnologia. De acordo com a revista, o conjunto de empresas de Tecnologia e Informática sediadas em Curitiba apresentou, em 2001, um faturamento de U$ 1,2 bilhão, representando um crescimento de 21% em relação ao ano anterior.",
+      "Curitiba é conhecida por suas soluções urbanas diferenciadas, notadamente por seu sistema integrado de transporte coletivo que, em conjunto com as vias regulares de trânsito, tem servido como indutor de seu desenvolvimento urbanístico, especialmente a partir da década de 1970.",
+      "O sistema de transporte público de Curitiba é habitualmente lembrado por seus terminais de passageiros interligados por canaletas exclusivas para ônibus biarticulados e complementados com o \"ligeirinho\" e alimentadores diferenciados por cores."
+    ],
+    "info": "MAIS INFORMAÇÕES EM BREVE"
+  },
+  "marketing" : [
+    {
+      "sources": [
+        {
+          "srcset": "./assets/img/prog.webp",
+          "type": "image/webp"
+        },
+        {
+          "srcset": "./assets/img/prog.png",
+          "type": "image/png"
+        }
+      ],
+      "img" : {
+        "src": "./assets/img/prog.png",
+        "class": ""
+      },
+      "title": "PROGRAMA",
+      "description": "Conheça o programa de atividades preparadas para a SciPyLA 2018, contendo oficinas sobre o uso de Python em sete áreas da ciência e da tecnologia.",
+      "action": "SUBMETA SEU TRABALHO!",
+      "href": "cfp"
+    },
+    {
+      "sources": [
+        {
+          "srcset": "./assets/img/sched.webp",
+          "type": "image/webp"
+        },
+        {
+          "srcset": "./assets/img/sched.png",
+          "type": "image/png"
+        }
+      ],
+      "img" : {
+        "src": "./assets/img/sched.webp",
+        "class": "img-circle"
+      },
+      "title": "AGENDA",
+      "description": "Informações sobre o cronograma de atividades previstas para os quatro dias de duração do evento.",
+      "action": "SUBMETA SEU TRABALHO!",
+      "href": "cfp"
+    },
+    {
+      "sources": [
+        {
+          "srcset": "./assets/img/org.webp",
+          "type": "image/webp"
+        },
+        {
+          "srcset": "./assets/img/org.png",
+          "type": "image/png"
+        }
+      ],
+      "img" : {
+        "src": "./assets/img/org.webp",
+        "class": "img-circle"
+      },
+      "title": "ORGANIZADORES",
+      "description": "SciPyLA 2018 é um evento de todos e para todos. Conheça o Comitê Organizador do evento.",
+      "action": "TIME",
+      "href": "organizers"
+    }
+  ],
+  "activities": {
+    "title": "ATIVIDADES POR ANO",
+    "amounts": [
+      24,
+      35,
+      29,
+      46,
+      93
+    ],
+    "years": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017
+    ],
+    "rows": [
+      {
+        "title": "Palestras",
+        "icon": "icon-23",
+        "labels": [
+          "16",
+          "22",
+          "20",
+          "35",
+          "63"
+        ],
+        "suffix": "* 2017"
+      },
+      {
+        "title": "Oficinas",
+        "icon": "icon-27",
+        "labels": [
+          "2",
+          "6",
+          "4",
+          "12",
+          "20"
+        ],
+        "suffix": "(dados estimados)"
+      },
+      {
+        "title": "Posters",
+        "icon": "icon-28",
+        "labels": [
+          "6",
+          "5",
+          "7",
+          "0",
+          "10"
+        ],
+        "suffix": ""
+      }
+    ],
+    "suffix": "*2017 (dados estimados)"
+  },
+  "gallery": {
+    "title": "GALERIA - EDIÇÕES ANTERIORES",
+    "items": [
+      {
+        "year": 2013,
+        "description": "Puerto Madryn",
+        "place": "ARGENTINA"
+      },
+      {
+        "year": 2014,
+        "description": "Bahía Blanca",
+        "place": "ARGENTINA"
+      },
+      {
+        "year": 2015,
+        "description": "Posadas",
+        "place": "ARGENTINA"
+      },
+      {
+        "year": 2016,
+        "description": "Florianópolis",
+        "place": "BRASIL"
+      }
+    ]
+  },
+  "audience": {
+    "title": "Audiência",
+    "items": [
+      {
+        "caption": "Pesquisadores",
+        "class": "col-md-4"
+      },
+      {
+        "caption": "Estudantes universitários",
+        "class": "col-md-4"
+      },
+      {
+        "caption": "Candidatos a graduação científica",
+        "class": "col-md-4"
+      },
+      {
+        "caption": "",
+        "class": "visible-md clearfix"
+      },
+      {
+        "caption": "Cientistas de dados",
+        "class": "col-md-4 col-md-offset-2"
+      },
+      {
+        "caption": "Programadores",
+        "class": "col-md-4"
+      }
+    ]
+  },
+  "geographicArea": {
+    "title": "ÁREA GEOGRÁFICA",
+    "subtitle": "de donde vem a audiência",
+    "legend": [
+      {
+        "class": "col-xs-3 col-sm-2 col-xs-offset-1 col-sm-offset-2 hidden-md",
+        "legendClass": "legend-level legend-level-5",
+        "caption": "700 - 1,000"
+      },
+      {
+        "class": "visible-md col-md-2",
+        "legendClass": "legend-level legend-level-5",
+        "caption": "+700"
+      },
+      {
+        "class": "col-xs-2 col-md-3 col-lg-2",
+        "legendClass": "legend-level legend-level-4",
+        "caption": "500 - 700"
+      },
+      {
+        "class": "col-xs-2 col-md-3 col-lg-2",
+        "legendClass": "legend-level legend-level-3",
+        "caption": "100 - 500"
+      },
+      {
+        "class": "col-xs-2 col-lg-2",
+        "legendClass": "legend-level legend-level-2",
+        "caption": "50 - 100"
+      },
+      {
+        "class": "col-xs-2 col-lg-2",
+        "legendClass": "legend-level legend-level-1",
+        "caption": "0 - 50"
+      }
+    ],
+    "description": "Dados obtidos a partir do interesse apresentado pela audiência entre junho e agosto de 2016"
+  },
+  "scipy2018": {
+    "title": "SCIPYLA 2018",
+    "subtitle": "até o momento nas redes sociais...",
+    "reach": {
+      "caption": "Alcance",
+      "cant": "0000"
+    },
+    "interested": {
+      "caption": "interessados em participar",
+      "cant": "0000"
+    },
+    "tweets": {
+      "caption": "Tweets",
+      "cant": "0000"
+    },
+    "visits": {
+      "caption": "Visitas",
+      "cant": "0000"
+    }
+  },
+  "inscription": {
+    "title": "INSCRIÇÃO",
+    "register": "INSCREVA-SE!"
+  },
+  "footer": {
+    "scipyLa": "SciPy Latinamerica",
+    "items": [
+      {
+        "class": "btn btn-primary btn-social btn-round",
+        "href": "https://facebook.com/scipyla",
+        "icon": "icon-6"
+      },
+      {
+        "class": "btn btn-primary btn-social btn-round",
+        "href": "http://twitter.com/scipyla",
+        "icon": "icon-7"
+      },
+      {
+        "class": "btn btn-primary btn-social btn-round",
+        "href": "https://plus.google.com/116952396338000992599",
+        "icon": "icon-8"
+      },
+      {
+        "class": "btn btn-primary btn-social btn-round",
+        "href": "https://ar.linkedin.com/grps/SciPy-Latin-America-8344796/about",
+        "icon": "icon-9"
+      }
+    ]
+  }
+}
