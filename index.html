@@ -78,11 +78,10 @@
     </script>
 </head>
 
-<body class="main">
+<body class="main" ng-app="scipyla" ng-controller="MainCtl">
 <!-- Fixed navbar -->
-<nav class="navbar navbar-default navbar-fixed-top navbar-inverse text-uppercase" ng-app="scipyla.mainnav"
-     ng-controller="MainNavCtl">
-    <div ng-include="template.url"></div>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse text-uppercase" >
+    <div ng-include="navTemplate.url"></div>
 </nav>
 
 <header class="main">
@@ -100,24 +99,22 @@
                              class="hidden-xs center-block img-responsive"/>
                         <img src="./assets/img/scipyla.v.svg" width="138"
                              class="visible-xs center-block img-responsive"/>
-                        <p class="lead"> O evento ocorre no Centro Universitário Curitiba - UniCuritiba, entre 29 de agosto e 1 de setembro de 2018, Curitiba, Paraná, Brasil! </p>
+                        <p class="lead" ng-bind="carousel[0].lead[0]"></p>
                         <p>
-                          <a href="register" class="btn btn-warning">INSCREVA-SE!</a>
-                          <a href="cfp" class="btn btn-warning">SUBMETA SEU TRABALHO!</a>
+                          <a ng-repeat="btn in carousel[0].btn" href="{{btn.href}}" class="btn btn-warning" ng-bind="btn.caption"></a>
                         </p>
                         <p class="lead">
-                            Conferência Latinoamericana de <br class="visible-xs">Computa&ccedil;&atilde;o Cient&iacute;fica com Python
+                            <span ng-bind="carousel[0].lead[1]"></span> <br class="visible-xs"><span ng-bind="carousel[0].lead[2]"></span>
                         </p>
                         <p class="lead">
-                            <span class="lead">Mais PYTHON <br class="visible-xs"/>
+                            <span class="lead"> <span ng-bind="carousel[0].lead[3]"></span> <br class="visible-xs"/>
                                 <span class="hidden-xs">,</span>
-                                Mais CI&Ecirc;NCIA
+                                <span ng-bind="carousel[0].lead[4]"></span>
                             </span>
                         </p>
                     </div>
                 </div>
             </div>
-
             <div class="item text-center" data-bg="slide-2">
                 <div class="carousel-item__container carousel-item__container--slide-2 vertical-center">
                     <div class="self-vertical-center">
@@ -129,9 +126,9 @@
                             <img class="img-responsive center-block" src="./assets/img/sponsor.levels.pt.png" alt="">
                         </picture>
                         <p class="lead">
-                            <span class="lead"> Deseja colocar seu an&uacute;ncio aqui?</span>
+                            <span class="lead" ng-bind="carousel[1].lead[0]"></span>
                         </p>
-                        <a href="mailto:sponsor@scipyla.org" class="btn btn-warning">ENTRE EM CONTATO PARA PATROCINAR A SCIPYLA 2018</a>
+                        <a href="mailto:sponsor@scipyla.org" class="btn btn-warning" ng-bind="carousel[1].lead[1]"></a>
                         <!-- TODO: Sponsors Google Form
                             <a href="forms/sponsor" class="btn btn-warning">PATROCINE A SCIPYLA 2018</a>
                         -->
@@ -154,14 +151,8 @@
 <section>
     <div id="about" class="container">
         <div class="row text-center">
-            <h2>SCIPY AM&Eacute;RICA LATINA 2018</h2>
-            <p>
-                &Eacute; a sexta confer&ecirc;ncia anual de computa&ccedil;&atilde;o cient&iacute;fica com Python.
-                Esta ocorrer&aacute; entre 29 de agosto e 01 de setembro de 2018 em Curitiba, Brasil.
-                A comunidade SciPy se dedica ao avan&ccedil;o da computa&ccedil;&atilde;o cient&iacute;fica
-                atrav&eacute;s de softwares de c&oacute;digo aberto feito em Python para resolver
-                problemas matem&aacute;ticos da ci&ecirc;ncia e da engenharia.
-            </p>
+            <h2 ng-bind="scipy_america.title"></h2>
+            <p ng-bind="scipy_america.description"></p>
         </div>
         <div class="row">
             <div class="col-md-offset-2 col-md-8 col-xs-12 text-center" id="planets-container">
@@ -174,11 +165,11 @@
                         <strong>
                             <div class="col-xs-4 text-center">
                                 <img class="img-responsive center-block" src="./assets/img/planet.py.svg"/>
-                                <p>PYTHON</p>
+                                <p ng-bind="scipy_america.headers.python"></p>
                             </div>
                             <div class="col-xs-4 text-center">
                                 <img class="img-responsive center-block" src="./assets/img/planet.sci.svg"/>
-                                <p>CI&Ecirc;NCIA</p>
+                                <p ng-bind="scipy_america.headers.science"></p>
                             </div>
                             <div class="col-xs-4 text-center">
                                 <div class="overlay-target-block">
@@ -186,7 +177,7 @@
                                     <img id="planet-la" src="./assets/img/planet.la.svg"/>
                                 </div>
                                 <div id="planets-satellite"></div>
-                                <p>AM&Eacute;RICA LATINA</p>
+                                <p ng-bind="scipy_america.headers.latin_america"></p>
                             </div>
                         </strong>
                     </div>
@@ -203,43 +194,9 @@
 
             <h2>Curitiba</h2>
             <div class="local__text">
-                <p>
-                    Curitiba &eacute; uma cidade cosmopolita que recebe pessoas de todo o pa&iacute;s. A cidade tem uma
-                    s&eacute;rie de atra&ccedil;&otilde;es tur&iacute;sticas, tanto dentro dos limites da cidade quanto
-                    ao redor. H&aacute; tamb&eacute;m uma cena cultural forte com atra&ccedil;&otilde;es para todos os
-                    gostos, incluindo teatro, cinema, m&uacute;sica e com&eacute;dia.
-                </p>
-                <p>
-                    Curitiba &eacute; o centro econ&ocirc;mico do estado do Paran&aacute; e o segundo o IBGE em 2014
-                    tinha o quinto maior PIB do pa&iacute;s. Em parte, isso se deve &agrave; popula&ccedil;&atilde;o de
-                    mais de tr&ecirc;s milh&otilde;es de habitantes, se for considerada a sua regi&atilde;o
-                    metropolitana; a cidade se destaca por ter a economia mais forte do sul do pa&iacute;s, contando o
-                    trabalho de exporta&ccedil;&atilde;o das novecentas f&aacute;bricas instaladas no bairro Cidade
-                    Industrial e das duas grandes ind&uacute;strias automobil&iacute;sticas que est&atilde;o localizadas
-                    na Grande Curitiba, Renault e Volkswagen. Ademais, foi eleita v&aacute;rias vezes como "a melhor
-                    cidade brasileira para neg&oacute;cios", segundo ranking elaborado pela revista Exame, em parceria
-                    com a consultoria Simonsen &amp; Associados.
-                </p>
-                <p>
-                    Em julho de 2001, tornou-se a primeira cidade a receber o pr&ecirc;mio "Polo de Inform&aacute;tica"
-                    concedido pela revista Info Exame, pelo desempenho de suas empresas de tecnologia. De acordo com a
-                    revista, o conjunto de empresas de Tecnologia e Inform&aacute;tica sediadas em Curitiba apresentou,
-                    em 2001, um faturamento de U$ 1,2 bilh&atilde;o, representando um crescimento de 21% em rela&ccedil;&atilde;o
-                    ao ano anterior.
-                </p>
-                <p>
-                    Curitiba &eacute; conhecida por suas solu&ccedil;&otilde;es urbanas diferenciadas, notadamente por
-                    seu sistema integrado de transporte coletivo que, em conjunto com as vias regulares de tr&acirc;nsito,
-                    tem servido como indutor de seu desenvolvimento urban&iacute;stico, especialmente a partir da d&eacute;cada
-                    de 1970.
-                </p>
-                <p>
-                    O sistema de transporte p&uacute;blico de Curitiba &eacute; habitualmente lembrado por seus
-                    terminais de passageiros interligados por canaletas exclusivas para &ocirc;nibus biarticulados e
-                    complementados com o "ligeirinho" e alimentadores diferenciados por cores.
-                </p>
+                <p ng-repeat="pr in curitiba.paragraphs" ng-bind="pr"></p>
             </div>
-            <a class="btn btn-lg btn-warning" href="#">MAIS INFORMA&Ccedil;&Otilde;ES EM BREVE</a>
+            <a class="btn btn-lg btn-warning" href="#" ng-bind="curitiba.info"></a>
         </div>
     </div>
 </section>
@@ -247,48 +204,15 @@
 <div class="container">
     <section>
         <div class="row marketing text-center" id="org">
-            <div class="col-md-4">
+            <div class="col-md-4" ng-repeat="mark in marketing">
                 <picture class="img-circle">
-                    <source srcset="./assets/img/prog.webp" type="image/webp">
-                    <source srcset="./assets/img/prog.png" type="image/png">
-                    <img src="./assets/img/prog.png" alt="">
+                    <source ng-repeat="src in mark.sources" srcset="{{src.srcset}}" type="{{src.type}}">
+                    <img src="{{mark.img.src}}" class="{{mark.img.class}}">
                 </picture>
-                <h3>PROGRAMA</h3>
-                <p>Conhe&ccedil;a o programa de atividades preparadas para a SciPyLA 2018,
-                    contendo oficinas sobre o uso de Python em sete &aacute;reas da ci&ecirc;ncia e da tecnologia.
-                </p>
+                <h3 ng-bind="mark.title"></h3>
+                <p ng-bind="mark.description"></p>
                 <div class="marketing-action">
-		    <a href="cfp" class="btn btn-info center-block">SUBMETA SEU TRABALHO!</a>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <picture>
-                    <source srcset="./assets/img/sched.webp" type="image/webp">
-                    <source srcset="./assets/img/sched.png" type="image/png">
-                    <img src="./assets/img/sched.webp" class="img-circle"/>
-                </picture>
-                <h3>AGENDA</h3>
-                <p>Informa&ccedil;&otilde;es sobre o cronograma de atividades previstas para os quatro dias de dura&ccedil;&atilde;o
-                    do evento.
-                </p>
-                <div class="marketing-action">
-		    <a href="cfp" class="btn btn-info center-block">SUBMETA SEU TRABALHO!</a>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <picture>
-                    <source srcset="./assets/img/org.webp" type="image/webp">
-                    <source srcset="./assets/img/org.png" type="image/png">
-                    <img src="./assets/img/org.webp" class="img-circle"/>
-                </picture>
-                <h3>ORGANIZADORES</h3>
-                <p>SciPyLA 2018 &eacute; um evento de todos e para todos.
-                    Conhe&ccedil;a o Comit&ecirc; Organizador do evento.
-                </p>
-                <div class="marketing-action">
-                    <a href="organizers" class="btn btn-info center-block">TIME</a>
+		    <a href="{{mark.href}}" class="btn btn-info center-block" ng-bind="mark.action"></a>
                 </div>
             </div>
         </div>
@@ -299,126 +223,49 @@
     <div class="jumbotron jumbotron-blue" id="timeline">
         <div class="jumbotron-body">
             <div class="container">
-                <h3>ATIVIDADES POR ANO</h3>
+                <h3 ng-bind="activities.title"></h3>
                 <div class="row">
-                    <div class="col-xs-1 col-xs-offset-5 col-sm-offset-4"><strong>24</strong></div>
-                    <div class="col-xs-1"><strong>35</strong></div>
-                    <div class="col-xs-1"><strong>29</strong></div>
-                    <div class="col-xs-1"><strong>46</strong></div>
-                    <div class="col-xs-1"><strong>93*</strong></div>
+                    <div ng-repeat="(idx, cant) in activities.amounts track by $index" class="col-xs-1" ng-class="{ 'col-xs-offset-5': idx == 0, 'col-sm-offset-4' : idx == 0}">
+                        <strong ng-bind="cant + ((idx == activities.amounts.length - 1)?'*':'')"></strong>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-1 col-xs-offset-5 col-sm-offset-4">
+                    <div ng-repeat="(idx, year) in activities.years" class="col-xs-1" ng-class="{ 'col-xs-offset-5': idx == 0, 'col-sm-offset-4': idx == 0 }">
                         <picture>
-                            <source srcset="./assets/img/bar2013.webp" type="image/webp">
-                            <source srcset="./assets/img/bar2013.png" type="image/png">
-                            <img src="./assets/img/bar2013.webp" class="img-responsive"/>
-                        </picture>
-                    </div>
-                    <div class="col-xs-1">
-                        <picture>
-                            <source srcset="./assets/img/bar2014.webp" type="image/webp">
-                            <source srcset="./assets/img/bar2014.png" type="image/png">
-                            <img src="./assets/img/bar2014.webp" class="img-responsive"/>
-                        </picture>
-                    </div>
-                    <div class="col-xs-1">
-                        <picture>
-                            <source srcset="./assets/img/bar2015.webp" type="image/webp">
-                            <source srcset="./assets/img/bar2015.png" type="image/png">
-                            <img src="./assets/img/bar2015.webp" class="img-responsive"/>
-                        </picture>
-                    </div>
-                    <div class="col-xs-1">
-                        <picture>
-                            <source srcset="./assets/img/bar2016.webp" type="image/webp">
-                            <source srcset="./assets/img/bar2016.png" type="image/png">
-                            <img src="./assets/img/bar2016.webp" class="img-responsive"/>
-                        </picture>
-                    </div>
-                    <div class="col-xs-1">
-                        <picture>
-                            <source srcset="./assets/img/bar2017.webp" type="image/webp">
-                            <source srcset="./assets/img/bar2017.png" type="image/png">
-                            <img src="./assets/img/bar2017.webp" class="img-responsive"/>
+                            <source srcset="./assets/img/bar{{year}}.webp" type="image/webp">
+                            <source srcset="./assets/img/bar{{year}}.png" type="image/png">
+                            <img src="./assets/img/bar{{year}}.webp" class="img-responsive"/>
                         </picture>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-1 col-xs-offset-5 col-sm-offset-4">
-                        <span class="hidden-xs">2013</span><span class="visible-xs">'13</span>
-                    </div>
-                    <div class="col-xs-1">
-                        <span class="hidden-xs">2014</span><span class="visible-xs">'14</span>
-                    </div>
-                    <div class="col-xs-1">
-                        <span class="hidden-xs">2015</span><span class="visible-xs">'15</span>
-                    </div>
-                    <div class="col-xs-1">
-                        <span class="hidden-xs">2016</span><span class="visible-xs">'16</span>
-                    </div>
-                    <div class="col-xs-1">
-                        <span class="hidden-xs">2017</span><span class="visible-xs">'17</span>
+                    <div ng-repeat="(idx, year) in activities.years"" class="col-xs-1" ng-class="{ 'col-xs-offset-5': idx == 0, 'col-sm-offset-4': idx == 0 }">
+                        <span class="hidden-xs" ng-bind="year"></span><span class="visible-xs" ng-bind="'\'' + (year % 100)"></span>
                     </div>
                 </div>
                 <div class="row overlay-target-block">
                     <div class="overlay col-xs-offset-5 col-sm-offset-4 col-xs-5 timeline-scale">
                         <hr/>
                     </div>
-                    <div class="col-xs-1 col-xs-offset-5 col-sm-offset-4">
-                        <div class="center-block timeline-bullet">&bull;</div>
-                    </div>
-                    <div class="col-xs-1">
-                        <div class="center-block timeline-bullet">&bull;</div>
-                    </div>
-                    <div class="col-xs-1">
-                        <div class="center-block timeline-bullet">&bull;</div>
-                    </div>
-                    <div class="col-xs-1">
-                        <div class="center-block timeline-bullet">&bull;</div>
-                    </div>
-                    <div class="col-xs-1">
+                    <div ng-repeat="(idx, year) in activities.years" class="col-xs-1" ng-class="{ 'col-xs-offset-5': idx == 0, 'col-sm-offset-4': idx == 0 }">
                         <div class="center-block timeline-bullet">&bull;</div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-xs-4 col-sm-3 text-right"><span class="icon-23"></span> Palestras</div>
+            <div class="row" ng-repeat="item in activities.rows">
+                <div class="col-xs-4 col-sm-3 text-right"><span class="{{item.icon}}"></span>{{item.title}}</div>
                 <div class="col-xs-1 col-sm-1"> &rarr;</div>
-                <div class="col-xs-1 col-sm-1"><code class="label label-warning label-round">16</code></div>
-                <div class="col-xs-1 col-sm-1"><code class="label label-warning label-round">22</code></div>
-                <div class="col-xs-1 col-sm-1"><code class="label label-warning label-round">20</code></div>
-                <div class="col-xs-1 col-sm-1"><code class="label label-warning label-round">35</code></div>
-                <div class="col-xs-1 col-sm-1"><code class="label label-info label-round">63</code></div>
-                <div class="col-xs-1 col-sm-2 hidden-xs">* 2017</div>
-            </div>
-            <div class="row">
-                <div class="col-xs-4 col-sm-3 text-right"><span class="icon-27"></span> Oficinas</div>
-                <div class="col-xs-1 col-sm-1"> &rarr;</div>
-                <div class="col-xs-1 col-sm-1"><code class="label label-warning label-round">2</code></div>
-                <div class="col-xs-1 col-sm-1"><code class="label label-warning label-round">6</code></div>
-                <div class="col-xs-1 col-sm-1"><code class="label label-warning label-round">4</code></div>
-                <div class="col-xs-1 col-sm-1"><code class="label label-warning label-round">12</code></div>
-                <div class="col-xs-1 col-sm-1"><code class="label label-info label-round">20</code></div>
-                <div class="col-xs-1 col-sm-2 hidden-xs">(dados estimados)</div>
-            </div>
-            <div class="row">
-                <div class="col-xs-4 col-sm-3 text-right"><span class="icon-28"></span> Posters</div>
-                <div class="col-xs-1 col-sm-1"> &rarr;</div>
-                <div class="col-xs-1 col-sm-1"><code class="label label-warning label-round">6</code></div>
-                <div class="col-xs-1 col-sm-1"><code class="label label-warning label-round">5</code></div>
-                <div class="col-xs-1 col-sm-1"><code class="label label-warning label-round">7</code></div>
-                <div class="col-xs-1 col-sm-1"><code class="label label-warning label-round">0</code></div>
-                <div class="col-xs-1 col-sm-1"><code class="label label-info label-round">10</code></div>
+                <div class="col-xs-1 col-sm-1" ng-repeat="label in item.labels"><code class="label label-warning label-round" ng-bind="label"></code></div>
+                <div class="col-xs-1 col-sm-2 hidden-xs" ng-bind="item.suffix"></div>
             </div>
             <div class="row visible-xs">
                 <div class="col-xs-12">
                     <p>
                         <small>
                             <small>
-                                <small>*2017 (dados estimados)</small>
+                                <small ng-bind="activities.suffix"></small>
                             </small>
                         </small>
                     </p>
@@ -431,63 +278,20 @@
 <section id="gallery" class="section-nospace">
     <div class="text-center bg-grey">
         <div class="container">
-            <h3>GALERIA - EDI&Ccedil;&Otilde;ES ANTERIORES</h3>
-            <div class="col-md-3 col-sm-6">
+            <h3 ng-bind="gallery.title"></h3>
+            <div class="col-md-3 col-sm-6" ng-repeat="item in gallery.items">
                 <a href="#" class="overlay-target hover">
                     <picture>
-                        <source srcset="./assets/img/scipyla2013.webp" type="image/webp">
-                        <source srcset="./assets/img/scipyla2013.png" type="image/png">
-                        <img src="./assets/img/scipyla2013.webp" class="img-responsive center-block"/>
+                        <source srcset="./assets/img/scipyla{{item.year}}.webp" type="image/webp">
+                        <source srcset="./assets/img/scipyla{{item.year}}.png" type="image/png">
+                        <img src="./assets/img/scipyla{{item.year}}.webp" class="img-responsive center-block"/>
                     </picture>
                     <div class="overlay visible-hover bg-dark img-circle">
                     </div>
                 </a>
-                <h4>2013</h4>
-                <p>Puerto Madryn<br/>
-                    ARGENTINA</p>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="#" class="overlay-target hover">
-                    <picture>
-                        <source srcset="./assets/img/scipyla2014.webp" type="image/webp">
-                        <source srcset="./assets/img/scipyla2014.png" type="image/png">
-                        <img src="./assets/img/scipyla2014.webp" class="img-responsive center-block"/>
-                    </picture>
-                    <div class="overlay visible-hover bg-dark img-circle">
-                    </div>
-                </a>
-                <h4>2014</h4>
-                <p>Bah&iacute;a Blanca<br/>
-                    ARGENTINA</p>
-            </div>
-            <div class="clearfix visible-sm"></div>
-            <div class="col-md-3 col-sm-6">
-                <a href="#" class="overlay-target hover">
-                    <picture>
-                        <source srcset="./assets/img/scipyla2015.webp" type="image/webp">
-                        <source srcset="./assets/img/scipyla2015.png" type="image/png">
-                        <img src="./assets/img/scipyla2015.webp" class="img-responsive center-block"/>
-                    </picture>
-                    <div class="overlay visible-hover bg-dark img-circle">
-                    </div>
-                </a>
-                <h4>2015</h4>
-                <p>Posadas<br/>
-                    ARGENTINA</p>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <a href="#" class="overlay-target hover">
-                    <picture>
-                        <source srcset="./assets/img/scipyla2016.webp" type="image/webp">
-                        <source srcset="./assets/img/scipyla2016.png" type="image/png">
-                        <img src="./assets/img/scipyla2016.webp" class="img-responsive center-block"/>
-                    </picture>
-                    <div class="overlay visible-hover bg-dark img-circle">
-                    </div>
-                </a>
-                <h4>2016</h4>
-                <p>Florian&oacute;polis<br/>
-                    BRASIL</p>
+                <h4 ng-bind="item.year"></h4>
+                <p>{{item.description}}<br/>
+                    {{item.place}}</p>
             </div>
         </div>
     </div>
@@ -496,13 +300,13 @@
 <div class="container">
     <section>
         <div class="row text-center" id="traction">
-            <h3 class="text-uppercase">Audi&ecirc;ncia</h3>
-            <div class="col-md-4">Pesquisadores</div>
-            <div class="col-md-4">Estudantes universit&aacute;rios</div>
+            <h3 class="text-uppercase" ng-bind="audience.title"></h3>
+            <div ng-repeat="item in audience.items" class="{{item.class}}" ng-bind="item.caption"></div>
+            <!--div class="col-md-4">Estudantes universit&aacute;rios</div>
             <div class="col-md-4">Candidatos a gradua&ccedil;&atilde;o cient&iacute;fica</div>
             <div class="visible-md clearfix"></div>
             <div class="col-md-4 col-md-offset-2">Cientistas de dados</div>
-            <div class="col-md-4">Programadores</div>
+            <div class="col-md-4">Programadores</div-->
             <div class="col-md-6 col-md-offset-3">
                 <picture>
                     <source srcset="./assets/img/audience.webp" type="image/webp">
@@ -514,13 +318,14 @@
     </section>
 </div>
 
+<!-- TODO: Translations -->
 <section>
     <div class="jumbotron" id="analytics">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center">
-                    <h3>&Aacute;REA GEOGR&Aacute;FICA<br/>
-                        <small>de donde vem a audi&ecirc;ncia</small>
+                    <h3>{{geographicArea.title}}<br/>
+                        <small ng-bind="geographicArea.title"></small>
                     </h3>
                     <picture>
                         <source srcset="./assets/img/geo.webp" type="image/webp">
@@ -528,56 +333,12 @@
                         <img src="./assets/img/geo.webp" class="img-responsive"/>
                     </picture>
                     <div class="row legend">
-                        <div class="col-xs-3 col-sm-2 col-xs-offset-1 col-sm-offset-2 hidden-md">
-                            <span class="legend-level legend-level-5"></span>
+                        <div ng-repeat="item in geographicArea.legend" class="{{item.class}}">
+                            <span class="{{item.legendClass}}"></span>
                             <br class="visible-xs"/>
                             <small>
                                 <small>
-                                    <small>700 - 1,000</small>
-                                </small>
-                            </small>
-                        </div>
-                        <div class="visible-md col-md-2">
-                            <span class="legend-level legend-level-5"></span>
-                            <small>
-                                <small>
-                                    <small>+700</small>
-                                </small>
-                            </small>
-                        </div>
-                        <div class="col-xs-2 col-md-3 col-lg-2">
-                            <span class="legend-level legend-level-4"></span>
-                            <br class="visible-xs"/>
-                            <small>
-                                <small>
-                                    <small>500 - 700</small>
-                                </small>
-                            </small>
-                        </div>
-                        <div class="col-xs-2 col-md-3 col-lg-2">
-                            <span class="legend-level legend-level-3"></span>
-                            <br class="visible-xs"/>
-                            <small>
-                                <small>
-                                    <small>100 - 500</small>
-                                </small>
-                            </small>
-                        </div>
-                        <div class="col-xs-2 col-lg-2">
-                            <span class="legend-level legend-level-2"></span>
-                            <br class="visible-xs"/>
-                            <small>
-                                <small>
-                                    <small>50 - 100</small>
-                                </small>
-                            </small>
-                        </div>
-                        <div class="col-xs-2 col-lg-2">
-                            <span class="legend-level legend-level-1"></span>
-                            <br class="visible-xs"/>
-                            <small>
-                                <small>
-                                    <small>0 - 50</small>
+                                    <small ng-bind="item.caption"></small>
                                 </small>
                             </small>
                         </div>
@@ -585,16 +346,14 @@
                     <p>
                         <small>
                             <small>
-                                <small>Dados obtidos a partir do interesse apresentado pela audi&ecirc;ncia entre junho
-                                    e agosto de 2016
-                                </small>
+                                <small ng-bind="geographicArea.description"></small>
                             </small>
                         </small>
                     </p>
                 </div>
                 <div class="col-md-6 text-center">
-                    <h3>SCIPYLA 2018<br/>
-                        <small> até o momento nas redes sociais...</small>
+                    <h3>{{scipy2018.title}}<br/>
+                        <small ng-bind="scipy2018.subtitle"></small>
                     </h3>
                     <div class="row" id="fb">
                         <div class="col-xs-3 col-xs-offset-3 text-right">
@@ -606,32 +365,32 @@
                             </picture>
                         </div>
                         <div class="col-xs-3 col-md-3 text-center">
-                            <p class="lead"><span class="lead"><span class="lead"><strong>0000</strong></span></span>
+                            <p class="lead"><span class="lead"><span class="lead"><strong ng-bind="scipy2018.reach.cant"></strong></span></span>
                             </p>
                             <p>
                                 <button class="btn btn-xs btn-social btn-primary"><span class="badge badge-square"><span
-                                        class="icon-6"></span></span> Alcance
+                                        class="icon-6"></span></span> {{scipy2018.reach.caption}}
                                 </button>
                             </p>
                         </div>
                     </div>
                     <div class="row">
-                        <p><strong>0000</strong> interessados em participar</p>
+                        <p><strong ng-bind="scipy2018.interested.cant"></strong> {{scipy2018.interested.caption}}</p>
                     </div>
                     <div class="row">
                         <div class="col-xs-3 col-xs-offset-2 text-center">
-                            <div class="well well-xs"><strong>0000</strong></div>
+                            <div class="well well-xs"><strong ng-bind="scipy2018.tweets.cant"></strong></div>
                             <p>
                                 <button class="btn btn-xs btn-social btn-info"><span class="badge badge-square"><span
-                                        class="icon-7"></span></span> Tweets
+                                        class="icon-7"></span></span> {{scipy2018.tweets.caption}}
                                 </button>
                             </p>
                         </div>
                         <div class="col-xs-3 col-xs-offset-2 text-center">
-                            <div class="well well-xs"><strong>0000</strong></div>
+                            <div class="well well-xs"><strong ng-bind="scipy2018.visits.cant"></strong></div>
                             <p>
                                 <button class="btn btn-xs btn-social btn-danger"><span class="badge badge-square"><span
-                                        class="icon-8"></span></span> Visitas
+                                        class="icon-8"></span></span> {{scipy2018.visits.caption}}
                                 </button>
                             </p>
                         </div>
@@ -652,12 +411,10 @@
                 <div class="col-md-2"></div>
                 <div class="col-md-8 text-center">
                     <div class="row">
-                        <h3>INSCRI&Ccedil;&Atilde;O</h3>
+                        <h3 ng-bind="inscription.title"></h3>
                     </div>
                     <div class="row">
-                        <a href="register" id="btn-register" class="btn btn-warning btn-lg">
-                            INSCREVA-SE!
-                        </a>
+                        <a href="register" id="btn-register" class="btn btn-warning btn-lg" ng-bind="inscription.register"></a>
                     </div>
                 </div>
                 <div class="col-md-2"></div>
@@ -669,22 +426,11 @@
 <footer id="footer" class="footer text-center">
     <div class="container">
         <div class="btn-group btn-group-lg">
-            <a href="https://facebook.com/scipyla" type="button" class="btn btn-primary btn-social btn-round">
-                <span class="icon-6"></span>
-            </a>
-            <a href="http://twitter.com/scipyla" type="button" class="btn btn-primary btn-social btn-round">
-                <span class="icon-7"></span>
-            </a>
-            <a href="https://plus.google.com/116952396338000992599" type="button"
-               class="btn btn-primary btn-social btn-round">
-                <span class="icon-8"></span>
-            </a>
-            <a href="https://ar.linkedin.com/grps/SciPy-Latin-America-8344796/about" type="button"
-               class="btn btn-primary btn-social btn-round">
-                <span class="icon-9"></span>
+            <a ng-repeat="item in footer.items" href="{{item.href}}" type="button" class="{{item.class}}">
+                <span class="{{item.icon}}"></span>
             </a>
         </div>
-        <p>Copyright 2018 &copy; <a href="http://scipyla.org">SciPy Latinamerica</a></p>
+        <p>Copyright {{footer.thisYear}} &copy; <a href="http://scipyla.org" ng-bind="footer.scipyLa"></a></p>
     </div>
     <div class="">
         <picture>
@@ -723,7 +469,12 @@
 <script src="./assets/vendors/jquery.min.js"></script>
 <script src="./assets/vendors/bootstrap.min.js"></script>
 <script src="./assets/vendors/angular.min.js"></script>
+<script src="../assets/vendors/angular-route.min.js"></script>
+<script src="../assets/vendors/angular-sanitize.min.js"></script>
 <script src="./assets/vendors/modernizr-custom.js"></script>
+
+<script src="../assets/vendors/markdown-it.min.js"></script>
+<script src="../assets/vendors/ng-markdownit.min.js"></script>
 
 <script src="./assets/js/main.js"></script>
 <script src="./assets/js/mainnav.js"></script>

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" 
+    <meta name="description"
     content="Organizadores - SciPyLA 2018 - The scientific Python conference in Latin America">
     <meta name="author" content="A comunidade SciPyLA">
 
@@ -84,24 +84,17 @@
     </script>
 
 </head>
-<body>
+<body class="main" ng-app="scipyla" ng-controller="MainCtl">
 <!-- Fixed navbar -->
-<nav class="navbar navbar-default navbar-fixed-top navbar-inverse text-uppercase" ng-app="scipyla.mainnav"
-     ng-controller="MainNavCtl">
-    <ng-include src="'../assets/views/menu_ppal.html'"></ng-include>
-
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse text-uppercase" >
+    <div ng-include="navTemplate.url"></div>
 </nav>
 
-
-<div ng-app="scipyla.footer" ng-controller="MainFooterCtl">
-    <div ng-include="'../assets/views/menu_ppal.html'"></div>
-</div>
-
-<div class="container" ng-app="scipyla.md" id="container">
+<div class="container" id="container">
 
     <div class="row">
         <div class="col-xs-12">
-            <div markdown-it ng-include="'../docs/pt/organizers.pt.md'" class="md">
+            <div markdown-it ng-include="'../docs/' + lang + '/organizers.' + lang + '.md'" class="md">
             </div>
         </div>
     </div>
@@ -127,7 +120,7 @@
                 <span class="icon-9"></span>
             </a>
         </div>
-        <p>Copyright 2017 &copy; <a href="http://scipyla.org">SciPy Latinamerica</a></p>
+        <p>Copyright {{footer.thisYear}} &copy; <a href="http://scipyla.org">SciPy Latinamerica</a></p>
     </div>
 </footer>
 
@@ -145,7 +138,6 @@
 <script src="../assets/vendors/ng-markdownit.min.js"></script>
 
 <script src="../assets/js/mainnav.js"></script>
-<script src="../assets/js/md.js"></script>
 
 </body>
 </html>
