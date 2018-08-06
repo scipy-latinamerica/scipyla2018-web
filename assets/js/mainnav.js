@@ -14,92 +14,7 @@
         page_level += '../'
     $.page_level = page_level;
 
-    var mainnav_data = [
-        {
-            caption: {pt: 'Início', es: 'Inicio', en: 'Home'},
-            id: 'home',
-            href: ''
-        },
-        {
-            caption: {pt: 'Programação', es: 'Programa', en: 'Program'},
-            id: 'program',
-            items: [
-                {
-                    href: 'register',
-                    id: 'register',
-                    caption: {pt: 'Compre seu ingresso', es: 'Reservar tickets', en : 'Buy tickets' }
-                },
-                {
-                    isDivider: true
-                },
-                {
-                    href: 'cfp',
-                    id: 'cfp',
-                    caption: {pt: 'Chamada de trabalhos', es: 'Instrucciones de publicación', en : 'Call for papers' }
-                }
-            ]
-        },
-        {
-            caption: {pt: 'Colabore', es: 'Participa', en: 'Get involved'},
-            id: 'get_involved',
-            items: [
-                {
-                    href: 'organizers',
-                    id: 'organizers',
-                    caption: {pt: 'Organizadores', es: 'Organizadores', en: 'Organizers'}
-                },
-                {
-                    href: 'cfl',
-                    id: 'call-for-location',
-                    caption: {pt: 'Chamada a sede 2019', es: 'Llamada para sede 2019', en: 'Call for venue 2019'}
-                },
-                {
-                    href: 'get_involved',
-                    id: 'get_involved',
-                    caption: {pt: 'Chamada à voluntários', es: 'Llamada para voluntarios', en: 'Call for volunteers'}
-                },
-                {
-                    href: 'diversity',
-                    id: 'diversity',
-                    caption: {pt: 'Diversidades', es: 'Diversidad', en: 'Diversity'}
-                }
-            ]
-        },
-        {
-            caption: { es: 'Curitiba', en: 'Curitiba', pt: 'Curitiba'},
-            id: 'venue',
-            items: [
-                {
-                    href: 'venue/lodging',
-                    id: 'lodging',
-                    caption: { es : 'Hospedaje', en : 'Lodging', pt: 'Hospedagem'}
-                }
-            ]
-        },
-        {
-            caption: {pt: 'Ajuda', es: 'Ayuda', en: 'Help'},
-            id: 'faq',
-            items: [
-                {
-                    href: 'faq',
-                    id: 'faq',
-                    caption: {pt: 'FAQ', es: 'FAQ', en: 'FAQ'}
-                },
-                {
-                    href: 'financial-aid',
-                    id: 'financial-aid',
-                    caption: {pt: 'Ajuda Financeira', es: 'Ayuda Financiera', en: 'Financial Aid'}
-                }
-            ]
-        }
-    ];
-
-    var app = angular.module('scipyla.mainnav', []);
-
-    function getlang() {
-        // TODO: Current language for translations
-        return 'pt';
-    }
+    var app = angular.module('scipyla', ['mdMarkdownIt']);
 
     function getActiveRoute() {
         if ($.route)
@@ -107,15 +22,93 @@
         return {section: null, page: null}
     }
 
-    app.controller('MainNavCtl', ['$scope',
-        function ($scope) {
-            $scope.lang = getlang();
-            $scope.mainnav = mainnav_data;
+    app.controller('MainCtl', [
+        '$scope',
+        '$http',
+        function ($scope, $http) {
+
+            /// availableLanguages[ 0 ] hosts the prefered language
+            var availableLanguages = [ 'pt', 'es' ];
+
+            $scope.getlang = function getlang() {
+
+                var lg = window.localStorage.getItem('scipy_lang');
+
+                if ( availableLanguages.indexOf(lg) > -1 ) {
+                    return lg;
+                }
+
+                return availableLanguages[ 0 ];
+            }
+
+            $scope.lang = $scope.getlang();
+
+            //console.log('LANG: ', $scope.lang);
+
+            $scope.$watch('lang', function(lg) {
+
+                $http
+                    .get($scope.hprefix + 'assets/translations/general/' + lg + '.json')
+                    .success(function(data) {
+
+                        //console.log(lg, data);
+
+                        for (var i in data) {
+                            $scope[ i ] = data[ i ];
+                        }
+
+                        $scope.footer.thisYear = (new Date()).getFullYear();
+
+                    })
+                    .error(function(err) {
+                        //console.log('ERROR: ', err);
+                    });//*/
+
+
+                $http
+                    .get($scope.hprefix + 'assets/translations/' + $scope.route.page + '/' + lg + '.json')
+                    .success(function(data) {
+
+                        //console.log(lg, data);
+
+                        for (var i in data) {
+                            $scope[ i ] = data[ i ];
+                        }
+
+                    })
+                    .error(function(err) {
+                        //console.log('ERROR: ', err);
+                    });
+
+
+            });
+
+            $scope.mainnav = {};
             $scope.route = getActiveRoute();
             $scope.hprefix = $.page_level || '';
-            $scope.template = {url: $scope.hprefix + 'assets/views/menu_ppal.html'};
+            $scope.navTemplate = {
+                url: $scope.hprefix + 'assets/views/menu_ppal.html'
+            };
+
+            //console.log($scope.hprefix, $scope.route);
+
+            $scope.setLang = function setLang(l) {
+
+                if ( availableLanguages.indexOf(l) > -1 ) {
+                    if ( $scope.langng != l ) {
+                        $scope.lang = l;
+                        window.localStorage.setItem('scipy_lang', l);
+                    }
+                } else {
+                    $scope.lang = availableLanguages[ 0 ];
+                    window.localStorage.setItem('scipy_lang', l);
+                }
+
+            };
+
+            $scope.setLang( window.localStorage.getItem('scipy_lang') );
+
         }
     ]);
 
 })(window);
-
