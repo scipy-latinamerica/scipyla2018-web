@@ -83,24 +83,18 @@
     </script>
 
 </head>
-<body>
-<!-- Fixed navbar -->
-<nav class="navbar navbar-default navbar-fixed-top navbar-inverse text-uppercase" ng-app="scipyla.mainnav"
-     ng-controller="MainNavCtl">
-    <ng-include src="'../assets/views/menu_ppal.html'"></ng-include>
 
+<body class="main" ng-app="scipyla" ng-controller="MainCtl">
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse text-uppercase" >
+    <div ng-include="navTemplate.url"></div>
 </nav>
 
-
-<div ng-app="scipyla.footer" ng-controller="MainFooterCtl">
-    <div ng-include="'../assets/views/menu_ppal.html'"></div>
-</div>
-
-<div class="container" ng-app="scipyla.md" id="container">
+<div class="container" id="container">
 
     <div class="row">
         <div class="col-xs-12">
-          <div markdown-it ng-include="'../docs/pt/financial-aid.pt.md'" class="md">
+          <div markdown-it ng-include="'../docs/' + lang + '/financial-aid.' + lang + '.md'" class="md">
             </div>
         </div>
         <div class="col-sm-10 col-sm-offset-1">
