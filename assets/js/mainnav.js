@@ -14,7 +14,7 @@
         page_level += '../'
     $.page_level = page_level;
 
-    var app = angular.module('scipyla', ['mdMarkdownIt']);
+    var app = angular.module('scipyla', [ 'ngSanitize', 'mdMarkdownIt' ]);
 
     function getActiveRoute() {
         if ($.route)
@@ -73,6 +73,47 @@
 
                         for (var i in data) {
                             $scope[ i ] = data[ i ];
+                        }
+
+                        if ( 'speakers' in $scope ) {
+                            $scope.speakers_index = {};
+
+                            for (var i = 0; i < $scope.speakers.length; i += 1) {
+                                var speaker_info = $scope.speakers[i];
+                                $scope.speakers_index[speaker_info.id] = speaker_info;
+                            }
+
+                            $scope.getAuthor = function getAuthor(id) {
+                                return $scope.speakers_index[id];
+                            };
+
+                        }
+
+                        if ( 'activities' in $scope ) {
+                            $scope.stats = (function() {
+
+                                var _stats = {};
+
+                                for (var i = 0; i < $scope.activities.length; i += 1) {
+                                    var act = $scope.activities[i];
+
+                                    if ( act['id'] ) {
+                                        var idx = act.talk_format.indexOf(' (');
+                                        var label = (idx == -1)? act.talk_format : act.talk_format.slice(0, idx);
+                                        _stats[label] = (_stats[label] || 0) + 1;
+                                    }
+                                }
+
+                                var stats = [];
+
+                                for (label in _stats) {
+                                  stats.push([label, _stats[label]])
+                                }
+
+                                return stats;
+
+                              })();
+
                         }
 
                     })
