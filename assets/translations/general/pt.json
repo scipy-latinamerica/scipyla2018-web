@@ -18,6 +18,11 @@
           "isDivider": true
         },
         {
+          "href": "program/submissions",
+          "id": "submissions",
+          "caption": "Palestras Aceitas"
+        },
+        {
           "href": "cfp",
           "id": "cfp",
           "caption": "Chamada de trabalhos"
@@ -32,6 +37,14 @@
           "href": "organizers",
           "id": "organizers",
           "caption": "Organizadores"
+        },
+        {
+          "href": "sponsors",
+          "id": "sponsors",
+          "caption": "Patrocinadores"
+        },
+        {
+          "isDivider": true
         },
         {
           "href": "cfl",
@@ -397,5 +410,6 @@
         "icon": "icon-9"
       }
     ]
-  }
+  },
+  "financialTerms": "Terminos da Ajuda Financeira"
 }
