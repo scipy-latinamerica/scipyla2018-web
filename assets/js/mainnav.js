@@ -69,7 +69,7 @@
                     .get($scope.hprefix + 'assets/translations/' + $scope.route.page + '/' + lg + '.json')
                     .success(function(data) {
 
-                        //console.log(lg, data);
+                        console.log(lg, data);
 
                         for (var i in data) {
                             $scope[ i ] = data[ i ];
@@ -93,15 +93,22 @@
                             $scope.stats = (function() {
 
                                 var _stats = {};
+                                var lastAct;
 
                                 for (var i = 0; i < $scope.activities.length; i += 1) {
                                     var act = $scope.activities[i];
 
-                                    if ( act['id'] ) {
-                                        var idx = act.talk_format.indexOf(' (');
-                                        var label = (idx == -1)? act.talk_format : act.talk_format.slice(0, idx);
-                                        _stats[label] = (_stats[label] || 0) + 1;
+                                    if ( i === 0 ) {
+                                        act['id'] = Date.now();
+                                    } else {
+                                        act['id'] = lastAct + 1;
                                     }
+
+                                    lastAct = act['id'];
+
+                                    var idx = act.talk_format.indexOf(' (');
+                                    var label = (idx == -1)? act.talk_format : act.talk_format.slice(0, idx);
+                                    _stats[label] = (_stats[label] || 0) + 1;
                                 }
 
                                 var stats = [];

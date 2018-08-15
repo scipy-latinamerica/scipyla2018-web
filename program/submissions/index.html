@@ -102,7 +102,7 @@
               <div role="tabpanel" class="tab-pane active" id="talks">
                 <h3 class="text-center">Actividades aceptadas <br/> <small ng-repeat="stat in stats">{{stat[1]}} {{stat[0]}}s, </small> <small>... lots of fun</small></h3>
                 <div class="panel-group" id="accepted" role="tablist" aria-multiselectable="true">
-                  <div ng-if="act.id" class="panel panel-info" ng-repeat="act in activities">
+                  <div class="panel panel-info" ng-repeat="act in activities">
                     <div class="panel-heading" role="tab" id="acth-{{act.id}}">
                       <h4 class="panel-title">
                         <a role="button" data-toggle="collapse" data-parent="#accepeted" href="#actp-{{act.id}}" aria-expanded="true" aria-controls="actp-{{act.id}}" ng-bind="act.title"></a>
