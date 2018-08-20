@@ -10,6 +10,14 @@
       "id": "program",
       "items": [
         {
+          "href": "agenda",
+          "id": "agenda",
+          "caption": "Agenda"
+        },
+        {
+          "isDivider": true
+        },
+        {
           "href": "register",
           "id": "register",
           "caption": "Regístrese"
