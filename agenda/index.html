@@ -10,7 +10,7 @@
     <meta name="author" content="The SciPyLA community">
     <link rel="icon" href="../favicon.ico">
 
-    <title>SciPyLA 2018 - Inscrição</title>
+    <title>SciPyLA 2018 - Agenda</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
@@ -56,7 +56,7 @@
     <![endif]-->
 
     <script language="javascript">
-      window.route = { section: 'program', page: 'register' }
+      window.route = { section: 'program', page: 'agenda' }
     </script>
 
     <script>
@@ -85,20 +85,10 @@
 </nav>
 
 <div class="container" id="container">
-
     <section>
-        <div class="row">
-            <div class="col-sm-offset-3 col-sm-6 text-center" id="signup">
-                <a class="btn btn-lg btn-primary" href="https://scipyla2018.eventbrite.com.br" ng-bind="title"></a>
-            </div>
+        <div markdown-it ng-include="'../docs/' + lang + '/agenda.' + lang + '.md'" class="md">
         </div>
     </section>
-
-    <section>
-        <div markdown-it ng-include="'../docs/' + lang + '/register.' + lang + '.md'" class="md">
-        </div>
-    </section>
-
 </div> <!-- /container -->
 
 <footer id="footer" class="footer text-center">
