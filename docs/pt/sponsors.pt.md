@@ -16,5 +16,3 @@ A Universidade Curitiba vem apoiando diversos eventos de tecnologia, dentre eles
 A Fundação LatamTech é uma organização sem fins lucrativos focada no desenvolvimento do setor de tecnologia da América Latina e Caribe.
 
 O apoio da Fundação Latam Tech tem sido de suma importância para cobrir os custos do evento. Graças ao Vice Presidente Executivo da LatamTech, Olemis Lang, esse patrocínio foi viabilizado.
-
-
