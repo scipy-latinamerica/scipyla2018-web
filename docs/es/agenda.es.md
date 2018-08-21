@@ -7,7 +7,7 @@
 | 8:30 | Apertura |
 | 9:00 | Carlos Cordoba - Keynote |
 | 10:00 | Palestra Patrocinador |
-| 10:10 | " João Sebastião de Oliveira Bueno" |
+| 10:10 | João Sebastião de Oliveira Bueno |
 | 10:50 | Coffee (30 minutos) |
 | 11:20 | Sergio Bastos |
 | 12:00 | Almoço |
