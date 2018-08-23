@@ -14,6 +14,8 @@ El evento dura cutro dias y esta dividido en tres partes:
 - Segundo y tercer dia : Keynotes, Conferencias y Posters.
 - Cuarto dia: Sprints
 
+Se puede acceder a la información actualizada en [Agenda] (../ agenda).
+
 Cuándo se abrirá la llamada de trabajos?
 
 La llamada a trabajos inicia desde  las   0:00h del 20 de junio de 2018 (UTC), seran aceptados los  trabajos enviados antes de  las  0:00h del 22 de julio de 2018 (UTC). [Envie su trabajo](https://www.papercall.io/scipyla2018).
