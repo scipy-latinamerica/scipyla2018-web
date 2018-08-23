@@ -8,24 +8,19 @@ SciPyLA have a financial aid program to help people attend SciPyLA. Financial ai
 
 Optimal is, of course, an ambiguous property.
 
-    SciPyLA is a meeting place for Scientists and Python developers from all around the globe. Therefore, the process is particularly designed to benefit people that we believe make PyCon better, particularly speakers and tutorial presenters, as well as notable open source contributors.
-    Additionally, the process attempts to promote a more diverse conference. While encouraging diversity is a broad effort, we're happy to say that the financial aid program has been a important factor in our results so far.
-    Finally, the process tries to help people with relatively lower incomes, be it because of their location (lower income countries) or their profession (such as students, or the unemployed).
+SciPyLA is a meeting place for Scientists and Python developers from all around the globe. Therefore, the process is particularly designed to benefit people that we believe make SciPyLA better, particularly speakers and tutorial presenters, as well as notable open source contributors.
+
+Additionally, the process attempts to promote a more diverse conference. While encouraging diversity is a broad effort, we're happy to say that the financial aid program has been a important factor in our results so far.
+
+Finally, the process tries to help people with relatively lower incomes, be it because of their location (lower income countries) or their profession (such as students, or the unemployed).
 
 In short, we use the financial aid budget to help individuals who would otherwise not be able to attend the conference.
 
 The financial aid program is about the community nurturing itself by making itself more accessible at SciPyLA. It is true to the spirit of SciPyLA, by helping to make the information and interactions available to everyone.
 
-## Timeline
-
-    2017 October 19: Financial aid application opens.
-    2018 February 15: Financial aid application close on 23:59:59 on Feb 15th AoE
-    2018 March 2: Financial aid grants awarded.
-    2018 March 16: deadline to respond to accept / decline financial aid
-
 ## Disbursement
 
-Disbursement of funds will be onsite during the conference in USD. You can choose between receiving a physical check on-site, or a Paypal transfer.
+Disbursement of funds will be onsite during the conference in BRL. You can choose between bank transfer or a Paypal transfer.
 
 No funds will be disbursed prior to the event. Only those that have filed their disbursements (with receipts) will be reimbursed.
 
@@ -37,7 +32,7 @@ Q. Should I register for the conference before I find out if my financial aid ap
 
 Q. Where can I find out the status of my grant application?
 
-* A. You will be notified by email before the deadlines, see Timeline.
+* A. You will be notified by email before August 27, 2018.
 
 Q. If I request more funds after my grant has been approved, will that affect my current grant?
 
@@ -51,15 +46,15 @@ Q. How do I upload my receipts for reimbursement?
 
 * A. If your application has been approved, and you have accepted, you can send an email to contact [at] scipyla.org. Please note that all receipts must have your full name on them. We cannot process your reimbursement if your name is not on the receipt.
 
-Q. Why do I need to upload my receipt for registration? Don't you guys already have it on record?
+Q. Why do I need to send my receipt for registration? Don't you guys already have it on record?
 
-* A. This is an organizational rule. If you don't upload your registration receipt, it will not be counted towards your grant.
+* A. This is an organizational rule. If you don't send your registration receipt, it will not be counted towards your grant.
 
 Q. Can I be reimbursed for food?
 
 * A. Yes. We can add a per-diem cost for food to count for your expenses. It's automatically applied if and only if the total of receipts for flight, lodging + (optionally) conference pass do not exceed the grant amount.
 
-Q. How do I upload a hotel receipt when I haven’t yet checked out?
+Q. How do I send a hotel receipt when I haven’t yet checked out?
 
 * A. A credit card secured reservation is an acceptable expense receipt. The receipts need to add up to or greater than your grant amount before we can issue your grant (to show that the grant is a reimbursement and not an income).
 
@@ -73,12 +68,11 @@ Q. What if I don’t come to SciPyLA?
 
 Q. What if my receipt is larger than my grant amount?
 
-* A. You can upload a receipt (example - airfare) for an amount larger than your grant, but you will only be reimbursed for the amount you were awarded.
+* A. You can send a receipt (example - airfare) for an amount larger than your grant, but you will only be reimbursed for the amount you were awarded.
 
 Q. How do disbursements work?
 
-* A. Disbursement of funds will be onsite during the conference in USD. You can choose between receiving a physical check on-site or a Paypal transfer.
-
+* A. Disbursement of funds will be onsite during the conference in BRL. You can choose between bank transfer or a Paypal transfer.
 **No funds will be disbursed prior to the event. Only those that have filed their disbursements (with receipts) will be reimbursed.**
 
 Adapted from:
