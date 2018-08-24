@@ -10,7 +10,7 @@ Tutoriales
 ## Día 30/08/2018
 #### (Jueves)
 
-| Hour | Event |
+| Hora | Evento |
 | ----- | ------ |
 | 8:30 | Opening |
 | 9:00 | [**Keynote**](../program/submissions/#/talks) - [Carlos Cordoba](../program/submissions/#/speakers) |
@@ -32,7 +32,7 @@ Tutoriales
 ## Día 31/08/2018
 #### (Viernes)
 
-| Hour | Event |
+| Hora | Evento |
 | ---- | ------ |
 | 9:30  | Coffee |
 | 10:20 | [**Let's Build A Blockchain! Coding A Mini-Cryptocurrency In Python**](../program/submissions/#/talks) - [Ariel Rossanigo](../program/submissions/#/speakers) |
