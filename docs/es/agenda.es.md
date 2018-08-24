@@ -35,7 +35,7 @@ Tutoriales
 | Hora | Evento |
 | ---- | ------ |
 | 9:30  | Coffee |
-| 10:20 | [Image processing with deep learning**](../program/submissions/#/talks) - [Ariel Rossanigo](../program/submissions/#/speakers) |
+| 10:20 | [**Image processing with deep learning**](../program/submissions/#/talks) - [Ariel Rossanigo](../program/submissions/#/speakers) |
 | 11:00 | [**Keynote**](../program/submissions/#/talks) - [Leticia Portella](../program/submissions/#/speakers) |
 | 12:00 | Almuerzo   |
 | | |
