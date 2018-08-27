@@ -1,40 +1,54 @@
-# Comite Organizador
+# Comité Organizador
 
-* Chair, responsável pela organização e coordenação geral do evento:
-  - **Ramiro Batista da Luz**
+* Chair, responsable de la organización y coordinación general del evento:
+    - **Ramiro Batista de la Luz**
 
-* Porta voz, responsável pela equipe de comunicação e divulgação do evento:
+* Portavoz, responsable del equipo de comunicación, medios sociales y divulgación del evento:
   - **Vanessa Cunha**
+  - **Alexandre Harano**
+  - **Francisco Palm**
+  - **Ana Carolina Silva**
 
-* Coordenação de palestras e tutoriais, responsável pela equipe de seleção, agenda e detalhes das palestras e tutoriais:
+* Coordinación de palestras y tutoriales, responsable del equipo de selección, agenda y detalles de las conferencias y tutoriales:
   - **Paulo Henrique de Lima Santana**
   - **Diogo M. Vieira**
   - **Luan Roger Santos Santana**
   - **Daniel Schlickmann Bastos**
 
-* Coordenação de conduta, responsável pela equipe de elaboração e aplicação do código de conduta do evento:
+* Coordinación de conducta, responsable por el equipo de elaboración y aplicación del código de conducta del evento:
   - **Vanessa Cunha**
 
-* Coordenação de diversidade, responsável pela equipe de inclusão, de acessibilidade, gênero, raça e minorias do evento:
+* Coordinación de diversidad, responsable por el equipo de inclusión, de accesibilidad, género, raza y minorías del evento:
   - **Karina Soares dos Santos**
   - **Camila Flores Granella**
   - **Andrea Silva**
   - **Vanessa Cunha**
 
-* Coordenação financeira, responsável pela elaboração de orçamento, captação de patrocínios e prestação de contas do evento:
+* Coordinación financiera, responsable de la elaboración de presupuesto, captación de patrocinios y rendición de cuentas del evento:
   - **Arthur Felipe Melo Alvim**
   - **Vanessa Cunha**
   - **Marcelo Figueiral**
+  - **Sheila**
 
-* Coordenação do website, responsável por criar, manter e traduzir o website do evento:
-  - **Ellison Leão**
+* Coordinación del sitio web, responsable de crear, mantener y traducir el sitio web del evento:
+  - **Ellison León**
   - **Luan Roger Santos Santana**
-  - **Ramiro Batista da Luz**
+  - **Ramiro Batista de la Luz**
+  - **Jefferson Santos**
+  - **Isaac Vega**
+  - **Arthur Fortes**
+  - **Angelo Rosa**
 
-* Voluntários:
+* Logística local
+  - **Kira Oliviera**
+  - **Jefferson Santos**
+
+* Voluntarios:
   * **Leticia Portella**
-  * **Marcos Pereira Nascimento**
+  * **Marcos Pereira Nacimiento**
   * **Alisson Coelho de Morais**
   * **Marcelo Belli de Oliveira**
   * **Renata Givisiez**
   * **Tadiane Oliveira**
+  * **Kira Oliviera**
+  * **Eduardo Stalinho**
