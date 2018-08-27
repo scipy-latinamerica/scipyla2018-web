@@ -5,7 +5,19 @@
 
 Tutoriales
 
-*Próximamente aquí*
+| Horario | Sala | Instructor | Descripción |
+| ------- | ---- | --------- | --------- |
+| 9:00 - 12:00 | Sala 1 | Eduardo Sánchez | Let's build a blockchain! Coding a mini-cryptocurrency in Python primeira parte |
+| 14:00 - 17:00 | Sala 1 | Eduardo Sánchez | Let's build a blockchain! Coding a mini-cryptocurrency in Python segunda parte |
+| | | | |
+| 9:00 - 12:00 | Sala 2 | Arthur Fortes da Costa | Case Recommender: Utilizando Python para desarrollar sistemas de recomendación primeira parte |
+| 14:00 - 17:00 | Sala 2 | Arthur Fortes da Costa | Case Recommender: Utilizando Python para desarrollar sistemas de recomendación segunda parte |
+| | | | |
+| 9:00 - 12:00 | Sala 3 | A definir | Python Básico primeira parte |
+| 14:00 - 17:00 | Sala 3 | A definir | Python Básico segunda parte |
+| | | | |
+| 9:00 - 12:00 | Sala 4 | Diversos | Open Spaces |
+| 14:00 - 17:00 | Sala 4 | Diversos | Open Spaces |
 
 ## Día 30/08/2018
 #### (Jueves)
