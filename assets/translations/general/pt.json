@@ -128,10 +128,6 @@
         {
           "href" : "register",
           "caption": "INSCREVA-SE!"
-        },
-        {
-          "href": "cfp",
-          "caption": "SUBMETA SEU TRABALHO!"
         }
       ]
     },
@@ -139,6 +135,24 @@
       "lead" : [
         "Deseja colocar seu anúncio aqui?",
         "ENTRE EM CONTATO PARA PATROCINAR A SCIPYLA 2018"
+      ]
+    },
+    {
+      "lead" : [
+        "Patrocinador Gold",
+        "CONHEÇA A LATAM TECH"
+      ]
+    },
+    {
+      "lead" : [
+        "Sede",
+        "VISITE A UNICURITIBA"
+      ]
+    },
+    {
+      "lead" : [
+        "Apoio Institucional",
+        "SAIBA MAIS"
       ]
     }
   ],
@@ -179,8 +193,8 @@
       },
       "title": "PROGRAMA",
       "description": "Conheça o programa de atividades preparadas para a SciPyLA 2018, contendo oficinas sobre o uso de Python em sete áreas da ciência e da tecnologia.",
-      "action": "SUBMETA SEU TRABALHO!",
-      "href": "cfp"
+      "action": "SAIBA MAIS",
+      "href": "program/submissions"
     },
     {
       "sources": [
@@ -199,8 +213,8 @@
       },
       "title": "AGENDA",
       "description": "Informações sobre o cronograma de atividades previstas para os quatro dias de duração do evento.",
-      "action": "SUBMETA SEU TRABALHO!",
-      "href": "cfp"
+      "action": "CONFIRA",
+      "href": "agenda"
     },
     {
       "sources": [

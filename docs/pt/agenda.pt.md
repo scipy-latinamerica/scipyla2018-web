@@ -39,7 +39,7 @@ Tutoriais
 | 14:40 | [**My Scientific Python Toolbox**](../program/submissions/#/talks) - [Ariel Rossanigo](../program/submissions/#/speakers) |
 | 15:20 | Coffee |
 | 15:50 | **Palestra Relâmpago** |
-| 16:30 | A definir |
+| 16:30 | [**Mathematical Optimization On The Julia Language**](../program/submissions/#/talks) - [Abel Siqueira](../program/submissions/#/speakers) |
 | 17:10 | [**Keynote**](../program/submissions/#/talks) - [Juan Funez](../program/submissions/#/speakers) |
 | 18:10 | Happy Hour |
 
@@ -58,7 +58,7 @@ Tutoriais
 | 14:10 | Palestra Patrocinador |
 | 14:20 | [**A Guide To Understand And Build A Recommender System Engine**](../program/submissions/#/talks) - [Arthur Fortes da Costa](../program/submissions/#/speakers) |
 | 15:00 | Coffee |
-| 15:30 | [**Mathematical Optimization On The Julia Language**](../program/submissions/#/talks) - [Abel Siqueira](../program/submissions/#/speakers) |
+| 15:30 | A definir |
 | 16:10 | **Palestra Relâmpago** |
 | 17:00 | [**Keynote**](../program/submissions/#/talks) - [Melissa W. Mendonça](../program/submissions/#/speakers) |
 | 18:00 | Happy Hour (bar) |
