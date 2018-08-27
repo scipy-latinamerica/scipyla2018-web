@@ -7,21 +7,22 @@ Tutoriais
 
 | Horario | Sala | Instrutor | Descrição |
 | ------- | ---- | --------- | --------- |
-| 9:00 - 12:00 | Sala 1 | Eduardo Sánchez | Let's build a blockchain! Coding a mini-cryptocurrency in Python primeira parte |
-| 14:00 - 17:00 | Sala 1 | Eduardo Sánchez | Let's build a blockchain! Coding a mini-cryptocurrency in Python segunda parte |
+| 9:00 - 12:00 | Sala D21 | Eduardo Sánchez | Let's build a blockchain! Coding a mini-cryptocurrency in Python primeira parte |
+| 14:00 - 17:00 | Sala D21 | Eduardo Sánchez | Let's build a blockchain! Coding a mini-cryptocurrency in Python segunda parte |
 | | | | |
-| 9:00 - 12:00 | Sala 2 | Arthur Fortes da Costa | Case Recommender: Utilizando Python para desenvolver sistemas de recomendação primeira parte |
-| 14:00 - 17:00 | Sala 2 | Arthur Fortes da Costa | Case Recommender: Utilizando Python para desenvolver sistemas de recomendação segunda parte |
+| 9:00 - 12:00 | Sala D22 | Arthur Fortes da Costa | Case Recommender: Utilizando Python para desenvolver sistemas de recomendação primeira parte |
+| 14:00 - 17:00 | Sala D22 | Arthur Fortes da Costa | Case Recommender: Utilizando Python para desenvolver sistemas de recomendação segunda parte |
 | | | | |
-| 9:00 - 12:00 | Sala 3 | A definir | Python Básico primeira parte |
-| 14:00 - 17:00 | Sala 3 | A definir | Python Básico segunda parte |
+| 9:00 - 12:00 | Sala D23 | A definir | Python Básico primeira parte |
+| 14:00 - 17:00 | Sala D23 | A definir | Python Básico segunda parte |
 | | | | |
-| 9:00 - 12:00 | Sala 4 | Diversos | Open Spaces |
-| 14:00 - 17:00 | Sala 4 | Diversos | Open Spaces |
+| 9:00 - 12:00 | Sala D24 | Diversos | Open Spaces |
+| 14:00 - 17:00 | Sala D24 | Diversos | Open Spaces |
 
 
 ## Dia 30/08/2018
 #### (Quinta-Feira)
+##### Local: Mini-auditorium
 
 | Hora | Evento |
 | ----- | ------ |
@@ -44,6 +45,7 @@ Tutoriais
 
 ## Dia 31/08/2018
 #### (Sexta-Feira)
+##### Local: Mini-auditorium
 
 | Hora | Evento |
 | ---- | ------ |
