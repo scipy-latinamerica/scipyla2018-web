@@ -13,8 +13,8 @@ Tutoriales
 | 9:00 - 12:00 | Sala D22 | Arthur Fortes da Costa | Case Recommender: Utilizando Python para desarrollar sistemas de recomendación primeira parte |
 | 14:00 - 17:00 | Sala D22 | Arthur Fortes da Costa | Case Recommender: Utilizando Python para desarrollar sistemas de recomendación segunda parte |
 | | | | |
-| 9:00 - 12:00 | Sala D23 | A definir | Python Básico primeira parte |
-| 14:00 - 17:00 | Sala D23 | A definir | Python Básico segunda parte |
+| 9:00 - 12:00 | Sala D23 | A definir | Python Básico (3h) |
+| 14:00 - 17:00 | Sala D23 | Carlos Córdoba | Best practices to work with Spyder |
 | | | | |
 | 9:00 - 12:00 | Sala D24 | Diversos | Open Spaces |
 | 14:00 - 17:00 | Sala D24 | Diversos | Open Spaces |
@@ -27,14 +27,14 @@ Tutoriales
 | ----- | ------ |
 | 8:30 | Opening |
 | 9:00 | [**Keynote**](../program/submissions/#/talks) - [Carlos Cordoba](../program/submissions/#/speakers) |
-| 10:00 | Sponsor Talk |
+| 10:00 | LatamTech Foundation |
 | 10:10 | [**Plotando Dados Do Zero: Customizando Seus Resultados Com Python**](../program/submissions/#/talks) - [João Sebastião de Oliveira Bueno](../program/submissions/#/speakers) |
 | 10:50 | Coffee (30 minutes) |
 | 11:20 | [**Simulating A Electric Car Sharing Operation With Python**](../program/submissions/#/talks) - [Sergio Bastos](../program/submissions/#/speakers) |
 | 12:00 | Almuerzo |
 | | |
 | 13:30 | Keynote |
-| 14:30 | Sponsor Talk |
+| 14:30 | UniCuritiba |
 | 14:40 | [**My Scientific Python Toolbox**](../program/submissions/#/talks) - [Ariel Rossanigo](../program/submissions/#/speakers) |
 | 15:20 | Coffee |
 | 15:50 | **Lightning Talks** |
@@ -54,7 +54,7 @@ Tutoriales
 | 12:00 | Almuerzo   |
 | | |
 | 13:30 | [**Datawarehousing Para Datos Genéticos, Socioeconómicos Y Fenotípicos, Con Visualización 3D**](../program/submissions/#/talks) - [Luciano Serruya](../program/submissions/#/speakers) |
-| 14:10 | Sponsor Talk |
+| 14:10 | Associação Python Brasil |
 | 14:20 | [**A Guide To Understand And Build A Recommender System Engine**](../program/submissions/#/talks) - [Arthur Fortes da Costa](../program/submissions/#/speakers) |
 | 15:00 | Coffee |
 | 15:30 | Por definir |
