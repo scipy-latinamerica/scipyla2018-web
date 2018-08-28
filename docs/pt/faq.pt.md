@@ -17,6 +17,8 @@ O evento dura quatro dias e está dividido em três partes:
 - Segundo e terceiros dias: Keynotes, Palestras e Posters.
 - Quarto dia: Sprints.
 
+O endereço com as informações atualizadas podem ser acessadas na [Agenda](../agenda).
+
 Quando será aberta a chamada de trabalhos?
 ------------------------------------------
 

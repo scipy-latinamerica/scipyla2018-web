@@ -1,18 +1,35 @@
 # Patrocinadores
 
-É com imensa gratidão que reconhecemos o apoio dos nossos patrocinadores. Graças ao apoio recebido será possível receber os participantes do evento em Curitiba para muita troca de conhecimento, muita ciência e confraternização.
+Es con inmensa gratitud que reconocemos el apoyo de nuestros patrocinadores. Gracias al apoyo recibido será posible recibir a los participantes del evento en Curitiba para mucho intercambio de conocimiento, mucha ciencia y confraternización.
 
-# UniCuritiba
+## **Gold**
 
-[![Logo da UniCuritiba](../../assets/img/logomarca_unicuritiba.png)](http://unicuritiba.edu.br/)
-
-A Universidade Curitiba vem apoiando diversos eventos de tecnologia, dentre eles a SciPyLA 2018. Com o apoio do professor Bruno Weber a Universidade será a sede do evento e irá receber os participantes com a estrutura e conforto necessários para um excelente evento.
-
-
-# Latam Tech
+### Latam Tech
 
 [![Logo da LatamTech](../../assets/img/logo_latan_tech.png)](http://latamtech.foundation/)
 
-A Fundação LatamTech é uma organização sem fins lucrativos focada no desenvolvimento do setor de tecnologia da América Latina e Caribe.
+La Fundación LatamTech es una organización sin fines de lucro enfocada en el desarrollo del sector de tecnología de América Latina y el Caribe.
 
-O apoio da Fundação Latam Tech tem sido de suma importância para cobrir os custos do evento. Graças ao Vice Presidente Executivo da LatamTech, Olemis Lang, esse patrocínio foi viabilizado.
+El apoyo de la Fundación Latam Tech ha sido de suma importancia para cubrir los costos del evento. Gracias al Vicepresidente Ejecutivo de LatamTech, Olemis Lang, este patrocinio fue viabilizado.
+
+## **Sede**
+
+###  UniCuritiba
+
+[![Logo da UniCuritiba](../../assets/img/logomarca_unicuritiba.png)](http://unicuritiba.edu.br/)
+
+
+La Universidad Curitiba viene apoyando diversos eventos de tecnología, entre ellos la SciPyLA 2018. Con el apoyo del profesor Bruno Weber la Universidad será la sede del evento y recibirá a los participantes con la estructura y confort necesarios para un excelente evento.
+
+# Apoyo
+
+| [![Scielo](../../assets/img/sponsors/logo_SciELO-hz.png)](http://www.scielo.org) | [![LatanTech](../../assets/img/sponsors/logo_latan_tech_h200.png)](http://latamtech.foundation/) | [![QuanSight](../../assets/img/sponsors/logo_quan_sight-hz.png)](https://www.quansight.com/) |
+|:---:|:---:|:---:|
+
+| [![UniversidadAndes](../../assets/img/sponsors/logo_uniandes_h100.png)](https://uniandes.edu.co/) | [![FJGrafica](../../assets/img/sponsors/logo_grafica-hz.png)](https://www.fjhomeoffice.com/) |
+|:---:|:---:|  
+
+#  Organización
+
+| [![GrupyPR](../../assets/img/sponsors/grupypr-hz.png)](https://grupypr.github.io/) | [![APyB](../../assets/img/sponsors/apyb-hz.png)](http://associacao.python.org.br/) | [![PythonSul](../../assets/img/sponsors/pythonsul-hz.png)](https://pythonsul.org/) |
+|:---:|:---:|:---:|

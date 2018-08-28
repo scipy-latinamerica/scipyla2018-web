@@ -113,13 +113,13 @@
                         <div class="media-left text-center" ng-repeat="author in [getAuthor(act.author_id)]">
                           <div>
                             <a href="#">
-                              <img class="media-object btn-round" ng-src="{{author.avatar}}" alt="Profile picture" width="64" height="64" />
+                              <img class="media-object btn-round" ng-src="{{act.avatar}}" alt="Profile picture" width="64" height="64" />
                             </a>
                           </div>
                           <div>
-                            <span class="flag-icon flag-icon-{{author.country}}">
+                            <span class="flag-icon flag-icon-{{act.country}}">
                           </div>
-                          <h5 ng-bind="author.name"></h5>
+                          <h5 ng-bind="act.name"></h5>
                         </div>
                         <div class="media-body">
                           <h5 class="media-heading" ng-bind="act.talk_format"></h5>

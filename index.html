@@ -90,8 +90,11 @@
             <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
             <li data-target="#home-carousel" data-slide-to="1"></li>
             <li data-target="#home-carousel" data-slide-to="2"></li>
+            <li data-target="#home-carousel" data-slide-to="3"></li>
+            <li data-target="#home-carousel" data-slide-to="4"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
+            
             <div class="item active text-center" data-bg="slide-1">
                 <div class="carousel-item__container carousel-item__container--slide-1 vertical-center">
                     <div class="self-vertical-center">
@@ -116,6 +119,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="item text-center" data-bg="slide-2">
                 <div class="carousel-item__container carousel-item__container--slide-2 vertical-center">
                     <div class="self-vertical-center">
@@ -130,12 +134,11 @@
                             <span class="lead" ng-bind="carousel[1].lead[0]"></span>
                         </p>
                         <a href="mailto:sponsor@scipyla.org" class="btn btn-warning" ng-bind="carousel[1].lead[1]"></a>
-                        <!-- TODO: Sponsors Google Form
-                            <a href="forms/sponsor" class="btn btn-warning">PATROCINE A SCIPYLA 2018</a>
-                        -->
                     </div>
                 </div>
             </div>
+
+            <!-- Sponsors -->
             <div class="item text-center" data-bg="slide-3">
                 <div class="carousel-item__container carousel-item__container--slide-3 vertical-center">
                     <!-- div class="self-vertical-center">
@@ -150,7 +153,50 @@
                     </div -->
                 </div>
             </div>
+            
+            <div class="item text-center" data-bg="slide-4">
+                <div class="carousel-item__container carousel-item__container--slide-2 vertical-center">
+                    <div class="self-vertical-center">
+                        <p class="lead">
+                            <span class="lead" ng-bind="carousel[3].lead[0]"></span>
+                        </p>
+                        <picture>
+                            <!--
+                            <source srcset="./assets/img/sponsor.levels.es.webp" type="image/webp">
+                            -->
+                            <source srcset="./assets/img/logo_unicuritiba_branca_horizontal.png" type="image/png">
+                            <img class="img-responsive center-block" src="./assets/img/sponsor.levels.pt.png" alt="">
+                        </picture>
+                        <br>
+                        <a href="http://unicuritiba.edu.br/" class="btn btn-warning" ng-bind="carousel[3].lead[1]" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item text-center" data-bg="slide-5">
+                <div class="carousel-item__container carousel-item__container--slide-2 vertical-center">
+                    <div class="self-vertical-center">
+                        <p class="lead">
+                            <span class="lead" ng-bind="carousel[4].lead[0]"></span>
+                        </p>
+                        <picture>
+                            <!--
+                            <source srcset="./assets/img/sponsor.levels.es.webp" type="image/webp">
+                            -->
+                            <source srcset="./assets/img/apyb-logo.svg" type="image/png">
+                            <img class="img-responsive center-block" src="./assets/img/sponsor.levels.pt.png" alt="">
+                        </picture>
+                        <br>
+                        <a href="http://associacao.python.org.br/" class="btn btn-warning" ng-bind="carousel[4].lead[1]" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- End Sponsors -->
+
         </div>
+
+    </div>
 
         <a class="left carousel-control" href="#home-carousel" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
