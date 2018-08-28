@@ -115,6 +115,11 @@ section {
     background: #061220 url('../img/sponsors-bg.webp') repeat-x bottom;
 }
 
+.carousel-item__container--slide-3 {
+    background: #061220 url('../img/home.latamtech.png') no-repeat center;
+    background-size: cover !important;
+}
+
 @media (min-width: 577px) {
     .no-webp .carousel-item__container--slide-1 {
         background-image: url('../img/curitiba-rua-das-flores-768.png');

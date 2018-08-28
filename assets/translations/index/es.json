@@ -1,0 +1,437 @@
+{
+  "mainnav" : [
+    {
+      "caption": "Inicio",
+      "id": "home",
+      "href": ""
+    },
+    {
+      "caption": "Programa",
+      "id": "program",
+      "items": [
+        {
+          "href": "agenda",
+          "id": "agenda",
+          "caption": "Agenda"
+        },
+        {
+          "isDivider": true
+        },
+        {
+          "href": "register",
+          "id": "register",
+          "caption": "Regístrese"
+        },
+        {
+          "isDivider": true
+        },
+        {
+          "href": "program/submissions",
+          "id": "submissions",
+          "caption": "Conferencias aceptadas"
+        },
+        {
+          "href": "cfp",
+          "id": "cfp",
+          "caption": "Llamada de trabajos"
+        }
+      ]
+    },
+    {
+      "caption": "Colabore",
+      "id": "get_involved",
+      "items": [
+        {
+          "href": "organizers",
+          "id": "organizers",
+          "caption": "Organizadores"
+        },
+        {
+          "href": "sponsors",
+          "id": "sponsors",
+          "caption": "Patrocinadores"
+        },
+        {
+          "isDivider": true
+        },
+        {
+          "href": "cfl",
+          "id": "call-for-location",
+          "caption": "Llamada a sede 2019"
+        },
+        {
+          "href": "get_involved",
+          "id": "get_involved",
+          "caption": "Llamada a voluntarios"
+        },
+        {
+          "href": "diversity",
+          "id": "diversity",
+          "caption": "Diversidades"
+        }
+      ]
+    },
+    {
+      "caption": "Sede",
+      "id": "venue",
+      "items": [
+        {
+          "href": "venue/lodging",
+          "id": "lodging",
+          "caption": "Hospedaje"
+        }
+      ]
+    },
+    {
+      "caption": "Ayuda",
+      "id": "faq",
+      "items": [
+        {
+          "href": "faq",
+          "id": "faq",
+          "caption": "FAQ"
+        },
+        {
+          "href": "financial-aid",
+          "id": "financialAid",
+          "caption": "Ayuda financiera"
+        }
+      ]
+    },
+    {
+      "caption": "Idioma",
+      "id": "language",
+      "items": [
+        {
+          "href": "&",
+          "id": "pt",
+          "caption": "PT"
+        },
+        {
+          "href": "&",
+          "id": "es",
+          "caption": "ES"
+        }
+      ]
+    }
+  ],
+  "carousel": [
+    {
+      "lead" : [
+        "El evento ocurre en el Centro Universitario Curitiba - UniCuritiba, entre el 29 de agosto y el 1 de septiembre de 2018, Curitiba, Paraná, Brasil!",
+        "Conferencia Latinoamericana de",
+        "Computación Científica con Python",
+        "Más PYTHON",
+        "Más CIENCIA"
+      ],
+      "btn" : [
+        {
+          "href" : "register",
+          "caption": "REGÍSTRESE!"
+        }
+      ]
+    },
+    {
+      "lead" : [
+        "Desea colocar su anuncio aquí?",
+        "ENTRE EN CONTACTO PARA PATROCINAR SCIPYLA 2018"
+      ]
+    },
+    {
+      "lead" : [
+        "Patrocinador Gold",
+        "CONOZCA LATAM TECH"
+      ]
+    },
+    {
+      "lead" : [
+        "Sede",
+        "VISITE A UNICURITIBA"
+      ]
+    },
+    {
+      "lead" : [
+        "Apoyo Institucional",
+        "MÁS INFORMACIÓN"
+      ]
+    }
+  ],
+  "scipy_america": {
+    "title": "SCIPY AMÉRICA LATINA 2018",
+    "description": "Es la sexta conferencia anual de computación científica con Python. Esta ocurrirá entre el 29 de agosto y el 01 de septiembre de 2018 en Curitiba, Brasil. La comunidad SciPy se dedica al avance de la computación científica a través de softwares de código abierto echo en Python para resolver problemas matemáticos de la ciencia y de la ingeniería.",
+    "headers": {
+      "python": "PYTHON",
+      "science": "CIENCIA",
+      "latin_america": "AMÉRICA LATINA"
+    }
+  },
+  "curitiba": {
+    "paragraphs" : [
+      "Curitiba es una ciudad cosmopolita que recibe a personas de todo el país. La ciudad tiene una serie de atracciones turísticas, tanto dentro de los límites de la ciudad como alrededor. Hay también una escena cultural fuerte con atracciones para todos los gustos, incluyendo teatro, cine, música y comedia.",
+      "Curitiba es el centro económico del estado de Paraná y el segundo el IBGE en 2014 tenía el quinto mayor PIB del país. En parte, esto se debe a la población de más de tres millones de habitantes, si se considera su región metropolitana; la ciudad se destaca por tener la economía más fuerte del sur del país, contando el trabajo de exportación de las novecientas fábricas instaladas en el barrio Ciudad Industrial y de las dos grandes industrias automovilísticas que se ubican en la Gran Curitiba, Renault y Volkswagen. Además, fue elegida varias veces como \"la mejor ciudad brasileña para negocios\", según ranking elaborado por la revista Exame, en asociación con la consultora Simonsen & Associados.",
+      "En julio de 2001, se convirtió en la primera ciudad en recibir el premio \"Polo de Informática\" concedido por la revista Info Exame, por el desempeño de sus empresas de tecnología. De acuerdo con la revista, el conjunto de empresas de Tecnología e Informática con sede en Curitiba presentó en 2001 una facturación de 1.200 millones de dólares, representando un crecimiento del 21% en relación al año anterior.",
+      "Curitiba es conocida por sus soluciones urbanas diferenciadas, notadamente por su sistema integrado de transporte colectivo que, en conjunto con las vías regulares de tránsito, ha servido como inductor de su desarrollo urbanístico, especialmente a partir de la década de 1970.",
+      "El sistema de transporte público de Curitiba es habitualmente recordado por sus terminales de pasajeros interconectados por canales exclusivos para autobuses biarticulados y complementados con el \"ligereño\" y alimentadores diferenciados por colores."
+    ],
+    "info": "MÁS INFORMACIONES EN BREVE"
+  },
+  "marketing" : [
+    {
+      "sources": [
+        {
+          "srcset": "./assets/img/prog.webp",
+          "type": "image/webp"
+        },
+        {
+          "srcset": "./assets/img/prog.png",
+          "type": "image/png"
+        }
+      ],
+      "img" : {
+        "src": "./assets/img/prog.png",
+        "class": ""
+      },
+      "title": "PROGRAMA",
+      "description": "Conozca el programa de actividades preparadas para el SciPyLA 2018, contiene oficinas sobre el uso de Python en siete areas de la ciencia y de la tecnología.",
+      "action": "MÁS INFORMACIÓN",
+      "href": "program/submissions"
+    },
+    {
+      "sources": [
+        {
+          "srcset": "./assets/img/sched.webp",
+          "type": "image/webp"
+        },
+        {
+          "srcset": "./assets/img/sched.png",
+          "type": "image/png"
+        }
+      ],
+      "img" : {
+        "src": "./assets/img/sched.webp",
+        "class": "img-circle"
+      },
+      "title": "AGENDA",
+      "description": "Informaciones sobre el cronograma de actividades previstas para los cuatro días de duración del evento.",
+      "action": "VISITA",
+      "href": "AGENDA"
+    },
+    {
+      "sources": [
+        {
+          "srcset": "./assets/img/org.webp",
+          "type": "image/webp"
+        },
+        {
+          "srcset": "./assets/img/org.png",
+          "type": "image/png"
+        }
+      ],
+      "img" : {
+        "src": "./assets/img/org.webp",
+        "class": "img-circle"
+      },
+      "title": "ORGANIZADORES",
+      "description": "SciPyLA 2018 es un evento de todos y para todos. Conozca el Comité Organizador del evento.",
+      "action": "TIME",
+      "href": "organizers"
+    }
+  ],
+  "activities": {
+    "title": "ACTIVIDADES POR AÑO",
+    "amounts": [
+      24,
+      35,
+      29,
+      46,
+      93
+    ],
+    "years": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017
+    ],
+    "rows": [
+      {
+        "title": "Conferencias",
+        "icon": "icon-23",
+        "labels": [
+          "16",
+          "22",
+          "20",
+          "35",
+          "63"
+        ],
+        "suffix": "* 2017"
+      },
+      {
+        "title": "Oficinas",
+        "icon": "icon-27",
+        "labels": [
+          "2",
+          "6",
+          "4",
+          "12",
+          "20"
+        ],
+        "suffix": "(datos estimados)"
+      },
+      {
+        "title": "Posters",
+        "icon": "icon-28",
+        "labels": [
+          "6",
+          "5",
+          "7",
+          "0",
+          "10"
+        ],
+        "suffix": ""
+      }
+    ],
+    "suffix": "*2017 (datos estimados)"
+  },
+  "gallery": {
+    "title": "GALERIA - EDICIONES ANTERIORES",
+    "items": [
+      {
+        "year": 2013,
+        "description": "Puerto Madryn",
+        "place": "ARGENTINA"
+      },
+      {
+        "year": 2014,
+        "description": "Bahía Blanca",
+        "place": "ARGENTINA"
+      },
+      {
+        "year": 2015,
+        "description": "Posadas",
+        "place": "ARGENTINA"
+      },
+      {
+        "year": 2016,
+        "description": "Florianópolis",
+        "place": "BRASIL"
+      }
+    ]
+  },
+  "audience": {
+    "title": "Audiencia",
+    "items": [
+      {
+        "caption": "Investigadores",
+        "class": "col-md-4"
+      },
+      {
+        "caption": "Estudiantes universitarios",
+        "class": "col-md-4"
+      },
+      {
+        "caption": "Candidatos de graduación científica",
+        "class": "col-md-4"
+      },
+      {
+        "caption": "",
+        "class": "visible-md clearfix"
+      },
+      {
+        "caption": "Científicos de datos",
+        "class": "col-md-4 col-md-offset-2"
+      },
+      {
+        "caption": "Programadores",
+        "class": "col-md-4"
+      }
+    ]
+  },
+  "geographicArea": {
+    "title": "ÁREA GEOGRÁFICA",
+    "subtitle": "de donde viene la audiencia",
+    "legend": [
+      {
+        "class": "col-xs-3 col-sm-2 col-xs-offset-1 col-sm-offset-2 hidden-md",
+        "legendClass": "legend-level legend-level-5",
+        "caption": "700 - 1,000"
+      },
+      {
+        "class": "visible-md col-md-2",
+        "legendClass": "legend-level legend-level-5",
+        "caption": "+700"
+      },
+      {
+        "class": "col-xs-2 col-md-3 col-lg-2",
+        "legendClass": "legend-level legend-level-4",
+        "caption": "500 - 700"
+      },
+      {
+        "class": "col-xs-2 col-md-3 col-lg-2",
+        "legendClass": "legend-level legend-level-3",
+        "caption": "100 - 500"
+      },
+      {
+        "class": "col-xs-2 col-lg-2",
+        "legendClass": "legend-level legend-level-2",
+        "caption": "50 - 100"
+      },
+      {
+        "class": "col-xs-2 col-lg-2",
+        "legendClass": "legend-level legend-level-1",
+        "caption": "0 - 50"
+      }
+    ],
+    "description": "Datos obtenidos a partir del interés presentado por la audiencia entre junio y agosto de 2016"
+  },
+  "scipy2018": {
+    "title": "SCIPYLA 2018",
+    "subtitle": "hasta el momento en las redes sociales...",
+    "reach": {
+      "caption": "Alcance",
+      "cant": "0000"
+    },
+    "interested": {
+      "caption": "interesados en participar",
+      "cant": "0000"
+    },
+    "tweets": {
+      "caption": "Tweets",
+      "cant": "0000"
+    },
+    "visits": {
+      "caption": "Visitas",
+      "cant": "0000"
+    }
+  },
+  "inscription": {
+    "title": "INSCRIPCIÓN",
+    "register": "REGÍSTRESE!"
+  },
+  "footer": {
+    "scipyLa": "SciPy Latinamerica",
+    "items": [
+      {
+        "class": "btn btn-primary btn-social btn-round",
+        "href": "https://facebook.com/scipyla",
+        "icon": "icon-6"
+      },
+      {
+        "class": "btn btn-primary btn-social btn-round",
+        "href": "http://twitter.com/scipyla",
+        "icon": "icon-7"
+      },
+      {
+        "class": "btn btn-primary btn-social btn-round",
+        "href": "https://plus.google.com/116952396338000992599",
+        "icon": "icon-8"
+      },
+      {
+        "class": "btn btn-primary btn-social btn-round",
+        "href": "https://ar.linkedin.com/grps/SciPy-Latin-America-8344796/about",
+        "icon": "icon-9"
+      }
+    ]
+  },
+  "financialTerms": "Términos de la Ayuda financiera"
+}
