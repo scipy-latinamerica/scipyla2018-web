@@ -3,7 +3,7 @@
 ## Día 29/08/2018
 #### (Miércoles)
 
-Tutoriales
+Tutoriales - [registrarse](https://goo.gl/forms/oXNCeeo8lUYIcOpy1)
 
 | Horario | Sala | Instructor | Descripción |
 | ------- | ---- | --------- | --------- |

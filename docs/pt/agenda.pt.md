@@ -3,7 +3,7 @@
 ## Dia 29/08/2018
 #### (Quarta-Feira)
 
-Tutoriais
+Tutoriais - [Inscreva-se](https://goo.gl/forms/oXNCeeo8lUYIcOpy1)
 
 | Horario | Sala | Instrutor | Descrição |
 | ------- | ---- | --------- | --------- |
