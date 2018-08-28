@@ -26,8 +26,8 @@ A Universidade Curitiba vem apoiando diversos eventos de tecnologia, dentre eles
 | [![Scielo](../../assets/img/sponsors/logo_SciELO-hz.png)](http://www.scielo.org) | [![LatanTech](../../assets/img/sponsors/logo_latan_tech_h200.png)](http://latamtech.foundation/) | [![QuanSight](../../assets/img/sponsors/logo_quan_sight-hz.png)](https://www.quansight.com/) |
 |:---:|:---:|:---:|
 
-| [![UniversidadAndes](../../assets/img/sponsors/logo_uniandes_h100.png)](https://uniandes.edu.co/) | [![FJGrafica](../../assets/img/sponsors/logo_grafica-hz.png)](https://www.fjhomeoffice.com/) |
-|:---:|:---:|  
+| [![UniversidadAndes](../../assets/img/sponsors/logo_uniandes_h100.png)](https://uniandes.edu.co/) | [![FJGrafica](../../assets/img/sponsors/logo_grafica-hz.png)](https://www.fjhomeoffice.com/) | [![CuritibaLivre](../../assets/img/sponsors/logo_curitibalivre_hz.png)](http://curitibalivre.org.br) |
+|:---:|:---:|:---:|
 
 #  Organização
 
