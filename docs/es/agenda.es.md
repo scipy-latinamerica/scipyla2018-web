@@ -14,10 +14,10 @@ Tutoriales - [registrarse](https://goo.gl/forms/oXNCeeo8lUYIcOpy1)
 | 14:00 - 17:00 | Laboratório 10 | Arthur Fortes da Costa | Case Recommender: Utilizando Python para desarrollar sistemas de recomendación segunda parte |
 | | | | |
 | 9:00 - 12:00 | Laboratório 11 | Diversos | Open Spaces |
-| 14:00 - 17:00 | Laboratório 11 | Carlos Córdoba | Best practices to work with Spyder |
+| 14:00 - 17:00 | Laboratório 11 | Carlos Cordoba | Best practices to work with Spyder |
 | | | | |
 | 9:00 - 12:00 | Laboratório 13 | Diversos | Open Spaces |
-| 14:00 - 17:00 | Laboratório 13 |  UniCuritiba | Python Básico (3h) |
+| 14:00 - 17:00 | Laboratório 13 |  Leonardo Gomes | Python Básico (3h) |
 
 ## Día 30/08/2018
 #### (Jueves)
