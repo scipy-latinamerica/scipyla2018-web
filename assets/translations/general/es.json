@@ -79,6 +79,11 @@
           "href": "venue/lodging",
           "id": "lodging",
           "caption": "Hospedaje"
+        },
+        {
+          "href": "map",
+          "id": "map",
+          "caption": "Mapa del evento"
         }
       ]
     },
