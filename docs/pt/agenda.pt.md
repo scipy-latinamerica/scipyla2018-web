@@ -58,7 +58,7 @@ Tutoriais - [Inscreva-se](https://goo.gl/forms/oXNCeeo8lUYIcOpy1)
 | 14:10 | Associação Python Brasil |
 | 14:20 | [**A Guide To Understand And Build A Recommender System Engine**](../program/submissions/#/talks) - [Arthur Fortes da Costa](../program/submissions/#/speakers) |
 | 15:00 | Coffee |
-| 15:30 | A definir |
+| 15:30 | [**Construindo uma plataforma para execução de algoritmos de Data Science**](../program/submissions/#/talks) - [Lucas Kotres](../program/submissions/#/speakers) |
 | 16:10 | **Palestra Relâmpago** |
 | 17:00 | [**Keynote**](../program/submissions/#/talks) - [Melissa W. Mendonça](../program/submissions/#/speakers) |
 | 18:00 | Happy Hour (bar) |
