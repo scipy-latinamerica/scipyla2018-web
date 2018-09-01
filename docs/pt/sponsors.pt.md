@@ -29,8 +29,7 @@ A Universidade Curitiba vem apoiando diversos eventos de tecnologia, dentre eles
 | [![UniversidadAndes](../../assets/img/sponsors/logo_uniandes_h100.png)](https://uniandes.edu.co/) | [![FJGrafica](../../assets/img/sponsors/logo_grafica-hz.png)](https://www.fjhomeoffice.com/) | [![CuritibaLivre](../../assets/img/sponsors/logo_curitibalivre_hz.png)](http://curitibalivre.org.br) |
 |:---:|:---:|:---:|
 
-|  | [![Mundo Livre FM](../../assets/img/sponsors/logo_mundolivre.png)](http://www.mundolivrefm.com.br/) |  |
-|:---:|:---:|:---:|
+[![Mundo Livre FM](../../assets/img/sponsors/logo_mundolivre.png)](http://www.mundolivrefm.com.br/)
 
 #  Organização
 
