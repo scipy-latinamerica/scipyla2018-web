@@ -30,6 +30,7 @@ A Universidade Curitiba vem apoiando diversos eventos de tecnologia, dentre eles
 |:---:|:---:|:---:|
 
 |  | [![Mundo Livre FM](../../assets/img/sponsors/logo_mundolivre.png)](http://www.mundolivrefm.com.br/) |  |
+|:---:|:---:|:---:|
 
 #  Organização
 
