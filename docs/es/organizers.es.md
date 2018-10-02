@@ -10,7 +10,6 @@
   - **Ana Carolina Silva**
 
 * Coordinación de palestras y tutoriales, responsable del equipo de selección, agenda y detalles de las conferencias y tutoriales:
-  - **Paulo Henrique de Lima Santana**
   - **Diogo M. Vieira**
   - **Luan Roger Santos Santana**
   - **Daniel Schlickmann Bastos**
