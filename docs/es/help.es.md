@@ -49,7 +49,7 @@ Necesitamos de tu ayuda, por eso estamos buscando voluntarios eb las siguientes 
     - Coordinación
     - Representante, adjunto
   - Conferencias
-    - Coordinador: Paulo Henrique de Lima Santana.
+    - Coordinador
     - Representante, adjunto
   - Posters, papers
     - Coordinación

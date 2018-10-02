@@ -49,7 +49,7 @@ Precisamos de ajuda, por isso estamos procurando voluntários para as seguinte �
     - Coordenação
     - Representante, adjunto
   - Palestras
-    - Coordenação: Paulo Henrique de Lima Santana.
+    - Coordenação
     - Representante, adjunto
   - Posters, papers
     - Coordenação

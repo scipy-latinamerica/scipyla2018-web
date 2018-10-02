@@ -7,7 +7,6 @@
   - **Vanessa Cunha**
 
 * Coordenação de palestras e tutoriais, responsável pela equipe de seleção, agenda e detalhes das palestras e tutoriais:
-  - **Paulo Henrique de Lima Santana**
   - **Diogo M. Vieira**
   - **Luan Roger Santos Santana**
   - **Daniel Schlickmann Bastos**
