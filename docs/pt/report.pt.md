@@ -6,7 +6,8 @@ Mais PYTHON , Mais CIÊNCIA
 
 De 29 de agosto e 1 de setembro de 2018, Curitiba, Paraná, Brasil!
 
-![](imgs/caipyras.JPG)
+![](../../assets/img/the_community.jpg)
+Fotógrafo da UniCuritiba, CC BY
 
 A Conferência Latino Americana de Python Científico tem como objetivo disseminar a Ciência, Computação Científica e tecnologias relacionadas com a linguagem de programação Python. A Conferência não possui fins lucrativos e reune profissionais e pesquisadores com conhecimento em diversas áreas da tecnologia.
 
@@ -14,29 +15,23 @@ A Conferência Latino Americana de Python Científico tem como objetivo dissemin
 
 A conferência foi realizada no campus da [UniCuritiba](http://unicuritiba.edu.br/), Curitiba, PR, Brasil.
 
-O evento custou cerca de R$ 12 mil reais, gastos assim:
+O evento custou cerca de R$ 13 mil reais, gastos assim:
 
-![](imgs/custos.png)
+![](../../assets/img/custos.png)
 
 ## Tutoriais
 
-![](imgs/IMG_20180829_172758224.jpg)
+![](../../assets/img/IMG_20180829_172758224.jpg)
+Fotógrafo Paulo Henrique Santana, CC BY
 
 Tivemos três tutoriais no dia 29 de agosto 2018, relacionados à linguagem. Dois tutoriais de 6 horas, _Let's build a blockchain! Coding a mini-cryptocurrency in Python_ com João Sebastião de Oliveira Bueno que apresentou os conceitos de blockchain e criptomoedas bem como os passos para implementar uma criptomoeda em Python. Arthur Fortes da Costa ensinou a criar um sistema de recomendação com Python no tutorial _Case Recommender: Utilizando Python para desenvolver sistemas de recomendação_. Um tutorial foi de 3 horas, _Python Básico_ com o professor Leonardo Gomes os alunos viram o básico de Python.
 
-![](imgs/IMG_20180829_172928735_HDR.jpg)
+![](../../assets/img/IMG_20180829_172928735_HDR.jpg)
+Fotógrafo Paulo Henrique Santana, CC BY
 
 ## Palestras
 
 Tivemos 12 palestras nesta edição do evento, distribuídas em dois dias, 4 delas foram apresentadas por Keynotes convidados.
-
-https://youtu.be/bHiVZyjaVNs
-
-![](imgs/IMG_20180829_172928735_HDR.jpg)
-
-https://www.youtube.com/watch?v=bHiVZyjaVNs
-
-[![Vídeos do primeiro dia](http://img.youtube.com/vi/bHiVZyjaVNs/0.jpg)](http://www.youtube.com/watch?v=bHiVZyjaVNs "Video das palestras do primeiro dia.")
 
 - Quinta (30/08/2018)
   - Keynote - Carlos Cordoba.
@@ -45,6 +40,10 @@ https://www.youtube.com/watch?v=bHiVZyjaVNs
   - My Scientific Python Toolbox - Ariel Rossanigo
   - ** Mathematical Optimization On The Julia Language - Abel Siqueira
   - Keynote - Juan Funez
+
+[![Vídeos do primeiro dia de manhã](http://img.youtube.com/vi/bHiVZyjaVNs/0.jpg)](http://www.youtube.com/watch?v=bHiVZyjaVNs "Video das palestras do primeiro dia de manhã.")
+
+[![Vídeos do primeiro dia de tarde](http://img.youtube.com/vi/wMTYFuA7uU4/0.jpg)](http://www.youtube.com/watch?v=wMTYFuA7uU4 "Video das palestras do primeiro dia de tarde.")
 
 - Sexta (31/08/2018)
   - Image processing with deep learning - Ariel Rossanigo
@@ -56,6 +55,10 @@ https://www.youtube.com/watch?v=bHiVZyjaVNs
 
 ** A organização cometeu um equivoco e a palestra não foi apresentada. Nossas sinceras desculpas aos participantes e em especial ao professor Abel Siqueira.
 
+[![Vídeos do segundo dia de manhã](http://img.youtube.com/vi/2sZMK6U0res/0.jpg)](http://www.youtube.com/watch?v=2sZMK6U0res "Video das palestras do segundo dia de manhã.")
+
+[![Vídeos do segundo dia de tarde](http://img.youtube.com/vi/CKebmROc04g/0.jpg)](http://www.youtube.com/watch?v=CKebmROc04g "Video das palestras do segundo dia de tarde.")
+
 ## Lightning Talks
 
 _Lightning talk_ é uma palestra bem curta, de no máximo 5 minutos. As submissões são feitas na hora, e _qualquer_ pessoa pode submeter! Não há restrições quanto ao tema. Quando o cronômetro indica 5 minutos, o palestrante é aplaudido e o próximo entra :D
@@ -63,8 +66,6 @@ _Lightning talk_ é uma palestra bem curta, de no máximo 5 minutos. As submiss�
 Tivemos duas sessões de palestras relâmpago.
 
 ## Sprints
-
-![](imgs/FOTO.jpg)
 
 Os *sprints* de desenvolvimento são uma parte chave de grande parte dos eventos de Python ao redor do mundo. Durante os *sprints* os participantes tem a chance de contribuir para projetos *open-source* em dias intensos de aprendizagem. Novatos podem trabalhar com pessoas mais experientes proporcionando um ótimo ambiente de troca de experiências para todos.
 
@@ -76,7 +77,7 @@ No sábado, 01 de setembro de 2018, os corajosos que sobreveviram aos três dias
 
   Spyder IDE é um ambiente de desenvolvimento Python Científico.
 
-* Oficina de colaboração com github
+* Oficina de colaboração com git e github
 
   Alunos da [UniCuritiba](http://unicuritiba.edu.br/) participaram de uma oficina para aprender a utilizar o git, github e o processo de colaboração com software livre hospedado no github.
 
