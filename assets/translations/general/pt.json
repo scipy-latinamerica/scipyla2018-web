@@ -6,6 +6,11 @@
       "href": ""
     },
     {
+      "caption": "Relatório",
+      "id": "report",
+      "href": "report"
+    },
+    {
       "caption": "Programação",
       "id": "program",
       "items": [
