@@ -81,6 +81,9 @@ No sábado, 01 de setembro de 2018, os corajosos que sobreveviram aos três dias
 
   Alunos da [UniCuritiba](http://unicuritiba.edu.br/) participaram de uma oficina para aprender a utilizar o git, github e o processo de colaboração com software livre hospedado no github.
 
+* [Rows](https://github.com/turicas/rows)
+
+  Colaboração com a biblioteca rows, [issue 286](https://github.com/turicas/rows/issues/286)
 
 ## Agradecimentos
 
