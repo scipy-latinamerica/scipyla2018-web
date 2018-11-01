@@ -11,7 +11,7 @@ Fotógrafo da UniCuritiba, CC BY
 
 A Conferência Latino Americana de Python Científico tem como objetivo disseminar a Ciência, Computação Científica e tecnologias relacionadas com a linguagem de programação Python. A Conferência não possui fins lucrativos e reune profissionais e pesquisadores com conhecimento em diversas áreas da tecnologia.
 
-É a sexta conferência anual de computação científica com Python. Esta ocorreu entre 29 de agosto e 01 de setembro de 2018 em Curitiba, Brasil. A comunidade SciPy se dedica ao avanço da computação científica através de softwares de código aberto feito em Python para resolver problemas matemáticos da ciência e da engenharia.
+É a sexta conferência anual de computação científica com Python. Esta ocorreu entre 29 de agosto e 01 de setembro de 2018 em Curitiba, Brasil. A comunidade SciPy se dedica ao avanço da computação científica através de softwares de código aberto feito em Python para resolver problemas matemáticos, ciência e de engenharia.
 
 A conferência foi realizada no campus da [UniCuritiba](http://unicuritiba.edu.br/), Curitiba, PR, Brasil.
 
@@ -89,7 +89,7 @@ No sábado, 01 de setembro de 2018, os corajosos que sobreveviram aos três dias
 
 ### Patrocinadores
 
-É com imensa gratidão que reconhecemos o apoio dos nossos patrocinadores. Graças ao apoio recebido será possível receber os participantes do evento em Curitiba para muita troca de conhecimento, muita ciência e confraternização.
+É com imensa gratidão que reconhecemos o apoio dos nossos patrocinadores. Graças ao apoio recebido foi possível receber os participantes do evento em Curitiba para muita troca de conhecimento, muita ciência e confraternização.
 
 ## **Gold**
 
@@ -108,7 +108,7 @@ O apoio da Fundação Latam Tech tem sido de suma importância para cobrir os cu
 [![Logo da UniCuritiba](../../assets/img/logomarca_unicuritiba.png)](http://unicuritiba.edu.br/)
 
 
-A Universidade Curitiba vem apoiando diversos eventos de tecnologia, dentre eles a SciPyLA 2018. Com o apoio do professor Bruno Weber a Universidade será a sede do evento e irá receber os participantes com a estrutura e conforto necessários para um excelente evento.
+A Universidade Curitiba vem apoiando diversos eventos de tecnologia, dentre eles a SciPyLA 2018. Com o apoio do professor Bruno Weber a Universidade foi a sede do evento e recebeu os participantes com a estrutura e conforto necessários para um excelente evento.
 
 # Apoio
 
